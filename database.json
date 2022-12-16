@@ -1,0 +1,376 @@
+{
+	"city":[
+		{
+			"ProvinceId" : 1,
+			"ProvinceName" : "آذربایجان شرقی",
+			"CityId" : 1,
+			"CityName" : "تبریز"
+		},
+		{
+			"ProvinceId" : 1,
+			"ProvinceName" : "آذربایجان شرقی",
+			"CityId" : 14,
+			"CityName" : "مراغه"
+		},
+		{
+			"ProvinceId" : 1,
+			"ProvinceName" : "آذربایجان شرقی",
+			"CityId" : 17,
+			"CityName" : "میانه"
+		},
+		{
+			"ProvinceId" : 2,
+			"ProvinceName" : "آذربایجان غربی",
+			"CityId" : 23,
+			"CityName" : "ارومیه"
+		},
+		{
+			"ProvinceId" : 2,
+			"ProvinceName" : "آذربایجان غربی",
+			"CityId" : 38,
+			"CityName" : "مهاباد"
+		},
+		{
+			"ProvinceId" : 2,
+			"ProvinceName" : "آذربایجان غربی",
+			"CityId" : 26,
+			"CityName" : "پیرانشهر"
+		},
+		{
+			"ProvinceId" : 3,
+			"ProvinceName" : "اردبیل",
+			"CityId" : 42,
+			"CityName" : "اردبیل"
+		},
+		{
+			"ProvinceId" : 3,
+			"ProvinceName" : "اردبیل",
+			"CityId" : 49,
+			"CityName" : "مشگین شهر"
+		},
+		{
+			"ProvinceId" : 4,
+			"ProvinceName" : "اصفهان",
+			"CityId" : 53,
+			"CityName" : "اصفهان"
+		},
+		{
+			"ProvinceId" : 4,
+			"ProvinceName" : "اصفهان",
+			"CityId" : 70,
+			"CityName" : "کاشان"
+		},
+		{
+			"ProvinceId" : 4,
+			"ProvinceName" : "اصفهان",
+			"CityId" : 76,
+			"CityName" : "نطنز"
+		},
+		{
+			"ProvinceId" : 5,
+			"ProvinceName" : "البرز",
+			"CityId" : 78,
+			"CityName" : "کرج"
+		},
+		{
+			"ProvinceId" : 5,
+			"ProvinceName" : "البرز",
+			"CityId" : 83,
+			"CityName" : "هشتگرد"
+		},
+		{
+			"ProvinceId" : 6,
+			"ProvinceName" : "ایلام",
+			"CityId" : 85,
+			"CityName" : "ایلام"
+		},
+		{
+			"ProvinceId" : 7,
+			"ProvinceName" : "بوشهر",
+			"CityId" : 96,
+			"CityName" : "بوشهر"
+		},
+		{
+			"ProvinceId" : 8,
+			"ProvinceName" : "تهران",
+			"CityId" : 107,
+			"CityName" : "تهران"
+		},
+		{
+			"ProvinceId" : 8,
+			"ProvinceName" : "تهران",
+			"CityId" : 461,
+			"CityName" : "پرند"
+		},
+		{
+			"ProvinceId" : 8,
+			"ProvinceName" : "تهران",
+			"CityId" : 117,
+			"CityName" : "شهریار"
+		},
+		{
+			"ProvinceId" : 8,
+			"ProvinceName" : "تهران",
+			"CityId" : 115,
+			"CityName" : "ری"
+		},
+		{
+			"ProvinceId" : 8,
+			"ProvinceName" : "تهران",
+			"CityId" : 114,
+			"CityName" : "رباط کریم"
+		},
+		{
+			"ProvinceId" : 8,
+			"ProvinceName" : "تهران",
+			"CityId" : 116,
+			"CityName" : "شمیرانات"
+		},
+		{
+			"ProvinceId" : 8,
+			"ProvinceName" : "تهران",
+			"CityId" : 490,
+			"CityName" : "لواسان"
+		},
+		{
+			"ProvinceId" : 9,
+			"ProvinceName" : "چهارمحال بختیاری",
+			"CityId" : 124,
+			"CityName" : "شهرکرد"
+		},
+		{
+			"ProvinceId" : 9,
+			"ProvinceName" : "چهارمحال بختیاری",
+			"CityId" : 128,
+			"CityName" : "کوهرنگ(چلگرد)"
+		},
+		{
+			"ProvinceId" : 10,
+			"ProvinceName" : "خراسان جنوبی",
+			"CityId" : 132,
+			"CityName" : "بیرجند"
+		},
+		{
+			"ProvinceId" : 11,
+			"ProvinceName" : "خراسان رضوی",
+			"CityId" : 144,
+			"CityName" : "مشهد"
+		},
+		{
+			"ProvinceId" : 11,
+			"ProvinceName" : "خراسان رضوی",
+			"CityId" : 162,
+			"CityName" : "سبزوار"
+		},
+		{
+			"ProvinceId" : 11,
+			"ProvinceName" : "خراسان رضوی",
+			"CityId" : 171,
+			"CityName" : "نیشابور"
+		},
+		{
+			"ProvinceId" : 12,
+			"ProvinceName" : "خراسان شمالی",
+			"CityId" : 173,
+			"CityName" : "بجنورد"
+		},
+		{
+			"ProvinceId" : 13,
+			"ProvinceName" : "خوزستان",
+			"CityId" : 182,
+			"CityName" : "اهواز"
+		},
+		{
+			"ProvinceId" : 13,
+			"ProvinceName" : "خوزستان",
+			"CityId" : 186,
+			"CityName" : "اندیمشک"
+		},
+		{
+			"ProvinceId" : 13,
+			"ProvinceName" : "خوزستان",
+			"CityId" : 183,
+			"CityName" : "آبادان"
+		},
+		{
+			"ProvinceId" : 13,
+			"ProvinceName" : "خوزستان",
+			"CityId" : 192,
+			"CityName" : "خرمشهر"
+		},
+		{
+			"ProvinceId" : 14,
+			"ProvinceName" : "زنجان",
+			"CityId" : 207,
+			"CityName" : "زنجان"
+		},
+		{
+			"ProvinceId" : 15,
+			"ProvinceName" : "سمنان",
+			"CityId" : 216,
+			"CityName" : "سمنان"
+		},
+		{
+			"ProvinceId" : 16,
+			"ProvinceName" : "سیستان و بلوچستان",
+			"CityId" : 225,
+			"CityName" : "زاهدان"
+		},
+		{
+			"ProvinceId" : 17,
+			"ProvinceName" : "فارس",
+			"CityId" : 245,
+			"CityName" : "شیراز"
+		},
+		{
+			"ProvinceId" : 17,
+			"ProvinceName" : "فارس",
+			"CityId" : 246,
+			"CityName" : "آباده"
+		},
+		{
+			"ProvinceId" : 18,
+			"ProvinceName" : "قزوین",
+			"CityId" : 275,
+			"CityName" : "قزوین"
+		},
+		{
+			"ProvinceId" : 18,
+			"ProvinceName" : "قزوین",
+			"CityId" : 278,
+			"CityName" : "بوئین زهرا"
+		},
+		{
+			"ProvinceId" : 19,
+			"ProvinceName" : "قم",
+			"CityId" : 282,
+			"CityName" : "قم"
+		},
+		{
+			"ProvinceId" : 20,
+			"ProvinceName" : "کردستان",
+			"CityId" : 289,
+			"CityName" : "سنندج"
+		},
+		{
+			"ProvinceId" : 21,
+			"ProvinceName" : "کرمان",
+			"CityId" : 300,
+			"CityName" : "کرمان"
+		},
+		{
+			"ProvinceId" : 21,
+			"ProvinceName" : "کرمان",
+			"CityId" : 309,
+			"CityName" : "رفسنجان"
+		},
+		{
+			"ProvinceId" : 22,
+			"ProvinceName" : "کرمانشاه",
+			"CityId" : 322,
+			"CityName" : "کرمانشاه"
+		},
+		{
+			"ProvinceId" : 23,
+			"ProvinceName" : "کهکیلویه و بویراحمد",
+			"CityId" : 337,
+			"CityName" : "یاسوج"
+		},
+		{
+			"ProvinceId" : 24,
+			"ProvinceName" : "گلستان",
+			"CityId" : 346,
+			"CityName" : "گرگان"
+		},
+		{
+			"ProvinceId" : 25,
+			"ProvinceName" : "گیلان",
+			"CityId" : 361,
+			"CityName" : "رشت"
+		},
+		{
+			"ProvinceId" : 25,
+			"ProvinceName" : "گیلان",
+			"CityId" : 365,
+			"CityName" : "بندرانزلی"
+		},
+		{
+			"ProvinceId" : 25,
+			"ProvinceName" : "گیلان",
+			"CityId" : 362,
+			"CityName" : "آستارا"
+		},
+		{
+			"ProvinceId" : 26,
+			"ProvinceName" : "لرستان",
+			"CityId" : 378,
+			"CityName" : "خرم آباد"
+		},
+		{
+			"ProvinceId" : 26,
+			"ProvinceName" : "لرستان",
+			"CityId" : 382,
+			"CityName" : "بروجرد"
+		},
+		{
+			"ProvinceId" : 27,
+			"ProvinceName" : "مازندران",
+			"CityId" : 389,
+			"CityName" : "ساری"
+		},
+		{
+			"ProvinceId" : 27,
+			"ProvinceName" : "مازندران",
+			"CityId" : 491,
+			"CityName" : "چمستان"
+		},
+		{
+			"ProvinceId" : 27,
+			"ProvinceName" : "مازندران",
+			"CityId" : 408,
+			"CityName" : "نور مازندران"
+		},
+		{
+			"ProvinceId" : 28,
+			"ProvinceName" : "مرکزی",
+			"CityId" : 412,
+			"CityName" : "اراک"
+		},
+		{
+			"ProvinceId" : 28,
+			"ProvinceName" : "مرکزی",
+			"CityId" : 418,
+			"CityName" : "ساوه"
+		},
+		{
+			"ProvinceId" : 29,
+			"ProvinceName" : "هرمزگان",
+			"CityId" : 425,
+			"CityName" : "بندرعباس"
+		},
+		{
+			"ProvinceId" : 29,
+			"ProvinceName" : "هرمزگان",
+			"CityId" : 436,
+			"CityName" : "کیش"
+		},
+		{
+			"ProvinceId" : 30,
+			"ProvinceName" : "همدان",
+			"CityId" : 440,
+			"CityName" : "همدان"
+		},
+		{
+			"ProvinceId" : 30,
+			"ProvinceName" : "همدان",
+			"CityId" : 447,
+			"CityName" : "ملایر"
+		},
+		{
+			"ProvinceId" : 31,
+			"ProvinceName" : "یزد",
+			"CityId" : 450,
+			"CityName" : "یزد"
+		}
+	]
+}
