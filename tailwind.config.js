@@ -7,6 +7,7 @@ module.exports = {
       topHeader: "#2b4db9",
       blueFooter: "#252c41",
       textColor: "#92a4ca",
+      greenTheme: "#00ba74",
     },
     extend: {
       fontFamily: {
