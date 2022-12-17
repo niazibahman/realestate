@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'vazir';
+    font-weight: 400;
+    src:local('') ,url("../public/font/vazir.woff2") format("woff2");
+    font-display: swap;
+}

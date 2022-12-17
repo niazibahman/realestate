@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./pages/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        vazir: ["vazir"],
+      },
+    },
   },
   plugins: [],
 }
