@@ -10,6 +10,7 @@ module.exports = {
       redTheme: "#fd5332",
       topHeader: "#2b4db9",
       blueFooter: "#252c41",
+      copyRightFooter:"#1b2132",
       textColor: "#92a4ca",
       greenTheme: "#00ba74",
     },
