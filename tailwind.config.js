@@ -12,7 +12,9 @@ module.exports = {
       blueFooter: "#252c41",
       copyRightFooter:"#1b2132",
       textColor: "#92a4ca",
+      footerText:"#858b9f",
       greenTheme: "#00ba74",
+      borderColor:"#353d56"
     },
     extend: {
       fontFamily: {

@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="fa">
       <Head />
-      <body className='font-vazir'>
+      <body className='font-vazir' dir='rtl'>
         <Main />
         <NextScript />
       </body>
