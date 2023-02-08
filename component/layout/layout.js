@@ -11,9 +11,3 @@ export default function Layout(props) {
   );
 }
 
-export default function Layout(props){
-    return(<div>
-        {props.children}
-        <Footer/>
-        </div>);
-}
