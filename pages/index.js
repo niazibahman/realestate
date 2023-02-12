@@ -1,4 +1,10 @@
 import Head from 'next/head'
+import SearchBox from '../component/mainpage/searchbox'
+import NewProperty from '../component/mainpage/newProperty'
+import CitiesProperty from '../component/mainpage/citiesproperty'
+import Agents from '../component/mainpage/agents'
+import SiteComments from '../component/mainpage/sitecomments'
+import Articles from '../component/mainpage/articles'
 
 export default function Home() {
   return (
@@ -10,9 +16,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div>
-          main page
-        </div>
+        <SearchBox/>
+        <NewProperty/>
+        <CitiesProperty/>
+        <Agents/>
+        <SiteComments/>
+        <Articles/>
       </main>
     </>
   )
