@@ -14,11 +14,23 @@ module.exports = {
       textColor: "#92a4ca",
       footerText:"#858b9f",
       greenTheme: "#00ba74",
-      borderColor:"#353d56"
+      footerborderColor:"#353d56",
+      searchbox_bg:"#19365f",
+      searchbox_text:"#8b9aad",
+      searchbox_border:"#dce3e8",
     },
     extend: {
       fontFamily: {
         vazir: ["vazir"],
+      },
+      backgroundImage: {
+        'home_search': "url('../public/search_bg.webp')",
+      },
+      width: {
+        '128': '32rem',
+      },
+      height: {
+        '165':'41.25rem'
       },
     },
   },
