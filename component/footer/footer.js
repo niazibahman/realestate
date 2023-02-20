@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Footer(){
     return(<footer className="w-screen h-auto text-footerText text-sm">
         <section className="bg-blueFooter w-full">
-           <div className="w-full lg:container mx-auto px-4 grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-4">
+           <div className="w-full md:container mx-auto px-4 grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-4">
               <div className="col-span-1 sm:col-span-2 flex flex-col items-start justify-between py-16">
                 <Image src="/logo-footer.png" alt="site-logo" width={300} height={75}/>
                 <address className="flex flex-col items-start space-y-4 mt-8">
@@ -46,7 +46,7 @@ export default function Footer(){
                 <h2 className="font-light mb-5 text-white text-lg">دانلود اپلیکیشن</h2>
                 <div className="flex flex-col sm:flex-row md:flex-col justify-between">
                   <a href="#" className="mb-4 sm:mb-0 sm:ml-4 md:mb-4 md:ml-0">
-                    <div className="border border-borderColor rounded px-4 w-64 h-20 flex flex-row items-center justify-between">
+                    <div className="border border-footerborderColor rounded px-4 w-64 h-20 flex flex-row items-center justify-between">
                       <Image src="/svg/google-play.svg" alt="android app" width={32} height={32}/>
                       <div className="flex flex-col justify-between items-center">
                         <h3 className="text-lg font-light text-white">گوگل پلی</h3>
@@ -55,7 +55,7 @@ export default function Footer(){
                     </div>
                   </a>
                   <a href="#">
-                    <div className="border border-borderColor rounded px-4 w-64 h-20 flex flex-row items-center justify-between">
+                    <div className="border border-footerborderColor rounded px-4 w-64 h-20 flex flex-row items-center justify-between">
                       <Image src="/svg/apple.svg" alt="ios app" width={32} height={32}/>
                       <div className="flex flex-col justify-between items-center">
                         <h3 className="text-lg font-light text-white">اپ استور</h3>

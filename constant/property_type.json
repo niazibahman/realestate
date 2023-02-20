@@ -1,0 +1,54 @@
+[
+    {
+      "name": "آپارتمان",
+      "logo": "apartemant.svg"
+    },
+    {
+      "name": "خانه ویلایی",
+      "logo": "villa-house.svg"
+    },
+    {
+      "name": "ویلا",
+      "logo": "villa.svg"
+    },
+    {
+      "name": "کلنگی",
+      "logo": "dilapidated.svg"
+    },
+    {
+      "name": "زمین",
+      "logo": "land.svg"
+    },
+    {
+      "name": "باغ و باغچه",
+      "logo": "garden.svg"
+    },
+    {
+    "name": "سوله",
+    "logo": "niches.svg"
+    },
+    {
+      "name": "کارگاه",
+      "logo": "workshop.svg"
+    },
+    {
+      "name": "کارخانه",
+      "logo": "factory.svg"
+    },
+    {
+      "name": "دفترکار",
+      "logo": "office.svg"
+    },
+    {
+      "name": "مطب",
+      "logo": "clinic.svg"
+    },
+    {
+      "name": "مغازه",
+      "logo": "store.svg"
+    },
+    {
+      "name": "انبار",
+      "logo": "storage.svg"
+    }
+  ]
