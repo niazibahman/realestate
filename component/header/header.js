@@ -25,7 +25,7 @@ const Header = ({ toggle }) => {
   return (
     <header className="w-screen h-auto text-white text-sm">
       <section className="bg-topHeader w-full">
-        <div className="px-4 py-3 lg:container mx-auto grid grid-cols-2 gap-2">
+        <div className="px-4 py-3 sm:container mx-auto grid grid-cols-2 gap-2">
           <div className="flex justify-start">
             <div className="flex justify-start items-center	">
               <AiOutlinePhone className="font-icons px-2 items-center	" />
@@ -49,7 +49,7 @@ const Header = ({ toggle }) => {
         ScrollNav={ScrollNav}
         className="relative bg-white w-full h-20 content-center z-10"
       >
-        <div className="px-4 py-3 lg:container mx-auto grid grid-cols-4 gap-2 px-4 max-w-6xl content-center">
+        <div className="px-4 py-3 sm:container mx-auto grid grid-cols-4 gap-2 max-w-6xl content-center">
           <a
             href="/"
             onClick={toggleHome}
