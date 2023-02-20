@@ -3,43 +3,81 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "vazir";
-    font-weight: 400;
-    src: local(""), url("../public/font/vazir.woff2") format("woff2");
-    font-display: swap;
+  font-family: "vazir";
+  font-weight: 400;
+  src: local(""), url("../public/font/vazir.woff2") format("woff2");
+  font-display: swap;
+}
+.social-icons {
+  font-size: 33px !important;
+}
+.font-icons {
+  font-size: 35px !important;
+}
+.navmenu {
+  @media screen and (max-width: 768px) {
+    display: none;
   }
-  .social-icons {
-    font-size: 33px !important;
-  }
-  .font-icons {
-    font-size: 35px !important;
-  }
-  .navmenu {
-    @media screen and (max-width: 768px) {
-      display: none;
-    }
-  }
-  
-  .mobileIcon {
-    @media screen and (max-width: 768px) {
-      display: block;
-      color: #fff;
-      position: absolute;
-      top: 0;
-      right: 0;
-      cursor: pointer;
-      font-size: 1.8 rem;
-      transform: translate(-100%, 60%);
-    }
-  }
-  .NavBtn {
-    @media screen and (max-width: 768px) {
-      display: none;
-    }
-  }
-  .NavBtnLink {
-    padding: 10px 22px;
-    text-decoration: none;
+}
+
+.mobileIcon {
+  @media screen and (max-width: 768px) {
+    display: block;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
     cursor: pointer;
-    transition: all 0.2s ease-in-out;
+    font-size: 1.8 rem;
+    transform: translate(-100%, 60%);
   }
+}
+.NavBtn {
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+.NavBtnLink {
+  padding: 10px 22px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.agents-grid {
+  box-shadow: 0 0 20px 0 rgb(62 28 131 / 10%);
+}
+.overall-rate {
+  position: absolute;
+  right: -10px;
+  bottom: 8px;
+  background: #ff9800;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 23px;
+  width: 25px;
+  height: 25px;
+  font-size: 11px;
+  font-weight: 800;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.btn-outline-theme {
+  color: #fd5332;
+  background-color: transparent;
+  border: 2px solid #fd5332;
+  -webkit-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+  padding: 12px 25px;
+  cursor: pointer;
+  display: flex;
+  align-items: center !important;
+  justify-content: center;
+}
+
+.btn-outline-theme:hover,
+.btn-outline-theme:focus {
+  color: #fff !important;
+  background-color: #fd5332;
+  border-color: #fd5332;
+}
