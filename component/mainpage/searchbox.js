@@ -2,12 +2,28 @@ import Image from "next/image";
 import { IoSearchOutline } from "react-icons/io5";
 import {TfiBriefcase , TfiLocationPin} from 'react-icons/tfi'
 import {RiArrowDropDownFill} from 'react-icons/ri'
+import {FaBed,FaBath} from 'react-icons/fa'
 import prpertytype from '../../constant/property_type.json'
-import { useState,useEffect } from "react";
+import { useState,useEffect, useRef, use } from "react";
 
 export default function SearchBox(){
+    const Neighbour=["تجریش","جردن","پاسداران","درکه","میدان انقلاب","نارمک","زعفرانیه","قلهک"]
     const [showProperty,setShowProperty]=useState(false);
     const [scrollIsDown,setScrollIsDown]=useState(false);
+    const [showNeighbourhood,setShowNeighbourhood]=useState(false);
+    const [showAdvanceSearch,setShowAdvanceSearch]=useState(false);
+    const [showBath,setShowBath]=useState(false);
+    const [showBed,setShowBed]=useState(false);
+    const [heating,setHeating]=useState(false);
+    const [cooling,setCooling]=useState(false);
+    const [yard,setYard]=useState(false);
+    const [seperate,setSeperate]=useState(false);
+    const [parking,setParking]=useState(false);
+    const [lift,setLift]=useState(false);
+    const [loan,setLoan]=useState(false);
+    const [storage,setStorage]=useState(false);
+    const [pool,setPool]=useState(false);
+    const outsideRef=useRef();
 
     useEffect(() => {
         window.addEventListener("scroll", listenToScroll);
@@ -24,10 +40,55 @@ export default function SearchBox(){
             setScrollIsDown(false);
         }
     };
+    useEffect(() => {
+        function handleClickOutside(event) {
+          if (outsideRef.current && !outsideRef.current.contains(event.target)) {
+            setShowProperty(false);
+            setShowNeighbourhood(false);
+          }
+        }
+        document.addEventListener("mousedown", handleClickOutside);
+        return () => {
+          document.removeEventListener("mousedown", handleClickOutside);
+        };
+      }, [outsideRef]);
 
     const showPropertySelectorBoxHandler=()=>{
+        setShowNeighbourhood(false);
+        setShowAdvanceSearch(false);
         setShowProperty(!showProperty);
     }
+    const showNeighbourhoodSelectorBoxHandler=()=>{
+        setShowProperty(false);
+        setShowAdvanceSearch(false);
+        setShowNeighbourhood(!showNeighbourhood);
+    }
+    const showBathHandler=()=>{
+        setShowBed(false);
+        setShowBath(!showBath);
+    }
+    const showBedHandler=()=>{
+        setShowBath(false);
+        setShowBed(!showBed);
+    }
+    const showAdvanceSearchBoxHandler=()=>{
+        if(showAdvanceSearch === true){
+            setShowBath(false);
+            setShowBed(false);
+        }
+        setShowProperty(false);
+        setShowNeighbourhood(false);
+        setShowAdvanceSearch(!showAdvanceSearch);
+    }
+    const changeYard=()=>{setYard(!yard)}
+    const changePool=()=>{setPool(!pool)}
+    const changeParking=()=>{setParking(!parking)}
+    const changeLift=()=>{setLift(!lift)}
+    const changeStorage=()=>{setStorage(!storage)}
+    const changeSeperate=()=>{setSeperate(!seperate)}
+    const changeHeating=()=>{setHeating(!heating)}
+    const changeCooling=()=>{setCooling(!cooling)}
+    const changeLoan=()=>{setLoan(!loan)}
 
     return(<section className="bg-home_search bg-cover bg-bottom h-165 w-full">
         <div className="w-full h-full bg-searchbox_bg bg-opacity-40 flex flex-col justify-center items-center">
@@ -41,7 +102,7 @@ export default function SearchBox(){
                     <div onClick={showPropertySelectorBoxHandler} className="relative cursor-pointer border md:border-r-0 md:border-y-0 md:border-l border-searchbox_border rounded w-full flex flex-row justify-between items-center py-1 px-2 mb-1">
                         {
                             showProperty &&
-                            <div className={`bg-white w-full h-60 absolute right-0 rounded z-20 p-1 ${scrollIsDown===true?"top-16":"-top-64"}`}>
+                            <div ref={outsideRef} className={`bg-white w-full h-60 absolute right-0 rounded z-20 p-1 ${scrollIsDown===true?"top-16":"-top-64"}`}>
                               <input className="border border-searchbox_border w-full h-6"/>
                               <ul className="w-full mt-1 h-52 overflow-y-scroll">
                                 {
@@ -56,17 +117,109 @@ export default function SearchBox(){
                         </span>
                         <TfiBriefcase color="#8b9aad" fontSize={24}/>
                     </div>
-                    <div className="cursor-pointer border md:border-r-0 md:border-y-0 md:border-l border-searchbox_border rounded w-full flex flex-row justify-between items-center py-1 px-2 mb-1">
+                    <div onClick={showNeighbourhoodSelectorBoxHandler} className="relative cursor-pointer border md:border-r-0 md:border-y-0 md:border-l border-searchbox_border rounded w-full flex flex-row justify-between items-center py-1 px-2 mb-1">
+                       {
+                            showNeighbourhood &&
+                            <div ref={outsideRef} className={`bg-white w-full h-60 absolute right-0 rounded z-20 p-1 ${scrollIsDown===true?"top-16":"-top-64"}`}>
+                              <input className="border border-searchbox_border w-full h-6"/>
+                              <ul className="w-full mt-1 h-52 overflow-y-scroll">
+                                {
+                                    Neighbour.map((x,index)=><li className="w-full h-6 mb-2">{x}</li>)
+                                }
+                              </ul>
+                            </div>
+                        }
                         <span className="w-full h-14 flex flex-row items-center justify-between ml-2">
                             <span className="text-searchbox_text">محله</span>
                             <RiArrowDropDownFill color="#8b9aad" fontSize={24}/>
                         </span>
                         <TfiLocationPin color="#8b9aad" fontSize={24}/>
                     </div>
-                    <div className="cursor-pointer w-full mr-4 md:mr-0 md:w-56 h-14 flex items-center justify-start md:justify-center">
+                    <div onClick={showAdvanceSearchBoxHandler} className="cursor-pointer w-full mr-4 md:mr-0 md:w-56 h-14 flex items-center justify-start md:justify-center">
                         <Image src="/svg/search_menu.svg" alt="advance search" width={30} height={30}/>
                     </div>
                     <button className="bg-redTheme text-white rounded-md w-full md:w-128 py-4">جستجو</button>
+                </div>
+                <div className="absolute top-142 md:top-111 z-20 w-full px-4 sm:px-0 sm:w-3/4 md:container">
+                   <div className={`bg-white shadow-radika rounded-lg overflow-hidden flex flex-col items-center transition-all duration-500 ease-in-out ${showAdvanceSearch ===true?"h-104 md:h-72 p-6":"h-0"}`}>
+                        <div className="w-full flex flex-col md:flex-row md:justify-between items-center h-auto">
+                            <div onClick={showBathHandler} className="relative border border-searchbox_border rounded w-full md:w-5/12 flex flex-row justify-around px-2 items-center cursor-pointer">
+                                {
+                                    showBath &&
+                                    <div ref={outsideRef} className={`border border-searchbox_border bg-white w-full h-24 absolute right-0 rounded z-20 p-1 top-16`}>
+                                        <ul>
+                                            <li>1</li>
+                                            <li>2</li>
+                                            <li>3</li>
+                                            <li>4</li>
+                                        </ul>
+                                    </div>
+                                }
+                                <span className="w-full h-14 flex flex-row items-center justify-between ml-2">
+                                    <span className="text-searchbox_text">حمام</span>
+                                    <RiArrowDropDownFill color="#8b9aad" fontSize={24}/>
+                                </span>
+                                <FaBath color="#8b9aad" fontSize={24}/>
+                            </div>
+                            <div onClick={showBedHandler} className="relative border border-searchbox_border rounded w-full md:w-5/12 flex flex-row justify-around px-2 mt-2 md:mt-0 items-center cursor-pointer">
+                                {
+                                    showBed &&
+                                    <div ref={outsideRef} className={`border border-searchbox_border bg-white w-full h-24 absolute right-0 rounded z-20 p-1 top-16`}>
+                                        <ul>
+                                            <li>1</li>
+                                            <li>2</li>
+                                            <li>3</li>
+                                            <li>4</li>
+                                        </ul>
+                                    </div>
+                                }
+                                <span className="w-full h-14 flex flex-row items-center justify-between ml-2">
+                                    <span className="text-searchbox_text">اتاق خواب</span>
+                                    <RiArrowDropDownFill color="#8b9aad" fontSize={24}/>
+                                </span>
+                                <FaBed color="#8b9aad" fontSize={24}/>
+                            </div>
+                        </div>
+                        <b className="w-full my-4 text-2xl text-start">امکانات</b>
+                        <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-4">
+                            <div className="col-span-1 flex flex-row justify-start items-center">
+                                <input name="heating_ck" type="checkbox" onChange={changeHeating} checked={heating} className="accent-redTheme ml-2"/>
+                                <label form="heating_ck">گرمایش</label>
+                            </div>
+                            <div className="col-span-1 flex flex-row justify-start items-center">
+                                <input name="cooling_ck" type="checkbox" onChange={changeCooling} checked={cooling} className="accent-redTheme ml-2"/>
+                                <label form="cooling_ck">کولر</label>
+                            </div>
+                            <div className="col-span-1 flex flex-row justify-start items-center">
+                                <input name="lift_ck" type="checkbox" onChange={changeLift} checked={lift} className="accent-redTheme ml-2"/>
+                                <label form="lift_ck">آسانسور</label>
+                            </div>
+                            <div className="col-span-1 flex flex-row justify-start items-center">
+                                <input name="loan_ck" type="checkbox" onChange={changeLoan} checked={loan} className="accent-redTheme ml-2"/>
+                                <label form="loan_ck">وام</label>
+                            </div>
+                            <div className="col-span-1 flex flex-row justify-start items-center">
+                                <input name="parking_ck" type="checkbox" onChange={changeParking} checked={parking} className="accent-redTheme ml-2"/>
+                                <label form="parking_ck">پارکینگ</label>
+                            </div>
+                            <div className="col-span-1 flex flex-row justify-start items-center">
+                                <input name="pool_ck" type="checkbox" onChange={changePool} checked={pool} className="accent-redTheme ml-2"/>
+                                <label form="pool_ck">استخر</label>
+                            </div>
+                            <div className="col-span-1 flex flex-row justify-start items-center">
+                                <input name="storage_ck" type="checkbox" onChange={changeStorage} checked={storage} className="accent-redTheme ml-2"/>
+                                <label form="storage_ck">انباری</label>
+                            </div>
+                            <div className="col-span-1 flex flex-row justify-start items-center">
+                                <input name="seperate_ck" type="checkbox" onChange={changeSeperate} checked={seperate} className="accent-redTheme ml-2"/>
+                                <label form="seperate_ck">راه جدا</label>
+                            </div>
+                            <div className="col-span-1 flex flex-row justify-start items-center">
+                                <input name="yard_ck" type="checkbox" onChange={changeYard} checked={yard} className="accent-redTheme ml-2"/>
+                                <label form="yard_ck">حیاط</label>
+                            </div>
+                        </div>
+                   </div>
                 </div>
             </div>
         </div>

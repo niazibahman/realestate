@@ -30,8 +30,16 @@ module.exports = {
         '128': '32rem',
       },
       height: {
+        '104':'26rem',
         '165':'41.25rem'
       },
+      inset: {
+        '111': '27.75rem',
+        '142': '35.5rem',
+      },
+      boxShadow: {
+        'radika': '0 0px 20px 0px rgba(62, 28, 131, 0.1)',
+      }
     },
   },
   plugins: [],
