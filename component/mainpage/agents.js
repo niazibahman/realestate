@@ -8,7 +8,7 @@ import Image from "next/image";
 export default function Agents() {
   return (
     <section className="w-full content-center">
-      <div className="lg:container mx-auto grid grid-cols-1 px-4 content-center text-center my-8">
+      <div className="sm:container mx-auto grid grid-cols-1 px-4 content-center text-center my-8">
         <h2 className="text-2xl font-bold text-textColorH">
           آژانس های املاک فعال در ریکادا
         </h2>
@@ -16,8 +16,8 @@ export default function Agents() {
           املاک مورد نظر خود را جستجو کنید
         </p>
       </div>
-      <div className="container mx-auto grid md:grid-cols-3 gap-10 px-4 max-w-6xl content-center">
-        <div className="relative bg-white rounded-sm	mt-7 border-0	agents-grid">
+      <div className="sm:container mx-auto grid sm:grid-cols-3 gap-4 px-8 max-w-6xl content-center">
+        <div className="relative bg-white rounded-sm	mt-7 border-0	shadow-grid">
           <div className="absolute top-5	left-5 text-xl text-textColorH	">
             <VscBookmark />
           </div>
@@ -75,7 +75,7 @@ export default function Agents() {
             </a>
           </div>
         </div>
-        <div className="relative bg-white rounded-sm	mt-7 border-0	agents-grid">
+        <div className="relative bg-white rounded-sm	mt-7 border-0	shadow-grid">
           <div className="absolute top-5	left-5 text-xl text-textColorH	">
             <VscBookmark />
           </div>
@@ -133,7 +133,7 @@ export default function Agents() {
             </a>
           </div>
         </div>
-        <div className="relative bg-white rounded-sm	mt-7 border-0	agents-grid">
+        <div className="relative bg-white rounded-sm	mt-7 border-0	shadow-grid">
           <div className="absolute top-5	left-5 text-xl text-textColorH	">
             <VscBookmark />
           </div>
