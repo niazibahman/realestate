@@ -1,6 +1,6 @@
 import Head from "next/head";
 import SearchBox from "../component/mainpage/searchbox";
-import NewProperty from "../component/mainpage/newProperty";
+import NewProperty from "../component/mainpage/newproperty";
 import CitiesProperty from "../component/mainpage/citiesproperty";
 import Agents from "../component/mainpage/agents";
 import SiteComments from "../component/mainpage/sitecomments";
@@ -15,7 +15,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="relative">
+      <main className="relative text-textColorBase">
         <SearchBox />
         <NewProperty />
         <CitiesProperty />

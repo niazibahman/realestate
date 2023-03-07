@@ -18,6 +18,9 @@ module.exports = {
       searchbox_bg:"#19365f",
       searchbox_text:"#8b9aad",
       searchbox_border:"#dce3e8",
+      textColorH:"#2D3954",
+      textColorBase:"#72809D",
+      tickColor:'#0ac186'
     },
     extend: {
       fontFamily: {

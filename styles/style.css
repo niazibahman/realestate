@@ -96,3 +96,47 @@
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
   background-color: #07aba0;
 }
+@keyframes slide-RTLin {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@keyframes slide-RTLout {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+@keyframes slide-LTRin {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@keyframes slide-LTRout {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.inFromR {
+  animation: slide-RTLin 200ms forwards;
+}
+.inFromL {
+  animation: slide-LTRin 200ms forwards;
+}
+.outFromR {
+  animation: slide-RTLout 200ms forwards;
+}
+.outFromL {
+  animation: slide-LTRout 200ms forwards;
+}
