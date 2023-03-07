@@ -18,13 +18,13 @@ export default function Articles() {
             </a>
           </div>
           <div className="blog-info py-2.5 px-5">
-            <span class="flex	items-center text-sm text-textColorBase	">
-              <RiCalendarLine class="ml-1.5 	text-lg" />
+            <span className="flex	items-center text-sm text-textColorBase	">
+              <RiCalendarLine className="ml-1.5 	text-lg" />
               30 بهمن 1401
             </span>
           </div>
-          <div class="blog-body pt-1	px-5">
-            <h4 class="bl-title text-lg mb-3">
+          <div className="blog-body pt-1	px-5">
+            <h4 className="bl-title text-lg mb-3">
               <a href="#">تاثیر دکوراسیون داخلی در طراحی مدرن </a>
             </h4>
             <p className="text-sm text-textColorBase">
@@ -32,7 +32,7 @@ export default function Articles() {
               استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
               ستون و سطرآنچنان که لازم است
             </p>
-            <div class="bl-continue text-redTheme text-base	my-5	 ">
+            <div className="bl-continue text-redTheme text-base	my-5	 ">
               <a href="#" className="flex items-center">
                 <IoIosArrowRoundForward />
                 ادامه مطلب
@@ -47,13 +47,13 @@ export default function Articles() {
             </a>
           </div>
           <div className="blog-info py-2.5 px-5">
-            <span class="flex	items-center text-sm text-textColorBase	">
+            <span className="flex	items-center text-sm text-textColorBase	">
               <RiCalendarLine class="ml-1.5 	text-lg" />
               30 بهمن 1401
             </span>
           </div>
-          <div class="blog-body pt-1	px-5">
-            <h4 class="bl-title text-lg mb-3">
+          <div className="blog-body pt-1	px-5">
+            <h4 className="bl-title text-lg mb-3">
               <a href="#">راهنمای قدم به قدم مراحل تأسیس آژانس املاک</a>
             </h4>
             <p className="text-sm text-textColorBase">
@@ -61,7 +61,7 @@ export default function Articles() {
               استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
               ستون و سطرآنچنان که لازم است
             </p>
-            <div class="bl-continue text-redTheme text-base	my-5	 ">
+            <div className="bl-continue text-redTheme text-base	my-5	 ">
               <a href="#" className="flex items-center">
                 <IoIosArrowRoundForward />
                 ادامه مطلب
@@ -76,13 +76,13 @@ export default function Articles() {
             </a>
           </div>
           <div className="blog-info py-2.5 px-5">
-            <span class="flex	items-center text-sm text-textColorBase	">
+            <span className="flex	items-center text-sm text-textColorBase	">
               <RiCalendarLine class="ml-1.5 	text-lg" />
               30 بهمن 1401
             </span>
           </div>
-          <div class="blog-body pt-1	px-5">
-            <h4 class="bl-title text-lg mb-3">
+          <div className="blog-body pt-1	px-5">
+            <h4 className="bl-title text-lg mb-3">
               <a href="#">۵ محله مناسب برای خرید آپارتمان در تهران ! </a>
             </h4>
             <p className="text-sm text-textColorBase">
@@ -90,7 +90,7 @@ export default function Articles() {
               استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
               ستون و سطرآنچنان که لازم است
             </p>
-            <div class="bl-continue text-redTheme text-base	my-5	 ">
+            <div className="bl-continue text-redTheme text-base	my-5	 ">
               <a href="#" className="flex items-center">
                 <IoIosArrowRoundForward />
                 ادامه مطلب

@@ -15,7 +15,6 @@ module.exports = {
       textColorBase: "#72809D",
       footerText: "#858b9f",
       greenTheme: "#00ba74",
-<<<<<<< HEAD
       footerborderColor:"#353d56",
       searchbox_bg:"#19365f",
       searchbox_text:"#8b9aad",
@@ -23,12 +22,6 @@ module.exports = {
       textColorH:"#2D3954",
       textColorBase:"#72809D",
       tickColor:'#0ac186'
-=======
-      footerborderColor: "#353d56",
-      searchbox_bg: "#19365f",
-      searchbox_text: "#8b9aad",
-      searchbox_border: "#dce3e8",
->>>>>>> 133648ae97651391cf72e075699abcc73c05c2cb
     },
     extend: {
       fontFamily: {
