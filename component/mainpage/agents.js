@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export default function Agents() {
   return (
-    <section className="w-full content-center">
+    <section className="w-full content-center py-10">
       <div className="sm:container mx-auto grid grid-cols-1 px-4 content-center text-center my-8">
         <h2 className="text-2xl font-bold text-textColorH">
           آژانس های املاک فعال در ریکادا

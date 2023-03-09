@@ -4,6 +4,7 @@ module.exports = {
   content: ["./pages/**/*.{html,js}", "./component/**/*.{html,js}"],
   theme: {
     colors: {
+      transparent:colors.transparent,
       white: colors.white,
       black: colors.black,
       gray: colors.gray,
@@ -21,7 +22,10 @@ module.exports = {
       searchbox_border:"#dce3e8",
       textColorH:"#2D3954",
       textColorBase:"#72809D",
-      tickColor:'#0ac186'
+      tickColor:'#0ac186',
+      grayBackground:"#f7f9fc",
+      commentBackground:"#122947",
+      commentText:"#f8f9fa"
     },
     extend: {
       fontFamily: {
@@ -35,6 +39,7 @@ module.exports = {
       },
       height: {
         104: "26rem",
+        125: "31.25rem",
         165: "41.25rem",
       },
       inset: {

@@ -100,3 +100,27 @@
   max-width: 100%;
   height: auto;
 }
+
+.enterIn {
+  animation: slider-in 300ms forwards;
+}
+.exitOut {
+  animation: slider-out 300ms forwards;
+}
+
+@keyframes slider-in {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@keyframes slider-out {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
