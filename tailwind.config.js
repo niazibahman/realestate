@@ -25,7 +25,11 @@ module.exports = {
       tickColor:'#0ac186',
       grayBackground:"#f7f9fc",
       commentBackground:"#122947",
-      commentText:"#f8f9fa"
+      commentText:"#f8f9fa",
+      paginationBlackText:"#5a6f7c",
+      paginationBorder:"#eaeff5",
+      paginationForward:"#35434E",
+      listingHeader:"#f4f5f7"
     },
     extend: {
       fontFamily: {
@@ -48,6 +52,7 @@ module.exports = {
       },
       boxShadow: {
         radika: "0 0px 20px 0px rgba(62, 28, 131, 0.1)",
+        paginationShadow:"0 2px 10px 0 rgba(216, 221, 230)"
       },
     },
   },

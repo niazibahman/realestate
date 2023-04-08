@@ -19,7 +19,7 @@ export default function Listing(){
             <ListingHeaders/>
             <AdvanceSearch/>
             <PropertiesList/>
-            <Pagination/>
+            <Pagination currentPage={25} numPages={65}/>
         </main>
     </div>);
 }
