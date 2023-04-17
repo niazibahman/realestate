@@ -832,7 +832,6 @@
 			"area": 110,
 			"areaType": false,
 			"rooms": 2,
-			"photoPath": "https://www.zoomila.com/uploads/agency-1081/772089/",
 			"photos": [
 			  "6399f6b3a43c0819.jpg",
 			  "6399f6ba0c89b673.jpg",
@@ -843,15 +842,12 @@
 			"publishedAt": "1401-09-24 00:10:35",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 772089,
-			"trackingCode": 12,
 			"slug": "آپارتمان 110 متری دو خوابه در اباذر منطقه 5",
 			"agencyId": 1081,
 			"agencyName": "املاک صاد",
 			"agencyLogo": "uploads/agency-1081/logo/5d9c765fa2959.jpg",
 			"adviserId": 38254,
 			"adviserName": "نیما",
-			"link": "https://www.zoomila.com/تهران/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-23 19:46:15",
 			"storage": true,
 			"yard": false,
@@ -887,20 +883,11 @@
 			"coordinate": "35.73541715524912,51.324064806103706",
 			"availableDate": null,
 			"address": {
-			  "addressId": 192415,
-			  "buildingId": 772089,
 			  "main": "مقداد",
 			  "detail": null,
-			  "visible": true,
-			  "createdAt": "1401-09-23 19:46:15",
-			  "updatedAt": "1401-09-23 19:46:15",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 771117,
-			  "createdAt": "1401-09-23 19:46:15",
-			  "updatedAt": "1401-09-24 00:10:33",
-			  "deletedAt": null,
 			  "parking": "اختصاصی",
 			  "kitchenUnit": null,
 			  "flooring": "سرامیک",
@@ -944,11 +931,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-23 19:46:15",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "783312"
+			"issell": true
 		  },
 		  {
 			"id": 666579,
@@ -962,7 +945,6 @@
 			"area": 207,
 			"areaType": false,
 			"rooms": 3,
-			"photoPath": "https://www.zoomila.com/uploads/agency-29785/771030/",
 			"photos": [
 			  "6396b23b1d47a580.jpg",
 			  "6396b2917dc3a168.jpg",
@@ -982,15 +964,12 @@
 			"publishedAt": "1401-09-21 08:23:28",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 771030,
-			"trackingCode": 12,
 			"slug": "آپارتمان 207 متری سه خوابه در سعادت آباد",
 			"agencyId": 29785,
 			"agencyName": "ژین",
 			"agencyLogo": null,
 			"adviserId": 38101,
 			"adviserName": "خانم نانوش",
-			"link": "https://www.zoomila.com/تهران/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-21 08:18:45",
 			"storage": true,
 			"yard": true,
@@ -1026,20 +1005,11 @@
 			"coordinate": "35.785918,51.380737",
 			"availableDate": null,
 			"address": {
-			  "addressId": 192228,
-			  "buildingId": 771030,
 			  "main": "صراف های شمالی",
 			  "detail": "هلیوس",
-			  "visible": true,
-			  "createdAt": "1401-09-21 08:18:45",
-			  "updatedAt": "1401-09-21 08:18:45",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 770058,
-			  "createdAt": "1401-09-21 08:18:45",
-			  "updatedAt": "1401-09-21 08:22:06",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -1083,11 +1053,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-21 08:18:45",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "782253"
+			"issell": true
 		  },
 		  {
 			"id": 666578,
@@ -1101,7 +1067,6 @@
 			"area": 286,
 			"areaType": false,
 			"rooms": 4,
-			"photoPath": "https://www.zoomila.com/uploads/agency-29785/771029/",
 			"photos": [
 			  "6396af9618fd2635.jpg",
 			  "6396af9e0ee4b750.jpg",
@@ -1119,15 +1084,12 @@
 			"publishedAt": "1401-09-21 08:14:12",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 771029,
-			"trackingCode": 12,
 			"slug": "آپارتمان 286 متری چهار خوابه در سعادت آباد",
 			"agencyId": 29785,
 			"agencyName": "ژین",
 			"agencyLogo": null,
 			"adviserId": 38101,
 			"adviserName": "خانم نانوش",
-			"link": "https://www.zoomila.com/تهران/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-21 08:06:56",
 			"storage": true,
 			"yard": true,
@@ -1163,20 +1125,11 @@
 			"coordinate": "35.785918,51.380737",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 770057,
-			  "createdAt": "1401-09-21 08:06:56",
-			  "updatedAt": "1401-09-21 08:06:56",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -1220,11 +1173,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-21 08:06:56",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "782252"
+			"issell": true
 		  },
 		  {
 			"id": 666577,
@@ -1238,7 +1187,6 @@
 			"area": 150,
 			"areaType": false,
 			"rooms": 3,
-			"photoPath": "https://www.zoomila.com/uploads/agency-29785/771028/",
 			"photos": [
 			  "63968adbc8b4f411.jpg",
 			  "63968a921cbbf364.jpg",
@@ -1254,15 +1202,12 @@
 			"publishedAt": "1401-09-21 08:06:03",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 771028,
-			"trackingCode": 12,
 			"slug": "آپارتمان 150 متری سه خوابه در سعادت آباد",
 			"agencyId": 29785,
 			"agencyName": "ژین",
 			"agencyLogo": null,
 			"adviserId": 38101,
 			"adviserName": "خانم نانوش",
-			"link": "https://www.zoomila.com/تهران/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-21 05:29:00",
 			"storage": false,
 			"yard": false,
@@ -1300,20 +1245,11 @@
 			"coordinate": "35.785918,51.380737",
 			"availableDate": null,
 			"address": {
-			  "addressId": 192227,
-			  "buildingId": 771028,
 			  "main": "صراف های شمالی",
 			  "detail": null,
-			  "visible": true,
-			  "createdAt": "1401-09-21 05:29:00",
-			  "updatedAt": "1401-09-21 05:29:00",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 770056,
-			  "createdAt": "1401-09-21 05:29:00",
-			  "updatedAt": "1401-09-21 05:29:00",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -1357,11 +1293,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-21 05:29:00",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "782251"
+			"issell": true
 		  },
 		  {
 			"id": 666287,
@@ -1375,7 +1307,6 @@
 			"area": 116,
 			"areaType": false,
 			"rooms": 2,
-			"photoPath": "https://www.zoomila.com/uploads/agency-29785/770713/",
 			"photos": [
 			  "63946e8b51257357.jpg",
 			  "63946e988edc8141.jpg",
@@ -1387,15 +1318,12 @@
 			"publishedAt": "1401-09-24 10:27:18",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 770713,
-			"trackingCode": 12,
 			"slug": "آپارتمان 116 متری دو خوابه در سعادت آباد",
 			"agencyId": 29785,
 			"agencyName": "ژین",
 			"agencyLogo": null,
 			"adviserId": 38104,
 			"adviserName": "خانم ماهیان",
-			"link": "https://www.zoomila.com/تهران/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-19 15:08:46",
 			"storage": true,
 			"yard": false,
@@ -1433,20 +1361,11 @@
 			"coordinate": "35.785918,51.380737",
 			"availableDate": null,
 			"address": {
-			  "addressId": 192156,
-			  "buildingId": 770713,
 			  "main": "۲۷ شرقی صرافها جنوب",
 			  "detail": null,
-			  "visible": true,
-			  "createdAt": "1401-09-19 15:08:46",
-			  "updatedAt": "1401-09-19 15:08:46",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 769741,
-			  "createdAt": "1401-09-19 15:08:46",
-			  "updatedAt": "1401-09-19 15:08:46",
-			  "deletedAt": null,
 			  "parking": "بدون مزاحم",
 			  "kitchenUnit": null,
 			  "flooring": "سنگ",
@@ -1490,11 +1409,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-19 15:08:46",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "781936"
+			"issell": true
 		  },
 		  {
 			"id": 666150,
@@ -1508,7 +1423,6 @@
 			"area": 50,
 			"areaType": false,
 			"rooms": 1,
-			"photoPath": "https://www.zoomila.com/uploads/agency-1081/770573/",
 			"photos": [
 			  "6392f07952f84979.jpg",
 			  "6392f0836ceb3637.jpg",
@@ -1520,15 +1434,12 @@
 			"publishedAt": "1401-09-24 09:18:09",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 770573,
-			"trackingCode": 12,
 			"slug": "آپارتمان 50 متری یک خوابه در اشرفی اصفهانی",
 			"agencyId": 1081,
 			"agencyName": "املاک صاد",
 			"agencyLogo": "uploads/agency-1081/logo/5d9c765fa2959.jpg",
 			"adviserId": 38254,
 			"adviserName": "نیما",
-			"link": "https://www.zoomila.com/تهران/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-18 11:54:40",
 			"storage": true,
 			"yard": false,
@@ -1566,20 +1477,11 @@
 			"coordinate": "35.74814410668014,51.31841003894806",
 			"availableDate": null,
 			"address": {
-			  "addressId": 192122,
-			  "buildingId": 770573,
 			  "main": "مهستان",
 			  "detail": null,
-			  "visible": true,
-			  "createdAt": "1401-09-18 11:54:40",
-			  "updatedAt": "1401-09-18 11:54:40",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 769601,
-			  "createdAt": "1401-09-18 11:54:40",
-			  "updatedAt": "1401-09-18 11:54:40",
-			  "deletedAt": null,
 			  "parking": "اختصاصی",
 			  "kitchenUnit": "ام دی اف",
 			  "flooring": "سنگ",
@@ -1623,11 +1525,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-18 11:54:40",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "781796"
+			"issell": true
 		  },
 		  {
 			"id": 666112,
@@ -1641,7 +1539,6 @@
 			"area": 90,
 			"areaType": false,
 			"rooms": 2,
-			"photoPath": "https://www.zoomila.com/uploads/agency-29785/770534/",
 			"photos": [
 			  "6392bc5eb8f3f142.jpg",
 			  "6392bc777382b859.jpg",
@@ -1664,15 +1561,12 @@
 			"publishedAt": "1401-09-18 11:56:33",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 770534,
-			"trackingCode": 12,
 			"slug": "آپارتمان 90 متری دو خوابه در سعادت آباد",
 			"agencyId": 29785,
 			"agencyName": "ژین",
 			"agencyLogo": null,
 			"adviserId": 38101,
 			"adviserName": "خانم نانوش",
-			"link": "https://www.zoomila.com/تهران/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-18 08:18:19",
 			"storage": false,
 			"yard": false,
@@ -1708,20 +1602,11 @@
 			"coordinate": "35.785918,51.380737",
 			"availableDate": null,
 			"address": {
-			  "addressId": 192104,
-			  "buildingId": 770534,
 			  "main": "خیابان یکم (خ جمشیدی)",
 			  "detail": null,
-			  "visible": true,
-			  "createdAt": "1401-09-18 08:18:19",
-			  "updatedAt": "1401-09-18 08:18:19",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 769562,
-			  "createdAt": "1401-09-18 08:18:19",
-			  "updatedAt": "1401-09-18 08:18:19",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -1765,11 +1650,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-18 08:18:19",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "781757"
+			"issell": true
 		  },
 		  {
 			"id": 665941,
@@ -1783,7 +1664,6 @@
 			"area": 100,
 			"areaType": false,
 			"rooms": 2,
-			"photoPath": "https://www.zoomila.com/uploads/agency-1081/770353/",
 			"photos": [
 			  "6391cebc99cb8459.jpg",
 			  "6391cee3b42a6899.jpg",
@@ -1797,15 +1677,12 @@
 			"publishedAt": "1401-09-24 09:18:15",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 770353,
-			"trackingCode": 12,
 			"slug": "آپارتمان 100 متری دو خوابه در پیامبر مرکزی",
 			"agencyId": 1081,
 			"agencyName": "املاک صاد",
 			"agencyLogo": "uploads/agency-1081/logo/5d9c765fa2959.jpg",
 			"adviserId": 38254,
 			"adviserName": "نیما",
-			"link": "https://www.zoomila.com/تهران/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-17 15:19:16",
 			"storage": true,
 			"yard": false,
@@ -1843,20 +1720,11 @@
 			"coordinate": "35.74002290944244,51.31757017225027",
 			"availableDate": null,
 			"address": {
-			  "addressId": 192081,
-			  "buildingId": 770353,
 			  "main": "هجرت",
 			  "detail": null,
-			  "visible": true,
-			  "createdAt": "1401-09-17 15:19:16",
-			  "updatedAt": "1401-09-17 15:19:16",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 769381,
-			  "createdAt": "1401-09-17 15:19:16",
-			  "updatedAt": "1401-09-17 15:19:16",
-			  "deletedAt": null,
 			  "parking": "اختصاصی",
 			  "kitchenUnit": "ام دی اف",
 			  "flooring": "سنگ",
@@ -1900,11 +1768,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-17 15:19:16",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "781576"
+			"issell": true
 		  },
 		  {
 			"id": 665891,
@@ -1918,7 +1782,6 @@
 			"area": 193,
 			"areaType": false,
 			"rooms": 3,
-			"photoPath": "https://www.zoomila.com/uploads/agency-26597/770280/",
 			"photos": [
 			  "639199e787460384.jpg",
 			  "639199f545597559.jpg",
@@ -1929,15 +1792,12 @@
 			"publishedAt": "1401-09-17 11:42:32",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 770280,
-			"trackingCode": 12,
 			"slug": "آپارتمان 193 متری سه خوابه در الهیه",
 			"agencyId": 26597,
 			"agencyName": "املاک دی تی",
 			"agencyLogo": null,
 			"adviserId": 31643,
 			"adviserName": "داود  تبریزی",
-			"link": "https://www.zoomila.com/تهران/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-17 11:36:31",
 			"storage": false,
 			"yard": false,
@@ -1973,20 +1833,11 @@
 			"coordinate": "35.790632,51.427843",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 769308,
-			  "createdAt": "1401-09-17 11:36:31",
-			  "updatedAt": "1401-09-17 11:36:31",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -2030,11 +1881,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-17 11:36:31",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "781503"
+			"issell": true
 		  },
 		  {
 			"id": 665727,
@@ -2048,7 +1895,6 @@
 			"area": 68,
 			"areaType": false,
 			"rooms": 1,
-			"photoPath": "https://www.zoomila.com/uploads/agency-1081/770104/",
 			"photos": [
 			  "6390bf4247bd7373.jpg",
 			  "6390bf4c3db2e419.jpg",
@@ -2058,15 +1904,12 @@
 			"publishedAt": "1401-09-16 23:48:01",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 770104,
-			"trackingCode": 12,
 			"slug": "آپارتمان 68 متری یک خوابه در بلوار فردوس غربی",
 			"agencyId": 1081,
 			"agencyName": "املاک صاد",
 			"agencyLogo": "uploads/agency-1081/logo/5d9c765fa2959.jpg",
 			"adviserId": 38254,
 			"adviserName": "نیما",
-			"link": "https://www.zoomila.com/تهران/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-16 20:00:48",
 			"storage": true,
 			"yard": false,
@@ -2104,20 +1947,11 @@
 			"coordinate": "35.7302678875273,51.30036748945713",
 			"availableDate": null,
 			"address": {
-			  "addressId": 192047,
-			  "buildingId": 770104,
 			  "main": "بلوار فردوس",
 			  "detail": null,
-			  "visible": true,
-			  "createdAt": "1401-09-16 20:00:48",
-			  "updatedAt": "1401-09-16 20:00:48",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 769132,
-			  "createdAt": "1401-09-16 20:00:48",
-			  "updatedAt": "1401-09-16 23:47:15",
-			  "deletedAt": null,
 			  "parking": "اختصاصی",
 			  "kitchenUnit": null,
 			  "flooring": "سنگ",
@@ -2161,11 +1995,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-16 20:00:48",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "781327"
+			"issell": true
 		  },
 		  {
 			"id": 665671,
@@ -2179,7 +2009,6 @@
 			"area": 73,
 			"areaType": false,
 			"rooms": 2,
-			"photoPath": "https://www.zoomila.com/uploads/agency-1081/770038/",
 			"photos": [
 			  "6390a909087d0982.jpg",
 			  "6390a92c4e50c171.jpg",
@@ -2190,15 +2019,12 @@
 			"publishedAt": "1401-09-16 19:26:47",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 770038,
-			"trackingCode": 12,
 			"slug": "آپارتمان 73 متری دو خوابه در پونک",
 			"agencyId": 1081,
 			"agencyName": "املاک صاد",
 			"agencyLogo": "uploads/agency-1081/logo/5d9c765fa2959.jpg",
 			"adviserId": 38254,
 			"adviserName": "نیما",
-			"link": "https://www.zoomila.com/تهران/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-16 18:25:36",
 			"storage": true,
 			"yard": false,
@@ -2236,20 +2062,11 @@
 			"coordinate": "35.74845485309683,51.33468568325043",
 			"availableDate": null,
 			"address": {
-			  "addressId": 192019,
-			  "buildingId": 770038,
 			  "main": "قموشی",
 			  "detail": null,
-			  "visible": true,
-			  "createdAt": "1401-09-16 18:25:36",
-			  "updatedAt": "1401-09-16 19:25:31",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 769066,
-			  "createdAt": "1401-09-16 18:25:36",
-			  "updatedAt": "1401-09-16 19:26:13",
-			  "deletedAt": null,
 			  "parking": "اختصاصی",
 			  "kitchenUnit": null,
 			  "flooring": "سنگ",
@@ -2293,11 +2110,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-16 19:25:31",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "781261"
+			"issell": true
 		  },
 		  {
 			"id": 665668,
@@ -2311,7 +2124,6 @@
 			"area": 76,
 			"areaType": false,
 			"rooms": 2,
-			"photoPath": "https://www.zoomila.com/uploads/agency-1081/770034/",
 			"photos": [
 			  "6390a7a5308f3348.jpg",
 			  "6390a7ae08d24491.jpg",
@@ -2322,15 +2134,12 @@
 			"publishedAt": "1401-09-24 09:18:22",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 770034,
-			"trackingCode": 12,
 			"slug": "آپارتمان 76 متری دو خوابه در فردوس شرقی",
 			"agencyId": 1081,
 			"agencyName": "املاک صاد",
 			"agencyLogo": "uploads/agency-1081/logo/5d9c765fa2959.jpg",
 			"adviserId": 38254,
 			"adviserName": "نیما",
-			"link": "https://www.zoomila.com/تهران/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-16 18:19:10",
 			"storage": true,
 			"yard": false,
@@ -2368,20 +2177,11 @@
 			"coordinate": "35.726969405226114,51.31593503057957",
 			"availableDate": null,
 			"address": {
-			  "addressId": 192017,
-			  "buildingId": 770034,
 			  "main": "بلوار فردوس شرق",
 			  "detail": null,
-			  "visible": true,
-			  "createdAt": "1401-09-16 18:19:10",
-			  "updatedAt": "1401-09-16 19:19:47",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 769062,
-			  "createdAt": "1401-09-16 18:19:10",
-			  "updatedAt": "1401-09-16 19:20:07",
-			  "deletedAt": null,
 			  "parking": "اختصاصی",
 			  "kitchenUnit": null,
 			  "flooring": "سنگ",
@@ -2425,11 +2225,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-16 19:19:47",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "781257"
+			"issell": true
 		  },
 		  {
 			"id": 665366,
@@ -2443,7 +2239,6 @@
 			"area": 125,
 			"areaType": false,
 			"rooms": 2,
-			"photoPath": "https://www.zoomila.com/uploads/agency-29785/769697/",
 			"photos": [
 			  "639016214c79d712.jpg",
 			  "6390163e50c92938.jpg",
@@ -2465,15 +2260,12 @@
 			"publishedAt": "1401-09-16 08:06:16",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 769697,
-			"trackingCode": 12,
 			"slug": "آپارتمان 125 متری دو خوابه در سعادت آباد",
 			"agencyId": 29785,
 			"agencyName": "ژین",
 			"agencyLogo": null,
 			"adviserId": 38101,
 			"adviserName": "خانم نانوش",
-			"link": "https://www.zoomila.com/تهران/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-16 08:04:18",
 			"storage": true,
 			"yard": false,
@@ -2511,20 +2303,11 @@
 			"coordinate": "35.785918,51.380737",
 			"availableDate": null,
 			"address": {
-			  "addressId": 191973,
-			  "buildingId": 769697,
 			  "main": "بالای کاج",
 			  "detail": "بین مجد و بهزاد",
-			  "visible": true,
-			  "createdAt": "1401-09-16 08:04:18",
-			  "updatedAt": "1401-09-16 08:05:56",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 768728,
-			  "createdAt": "1401-09-16 08:04:18",
-			  "updatedAt": "1401-09-16 08:04:18",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -2568,11 +2351,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-16 08:05:56",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "780920"
+			"issell": true
 		  },
 		  {
 			"id": 665040,
@@ -2586,7 +2365,6 @@
 			"area": 174,
 			"areaType": false,
 			"rooms": 3,
-			"photoPath": "https://www.zoomila.com/uploads/agency-29785/769341/",
 			"photos": [
 			  "638e2b3fd02a2961.jpg",
 			  "638e2b66cfaa3478.jpg",
@@ -2601,15 +2379,12 @@
 			"publishedAt": "1401-09-14 21:27:56",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 769341,
-			"trackingCode": 12,
 			"slug": "آپارتمان 174 متری سه خوابه در سعادت آباد",
 			"agencyId": 29785,
 			"agencyName": "ژین",
 			"agencyLogo": null,
 			"adviserId": 38101,
 			"adviserName": "خانم نانوش",
-			"link": "https://www.zoomila.com/تهران/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-14 21:07:11",
 			"storage": true,
 			"yard": false,
@@ -2645,20 +2420,11 @@
 			"coordinate": "35.785918,51.380737",
 			"availableDate": null,
 			"address": {
-			  "addressId": 191914,
-			  "buildingId": 769341,
 			  "main": "بلوار دریا",
 			  "detail": "کوچه شکوفایی یکم",
-			  "visible": true,
-			  "createdAt": "1401-09-14 21:07:11",
-			  "updatedAt": "1401-09-14 21:27:47",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 768374,
-			  "createdAt": "1401-09-14 21:07:11",
-			  "updatedAt": "1401-09-14 21:07:11",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -2702,11 +2468,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-14 21:27:47",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "780564"
+			"issell": true
 		  },
 		  {
 			"id": 664816,
@@ -2720,7 +2482,6 @@
 			"area": 155,
 			"areaType": false,
 			"rooms": 3,
-			"photoPath": "https://www.zoomila.com/uploads/agency-29785/769071/",
 			"photos": [
 			  "638cdcff95787111.jpg",
 			  "638cdd2b50248173.jpg",
@@ -2742,15 +2503,12 @@
 			"publishedAt": "1401-09-13 21:31:16",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 769071,
-			"trackingCode": 12,
 			"slug": "آپارتمان 155 متری سه خوابه در سعادت آباد",
 			"agencyId": 29785,
 			"agencyName": "ژین",
 			"agencyLogo": null,
 			"adviserId": 38101,
 			"adviserName": "خانم نانوش",
-			"link": "https://www.zoomila.com/تهران/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-13 21:20:13",
 			"storage": true,
 			"yard": false,
@@ -2786,20 +2544,11 @@
 			"coordinate": "35.785918,51.380737",
 			"availableDate": null,
 			"address": {
-			  "addressId": 191832,
-			  "buildingId": 769071,
 			  "main": "علامه شمالی",
 			  "detail": "۲۰ غربی",
-			  "visible": true,
-			  "createdAt": "1401-09-13 21:20:13",
-			  "updatedAt": "1401-09-13 21:31:05",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 768110,
-			  "createdAt": "1401-09-13 21:20:13",
-			  "updatedAt": "1401-09-13 21:22:14",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -2843,11 +2592,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-13 21:31:05",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "780294"
+			"issell": true
 		  },
 		  {
 			"id": 664787,
@@ -2861,7 +2606,6 @@
 			"area": 150,
 			"areaType": false,
 			"rooms": 3,
-			"photoPath": "https://www.zoomila.com/uploads/agency-29785/769042/",
 			"photos": [
 			  "638cbfefc434a121.jpg",
 			  "638cbff9421b7340.jpg",
@@ -2873,15 +2617,12 @@
 			"publishedAt": "1401-09-13 21:05:01",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 769042,
-			"trackingCode": 12,
 			"slug": "آپارتمان 150 متری سه خوابه در سعادت آباد",
 			"agencyId": 29785,
 			"agencyName": "ژین",
 			"agencyLogo": null,
 			"adviserId": 38101,
 			"adviserName": "خانم نانوش",
-			"link": "https://www.zoomila.com/تهران/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-13 19:14:04",
 			"storage": true,
 			"yard": false,
@@ -2917,20 +2658,11 @@
 			"coordinate": "35.785918,51.380737",
 			"availableDate": null,
 			"address": {
-			  "addressId": 191827,
-			  "buildingId": 769042,
 			  "main": "بالای کاج",
 			  "detail": "خ ششم",
-			  "visible": true,
-			  "createdAt": "1401-09-13 19:14:04",
-			  "updatedAt": "1401-09-13 21:04:51",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 768081,
-			  "createdAt": "1401-09-13 19:14:04",
-			  "updatedAt": "1401-09-13 19:14:04",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -2974,11 +2706,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-13 21:04:51",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "780265"
+			"issell": true
 		  },
 		  {
 			"id": 664470,
@@ -2992,7 +2720,6 @@
 			"area": 125,
 			"areaType": false,
 			"rooms": 3,
-			"photoPath": "https://www.zoomila.com/uploads/agency-15657/768685/",
 			"photos": [
 			  "638b9bded5445.jpg",
 			  "638b9be1acca7.jpg",
@@ -3002,15 +2729,12 @@
 			"publishedAt": "1401-09-13 00:43:56",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 768685,
-			"trackingCode": 12,
 			"slug": "ویلا 125 متری سه خوابه در چیتگر شمالی",
 			"agencyId": 15657,
 			"agencyName": "املاک مروارید",
 			"agencyLogo": null,
 			"adviserId": 19933,
 			"adviserName": "آقای جوادی",
-			"link": "https://www.zoomila.com/تهران/Villa/رهن-اجاره",
 			"createdAt": "1401-09-12 22:25:53",
 			"storage": true,
 			"yard": null,
@@ -3048,20 +2772,11 @@
 			"coordinate": "35.75192663572428,51.23448371870837",
 			"availableDate": null,
 			"address": {
-			  "addressId": 191764,
-			  "buildingId": 768685,
 			  "main": "شهرک راه آهن",
 			  "detail": null,
-			  "visible": true,
-			  "createdAt": "1401-09-12 22:25:53",
-			  "updatedAt": "1401-09-13 00:43:46",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 767724,
-			  "createdAt": "1401-09-12 22:25:53",
-			  "updatedAt": "1401-09-12 22:31:13",
-			  "deletedAt": null,
 			  "parking": "اختصاصی",
 			  "kitchenUnit": "ممبران",
 			  "flooring": "سنگ",
@@ -3105,11 +2820,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-13 00:43:46",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "779908"
+			"issell": true
 		  },
 		  {
 			"id": 663825,
@@ -3123,7 +2834,6 @@
 			"area": 135,
 			"areaType": false,
 			"rooms": 3,
-			"photoPath": "https://www.zoomila.com/uploads/agency-15657/767978/",
 			"photos": [
 			  "6388a580dc2f6.jpg",
 			  "6388a59c3500a.jpg"
@@ -3131,15 +2841,12 @@
 			"publishedAt": "1401-09-10 16:53:51",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 767978,
-			"trackingCode": 12,
 			"slug": "آپارتمان 135 متری سه خوابه در چیتگر",
 			"agencyId": 15657,
 			"agencyName": "املاک مروارید",
 			"agencyLogo": null,
 			"adviserId": 19933,
 			"adviserName": "آقای جوادی",
-			"link": "https://www.zoomila.com/تهران/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-10 15:54:48",
 			"storage": null,
 			"yard": null,
@@ -3175,20 +2882,11 @@
 			"coordinate": "35.714729, 51.182500",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 767017,
-			  "createdAt": "1401-09-10 15:54:48",
-			  "updatedAt": "1401-09-10 16:41:30",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -3232,11 +2930,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-10 15:54:48",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "779201"
+			"issell": true
 		  },
 		  {
 			"id": 663822,
@@ -3250,7 +2944,6 @@
 			"area": 125,
 			"areaType": false,
 			"rooms": 2,
-			"photoPath": "https://www.zoomila.com/uploads/agency-15657/767975/",
 			"photos": [
 			  "6388a520b6679.jpg",
 			  "6388a4dd2e08f.jpg",
@@ -3260,15 +2953,12 @@
 			"publishedAt": "1401-09-10 16:53:41",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 767975,
-			"trackingCode": 12,
 			"slug": "آپارتمان 125 متری دو خوابه در چیتگر",
 			"agencyId": 15657,
 			"agencyName": "املاک مروارید",
 			"agencyLogo": null,
 			"adviserId": 19933,
 			"adviserName": "آقای جوادی",
-			"link": "https://www.zoomila.com/تهران/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-10 15:51:50",
 			"storage": null,
 			"yard": null,
@@ -3307,20 +2997,11 @@
 			"coordinate": "35.714729, 51.182500",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 767014,
-			  "createdAt": "1401-09-10 15:51:50",
-			  "updatedAt": "1401-09-10 16:32:15",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -3364,11 +3045,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-10 15:51:50",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "779198"
+			"issell": true
 		  },
 		  {
 			"id": 662207,
@@ -3382,7 +3059,6 @@
 			"area": 200,
 			"areaType": false,
 			"rooms": 2,
-			"photoPath": "https://www.zoomila.com/uploads/agency-15657/766153/",
 			"photos": [
 			  "63835561a0f75.jpg",
 			  "6383556597cd5.jpg",
@@ -3393,15 +3069,12 @@
 			"publishedAt": "1401-09-06 15:57:41",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 766153,
-			"trackingCode": 12,
 			"slug": "ویلا 200 متری دو خوابه در چیتگر شمالی",
 			"agencyId": 15657,
 			"agencyName": "املاک مروارید",
 			"agencyLogo": null,
 			"adviserId": 19933,
 			"adviserName": "آقای جوادی",
-			"link": "https://www.zoomila.com/تهران/Villa/رهن-اجاره",
 			"createdAt": "1401-09-06 15:45:22",
 			"storage": true,
 			"yard": true,
@@ -3439,20 +3112,11 @@
 			"coordinate": "35.747819976823905,51.235061125917134",
 			"availableDate": null,
 			"address": {
-			  "addressId": 191239,
-			  "buildingId": 766153,
 			  "main": "شهرک راه آهن (گلستان)",
 			  "detail": null,
-			  "visible": true,
-			  "createdAt": "1401-09-06 15:45:22",
-			  "updatedAt": "1401-09-06 15:45:22",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 765192,
-			  "createdAt": "1401-09-06 15:45:22",
-			  "updatedAt": "1401-09-06 15:51:50",
-			  "deletedAt": null,
 			  "parking": "اختصاصی",
 			  "kitchenUnit": "ممبران",
 			  "flooring": "سرامیک",
@@ -3496,11 +3160,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-06 15:45:22",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "777376"
+			"issell": true
 		  },
 		  {
 			"id": 661102,
@@ -3514,7 +3174,6 @@
 			"area": 1000,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com/uploads/agency-29299/764927/",
 			"photos": [
 			  "637f0a5392978.jpg",
 			  "637f0a606e826.jpg",
@@ -3528,15 +3187,12 @@
 			"publishedAt": "1401-09-03 12:50:57",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 764927,
-			"trackingCode": 12,
 			"slug": "باغ 1000 متری در رباط کریم",
 			"agencyId": 29299,
 			"agencyName": "پرند",
 			"agencyLogo": null,
 			"adviserId": 34555,
 			"adviserName": "علی اوجی",
-			"link": "https://www.zoomila.com/تهران/Garden/رهن-اجاره",
 			"createdAt": "1401-09-03 09:37:56",
 			"storage": null,
 			"yard": null,
@@ -3572,20 +3228,11 @@
 			"coordinate": "35.493706, 50.916326",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 763966,
-			  "createdAt": "1401-09-03 09:37:56",
-			  "updatedAt": "1401-09-03 09:39:40",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -3629,11 +3276,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-03 09:39:31",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "776150"
+			"issell": true
 		  },
 		  {
 			"id": 660780,
@@ -3647,7 +3290,6 @@
 			"area": 195,
 			"areaType": false,
 			"rooms": 3,
-			"photoPath": "https://www.zoomila.com/uploads/agency-26597/764572/",
 			"photos": [
 			  "637dfb69424c4938.jpg",
 			  "637dfb842fd18580.jpg",
@@ -3659,15 +3301,12 @@
 			"publishedAt": "1401-09-21 13:56:39",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 764572,
-			"trackingCode": 12,
 			"slug": "آپارتمان 195 متری سه خوابه در محمودیه",
 			"agencyId": 26597,
 			"agencyName": "املاک دی تی",
 			"agencyLogo": null,
 			"adviserId": 31643,
 			"adviserName": "داود  تبریزی",
-			"link": "https://www.zoomila.com/تهران/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-02 14:25:59",
 			"storage": false,
 			"yard": false,
@@ -3703,20 +3342,11 @@
 			"coordinate": "35.797282,51.41175",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 763611,
-			  "createdAt": "1401-09-02 14:25:59",
-			  "updatedAt": "1401-09-02 14:25:59",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -3760,11 +3390,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-02 14:25:59",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "775795"
+			"issell": true
 		  },
 		  {
 			"id": 659496,
@@ -3778,7 +3404,6 @@
 			"area": 138,
 			"areaType": false,
 			"rooms": 3,
-			"photoPath": "https://www.zoomila.com/uploads/agency-29831/763118/",
 			"photos": [
 			  "6379efe862ba9.jpg",
 			  "6379efecba88c.jpg",
@@ -3794,15 +3419,12 @@
 			"publishedAt": "1401-08-29 12:59:21",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 763118,
-			"trackingCode": 12,
 			"slug": "خانه 138 متری سه خوابه در فرمانیه",
 			"agencyId": 29831,
 			"agencyName": "املاک امیر",
 			"agencyLogo": null,
 			"adviserId": 35125,
 			"adviserName": "محمدی",
-			"link": "https://www.zoomila.com/تهران/Home/رهن-اجاره",
 			"createdAt": "1401-08-29 12:41:18",
 			"storage": null,
 			"yard": null,
@@ -3838,20 +3460,11 @@
 			"coordinate": "35.804603, 51.452689",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 762157,
-			  "createdAt": "1401-08-29 12:41:18",
-			  "updatedAt": "1401-08-29 12:41:18",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -3895,11 +3508,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-08-29 12:41:18",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "774341"
+			"issell": true
 		  },
 		  {
 			"id": 658108,
@@ -3913,7 +3522,6 @@
 			"area": 130,
 			"areaType": false,
 			"rooms": 3,
-			"photoPath": "https://www.zoomila.com/uploads/agency-29831/761596/",
 			"photos": [
 			  "6373cec00cc31.jpg",
 			  "6373cec4c6ccc.jpg",
@@ -3927,15 +3535,12 @@
 			"publishedAt": "1401-09-21 09:52:35",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 761596,
-			"trackingCode": 12,
 			"slug": "خانه 130 متری سه خوابه در اختیاریه",
 			"agencyId": 29831,
 			"agencyName": "املاک امیر",
 			"agencyLogo": null,
 			"adviserId": 35125,
 			"adviserName": "محمدی",
-			"link": "https://www.zoomila.com/تهران/Home/رهن-اجاره",
 			"createdAt": "1401-08-24 21:06:21",
 			"storage": true,
 			"yard": null,
@@ -3971,20 +3576,11 @@
 			"coordinate": "35.787788, 51.458973",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 760635,
-			  "createdAt": "1401-08-24 21:06:21",
-			  "updatedAt": "1401-08-24 21:16:52",
-			  "deletedAt": null,
 			  "parking": "اختصاصی",
 			  "kitchenUnit": null,
 			  "flooring": "سنگ",
@@ -4028,11 +3624,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-08-24 21:16:36",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "772819"
+			"issell": true
 		  },
 		  {
 			"id": 658099,
@@ -4046,7 +3638,6 @@
 			"area": 180,
 			"areaType": false,
 			"rooms": 3,
-			"photoPath": "https://www.zoomila.com/uploads/agency-29831/761587/",
 			"photos": [
 			  "6373cbfdb3329.jpg",
 			  "6373cc12ea800.jpg",
@@ -4060,15 +3651,12 @@
 			"publishedAt": "1401-09-21 09:52:50",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 761587,
-			"trackingCode": 12,
 			"slug": "خانه 180 متری سه خوابه در فرمانیه",
 			"agencyId": 29831,
 			"agencyName": "املاک امیر",
 			"agencyLogo": null,
 			"adviserId": 35125,
 			"adviserName": "محمدی",
-			"link": "https://www.zoomila.com/تهران/Home/رهن-اجاره",
 			"createdAt": "1401-08-24 20:53:54",
 			"storage": true,
 			"yard": true,
@@ -4104,20 +3692,11 @@
 			"coordinate": "35.804603, 51.452689",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 760626,
-			  "createdAt": "1401-08-24 20:53:54",
-			  "updatedAt": "1401-08-24 21:12:27",
-			  "deletedAt": null,
 			  "parking": "اختصاصی",
 			  "kitchenUnit": "ممبران",
 			  "flooring": "سنگ",
@@ -4161,11 +3740,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-08-24 21:02:31",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "772810"
+			"issell": true
 		  },
 		  {
 			"id": 658090,
@@ -4179,7 +3754,6 @@
 			"area": 63,
 			"areaType": false,
 			"rooms": 1,
-			"photoPath": "https://www.zoomila.com/uploads/agency-29831/761578/",
 			"photos": [
 			  "6373ca40429ce.jpg",
 			  "6373ca2e44cd3.jpg",
@@ -4192,15 +3766,12 @@
 			"publishedAt": "1401-09-21 09:53:00",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 761578,
-			"trackingCode": 12,
 			"slug": "آپارتمان 63 متری یک خوابه در نیاوران",
 			"agencyId": 29831,
 			"agencyName": "املاک امیر",
 			"agencyLogo": null,
 			"adviserId": 35125,
 			"adviserName": "محمدی",
-			"link": "https://www.zoomila.com/تهران/Apartment/رهن-اجاره",
 			"createdAt": "1401-08-24 20:45:07",
 			"storage": true,
 			"yard": null,
@@ -4238,20 +3809,11 @@
 			"coordinate": "35.816027, 51.469654",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 760617,
-			  "createdAt": "1401-08-24 20:45:07",
-			  "updatedAt": "1401-08-24 20:57:26",
-			  "deletedAt": null,
 			  "parking": "اختصاصی",
 			  "kitchenUnit": "MDF",
 			  "flooring": "پارکت",
@@ -4295,11 +3857,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-08-24 20:56:46",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "772801"
+			"issell": true
 		  },
 		  {
 			"id": 656498,
@@ -4313,7 +3871,6 @@
 			"area": 110,
 			"areaType": false,
 			"rooms": 2,
-			"photoPath": "https://www.zoomila.com/uploads/agency-29831/759845/",
 			"photos": [
 			  "636f38c7725a5.jpg",
 			  "636f38caebb0a.jpg",
@@ -4326,15 +3883,12 @@
 			"publishedAt": "1401-09-21 09:53:08",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 759845,
-			"trackingCode": 12,
 			"slug": "خانه 110 متری دو خوابه در اختیاریه",
 			"agencyId": 29831,
 			"agencyName": "املاک امیر",
 			"agencyLogo": null,
 			"adviserId": 35125,
 			"adviserName": "محمدی",
-			"link": "https://www.zoomila.com/تهران/Home/رهن-اجاره",
 			"createdAt": "1401-08-21 09:38:23",
 			"storage": true,
 			"yard": null,
@@ -4370,20 +3924,11 @@
 			"coordinate": "35.787788, 51.458973",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 758888,
-			  "createdAt": "1401-08-21 09:38:23",
-			  "updatedAt": "1401-08-21 12:34:11",
-			  "deletedAt": null,
 			  "parking": "اختصاصی",
 			  "kitchenUnit": null,
 			  "flooring": "سنگ",
@@ -4427,11 +3972,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-08-21 09:38:23",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "771068"
+			"issell": true
 		  },
 		  {
 			"id": 656496,
@@ -4445,7 +3986,6 @@
 			"area": 105,
 			"areaType": false,
 			"rooms": 2,
-			"photoPath": "https://www.zoomila.com/uploads/agency-29831/759843/",
 			"photos": [
 			  "636f362283df6.jpg",
 			  "636f3625e3e01.jpg",
@@ -4458,15 +3998,12 @@
 			"publishedAt": "1401-09-21 09:53:17",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 759843,
-			"trackingCode": 12,
 			"slug": "خانه 105 متری دو خوابه در قیطریه",
 			"agencyId": 29831,
 			"agencyName": "املاک امیر",
 			"agencyLogo": null,
 			"adviserId": 35125,
 			"adviserName": "محمدی",
-			"link": "https://www.zoomila.com/تهران/Home/رهن-اجاره",
 			"createdAt": "1401-08-21 09:27:15",
 			"storage": true,
 			"yard": null,
@@ -4502,20 +4039,11 @@
 			"coordinate": "35.7925,51.4443",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 758886,
-			  "createdAt": "1401-08-21 09:27:15",
-			  "updatedAt": "1401-08-21 12:30:40",
-			  "deletedAt": null,
 			  "parking": "اختصاصی",
 			  "kitchenUnit": "MDF",
 			  "flooring": "سنگ",
@@ -4559,11 +4087,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-08-21 09:27:15",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "771066"
+			"issell": true
 		  },
 		  {
 			"id": 656492,
@@ -4577,7 +4101,6 @@
 			"area": 100,
 			"areaType": false,
 			"rooms": 2,
-			"photoPath": "https://www.zoomila.com/uploads/agency-29831/759839/",
 			"photos": [
 			  "636f2e8c6465f.jpg",
 			  "636f2e91caada.jpg",
@@ -4590,15 +4113,12 @@
 			"publishedAt": "1401-09-21 09:53:25",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 759839,
-			"trackingCode": 12,
 			"slug": "خانه 100 متری دو خوابه در دیباجی جنوبی",
 			"agencyId": 29831,
 			"agencyName": "املاک امیر",
 			"agencyLogo": null,
 			"adviserId": 35125,
 			"adviserName": "محمدی",
-			"link": "https://www.zoomila.com/تهران/Home/رهن-اجاره",
 			"createdAt": "1401-08-21 08:55:45",
 			"storage": true,
 			"yard": null,
@@ -4634,20 +4154,11 @@
 			"coordinate": "35.786747, 51.459823",
 			"availableDate": null,
 			"address": {
-			  "addressId": 190056,
-			  "buildingId": 759839,
 			  "main": "اختیاریه ، دیباجی جنوبی",
 			  "detail": null,
-			  "visible": true,
-			  "createdAt": "1401-08-21 08:55:45",
-			  "updatedAt": "1401-08-21 08:55:45",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 758882,
-			  "createdAt": "1401-08-21 08:55:45",
-			  "updatedAt": "1401-08-21 12:05:32",
-			  "deletedAt": null,
 			  "parking": "اختصاصی",
 			  "kitchenUnit": "ممبران",
 			  "flooring": "سنگ",
@@ -4691,11 +4202,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-08-21 08:55:45",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "771062"
+			"issell": true
 		  },
 		  {
 			"id": 654853,
@@ -4709,7 +4216,6 @@
 			"area": 80,
 			"areaType": false,
 			"rooms": 1,
-			"photoPath": "https://www.zoomila.com/uploads/agency-26597/758059/",
 			"photos": [
 			  "6368ecac3308e509.jpg",
 			  "6368ec6c64776605.jpg",
@@ -4722,15 +4228,12 @@
 			"publishedAt": "1401-09-21 13:56:34",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 758059,
-			"trackingCode": 12,
 			"slug": "آپارتمان 80 متری یک خوابه در زعفرانیه",
 			"agencyId": 26597,
 			"agencyName": "املاک دی تی",
 			"agencyLogo": null,
 			"adviserId": 31643,
 			"adviserName": "داود  تبریزی",
-			"link": "https://www.zoomila.com/تهران/Apartment/رهن-اجاره",
 			"createdAt": "1401-08-16 15:05:05",
 			"storage": false,
 			"yard": false,
@@ -4766,20 +4269,11 @@
 			"coordinate": "35.80672,51.414885",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 757102,
-			  "createdAt": "1401-08-16 15:05:05",
-			  "updatedAt": "1401-08-16 15:05:05",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -4823,11 +4317,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-08-16 15:05:05",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "769282"
+			"issell": true
 		  },
 		  {
 			"id": 654684,
@@ -4841,7 +4331,6 @@
 			"area": 102,
 			"areaType": false,
 			"rooms": 2,
-			"photoPath": "https://www.zoomila.com/uploads/agency-26597/757880/",
 			"photos": [
 			  "6368b1c02541a903.jpg",
 			  "6368b1d4acff0396.jpg",
@@ -4850,15 +4339,12 @@
 			"publishedAt": "1401-09-21 13:56:25",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 757880,
-			"trackingCode": 12,
 			"slug": "دفتر کار 102 متری دو خوابه در الهیه",
 			"agencyId": 26597,
 			"agencyName": "املاک دی تی",
 			"agencyLogo": null,
 			"adviserId": 31643,
 			"adviserName": "داود  تبریزی",
-			"link": "https://www.zoomila.com/تهران/Office/رهن-اجاره",
 			"createdAt": "1401-08-16 10:52:01",
 			"storage": false,
 			"yard": false,
@@ -4894,20 +4380,11 @@
 			"coordinate": "35.790632,51.427843",
 			"availableDate": null,
 			"address": {
-			  "addressId": 189695,
-			  "buildingId": 757880,
 			  "main": "فرشته بر ولیعصر",
 			  "detail": null,
-			  "visible": true,
-			  "createdAt": "1401-08-16 10:52:01",
-			  "updatedAt": "1401-08-16 10:52:01",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 756923,
-			  "createdAt": "1401-08-16 10:52:01",
-			  "updatedAt": "1401-08-16 10:52:01",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -4951,11 +4428,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-08-16 10:52:01",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "769103"
+			"issell": true
 		  },
 		  {
 			"id": 654439,
@@ -4969,7 +4442,6 @@
 			"area": 128,
 			"areaType": false,
 			"rooms": 2,
-			"photoPath": "https://www.zoomila.com/uploads/agency-29831/757618/",
 			"photos": [
 			  "636f2bc7f323d.jpg",
 			  "636f2bcf38f63.jpg",
@@ -4981,15 +4453,12 @@
 			"publishedAt": "1401-09-21 09:53:41",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 757618,
-			"trackingCode": 12,
 			"slug": "خانه 128 متری دو خوابه در دزاشیب",
 			"agencyId": 29831,
 			"agencyName": "املاک امیر",
 			"agencyLogo": null,
 			"adviserId": 35125,
 			"adviserName": "محمدی",
-			"link": "https://www.zoomila.com/تهران/Home/رهن-اجاره",
 			"createdAt": "1401-08-15 12:58:30",
 			"storage": null,
 			"yard": null,
@@ -5027,20 +4496,11 @@
 			"coordinate": "35.807924, 51.453223",
 			"availableDate": null,
 			"address": {
-			  "addressId": 189655,
-			  "buildingId": 757618,
 			  "main": null,
 			  "detail": "دزاشیب ، واعظی",
-			  "visible": true,
-			  "createdAt": "1401-08-15 12:58:30",
-			  "updatedAt": "1401-08-15 12:58:30",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 756661,
-			  "createdAt": "1401-08-15 12:58:30",
-			  "updatedAt": "1401-08-21 08:45:35",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -5084,11 +4544,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-08-15 12:58:30",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "768841"
+			"issell": true
 		  },
 		  {
 			"id": 654435,
@@ -5102,7 +4558,6 @@
 			"area": 145,
 			"areaType": false,
 			"rooms": 3,
-			"photoPath": "https://www.zoomila.com/uploads/agency-29831/757614/",
 			"photos": [
 			  "636f2d1bc6097.jpg",
 			  "636f2d1f64d52.jpg",
@@ -5115,15 +4570,12 @@
 			"publishedAt": "1401-09-21 09:54:00",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 757614,
-			"trackingCode": 12,
 			"slug": "خانه 145 متری سه خوابه در بلوار صبا",
 			"agencyId": 29831,
 			"agencyName": "املاک امیر",
 			"agencyLogo": null,
 			"adviserId": 35125,
 			"adviserName": "محمدی",
-			"link": "https://www.zoomila.com/تهران/Home/رهن-اجاره",
 			"createdAt": "1401-08-15 12:47:27",
 			"storage": true,
 			"yard": null,
@@ -5161,20 +4613,11 @@
 			"coordinate": "35.795039, 51.441098",
 			"availableDate": null,
 			"address": {
-			  "addressId": 189654,
-			  "buildingId": 757614,
 			  "main": "قیطریه ، سهیل",
 			  "detail": "قیطریه ، فاطمیه ، مهر هشتم ، میدان بنفشه کوچه بنفشه پلاک 1",
-			  "visible": true,
-			  "createdAt": "1401-08-15 12:47:27",
-			  "updatedAt": "1401-08-15 12:47:27",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 756657,
-			  "createdAt": "1401-08-15 12:47:27",
-			  "updatedAt": "1401-08-21 08:51:00",
-			  "deletedAt": null,
 			  "parking": "اختصاصی",
 			  "kitchenUnit": "ممبران",
 			  "flooring": "سنگ",
@@ -5218,11 +4661,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-08-15 12:47:27",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "768837"
+			"issell": true
 		  },
 		  {
 			"id": 637757,
@@ -5236,7 +4675,6 @@
 			"area": 1700,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com/uploads/agency-29743/738726/",
 			"photos": [
 			  "63183c6eab3c6.jpg",
 			  "63183c04aa3f0.jpg",
@@ -5252,15 +4690,12 @@
 			"publishedAt": "1401-09-20 09:54:21",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 738726,
-			"trackingCode": 12,
 			"slug": "خانه 1700 متری در لواسان",
 			"agencyId": 29743,
 			"agencyName": "آرسام",
 			"agencyLogo": null,
 			"adviserId": 35035,
 			"adviserName": "ابوذر کاظمی",
-			"link": "https://www.zoomila.com/تهران/Home/رهن-اجاره",
 			"createdAt": "1401-06-16 11:05:51",
 			"storage": null,
 			"yard": null,
@@ -5296,20 +4731,11 @@
 			"coordinate": "35.8209,51.6318",
 			"availableDate": null,
 			"address": {
-			  "addressId": 185844,
-			  "buildingId": 738726,
 			  "main": "تهران. لواسان",
 			  "detail": "تهران. لواسان",
-			  "visible": true,
-			  "createdAt": "1401-06-16 11:05:51",
-			  "updatedAt": "1401-06-16 11:05:51",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 737778,
-			  "createdAt": "1401-06-16 11:05:51",
-			  "updatedAt": "1401-06-16 11:09:55",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -5353,11 +4779,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-06-16 11:05:51",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "749949"
+			"issell": true
 		  },
 		  {
 			"id": 587722,
@@ -5371,7 +4793,6 @@
 			"area": 400,
 			"areaType": false,
 			"rooms": 4,
-			"photoPath": "https://www.zoomila.com/uploads/agency-22835/682501/",
 			"photos": [
 			  "6288b2b213ccb248.jpg",
 			  "6288b2cf1839e628.jpg"
@@ -5379,15 +4800,12 @@
 			"publishedAt": "1401-03-04 11:59:58",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 682501,
-			"trackingCode": 12,
 			"slug": "آپارتمان 400 متری چهار خوابه در نیاوران",
 			"agencyId": 22835,
 			"agencyName": "پردیس پارس",
 			"agencyLogo": "uploads/agency-22835/logo/62974d9f51fbc.jpg",
 			"adviserId": 27620,
 			"adviserName": "رامین راد",
-			"link": "https://www.zoomila.com/تهران/Apartment/رهن-اجاره",
 			"createdAt": "1401-02-31 14:07:26",
 			"storage": true,
 			"yard": true,
@@ -5425,20 +4843,11 @@
 			"coordinate": "35.816027,51.469654",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 681586,
-			  "createdAt": "1401-02-31 14:07:26",
-			  "updatedAt": "1401-03-04 12:03:30",
-			  "deletedAt": null,
 			  "parking": "اختصاصی",
 			  "kitchenUnit": "ممبران",
 			  "flooring": "سنگ",
@@ -5482,11 +4891,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-03-04 12:03:27",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "693724"
+			"issell": true
 		  },
 		  {
 			"id": 667777,
@@ -5500,7 +4905,6 @@
 			"area": 65,
 			"areaType": false,
 			"rooms": 2,
-			"photoPath": "https://www.zoomila.com/uploads/agency-1081/772370/",
 			"photos": [
 			  "639b2216b65b9215.jpg",
 			  "639b221ea0e05547.jpg",
@@ -5510,15 +4914,12 @@
 			"publishedAt": "1401-09-24 17:45:16",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 772370,
-			"trackingCode": 12,
 			"slug": "آپارتمان 65 متری دو خوابه در گلستان شمالی",
 			"agencyId": 1081,
 			"agencyName": "املاک صاد",
 			"agencyLogo": "uploads/agency-1081/logo/5d9c765fa2959.jpg",
 			"adviserId": 38254,
 			"adviserName": "نیما",
-			"link": "https://www.zoomila.com/تهران/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-24 17:03:36",
 			"storage": true,
 			"yard": false,
@@ -5556,20 +4957,11 @@
 			"coordinate": "35.72486542528918,51.32046427577734",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 771398,
-			  "createdAt": "1401-09-24 17:03:36",
-			  "updatedAt": "1401-09-24 17:03:36",
-			  "deletedAt": null,
 			  "parking": "اختصاصی",
 			  "kitchenUnit": "ام دی اف",
 			  "flooring": "پارکت",
@@ -5613,11 +5005,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-24 17:03:36",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "783593"
+			"issell": true
 		  },
 		  {
 			"id": 667540,
@@ -5631,7 +5019,6 @@
 			"area": 110,
 			"areaType": false,
 			"rooms": 2,
-			"photoPath": "https://www.zoomila.com/uploads/agency-15657/772112/",
 			"photos": [
 			  "639a17c87debd.jpg",
 			  "639a17c20219a.jpg",
@@ -5640,15 +5027,12 @@
 			"publishedAt": "1401-09-24 00:16:57",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 772112,
-			"trackingCode": 12,
 			"slug": "آپارتمان 110 متری دو خوابه در چیتگر",
 			"agencyId": 15657,
 			"agencyName": "املاک مروارید",
 			"agencyLogo": null,
 			"adviserId": 19933,
 			"adviserName": "آقای جوادی",
-			"link": "https://www.zoomila.com/تهران/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-23 21:59:10",
 			"storage": null,
 			"yard": null,
@@ -5684,20 +5068,11 @@
 			"coordinate": "35.71504935155333,51.18278243327951",
 			"availableDate": null,
 			"address": {
-			  "addressId": 192503,
-			  "buildingId": 772112,
 			  "main": "کوهک",
 			  "detail": null,
-			  "visible": true,
-			  "createdAt": "1401-09-24 21:10:34",
-			  "updatedAt": "1401-09-24 21:11:23",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 771140,
-			  "createdAt": "1401-09-23 21:59:10",
-			  "updatedAt": "1401-09-24 21:13:29",
-			  "deletedAt": null,
 			  "parking": "اختصاصی",
 			  "kitchenUnit": "ندارد",
 			  "flooring": null,
@@ -5741,11 +5116,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-24 21:11:23",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "783335"
+			"issell": true
 		  },
 		  {
 			"id": 667504,
@@ -5759,7 +5130,6 @@
 			"area": 69,
 			"areaType": false,
 			"rooms": 1,
-			"photoPath": "https://www.zoomila.com/uploads/agency-1081/772076/",
 			"photos": [
 			  "6399e1c3b3d6a681.jpg",
 			  "6399e1cb0ac02749.jpg",
@@ -5771,15 +5141,12 @@
 			"publishedAt": "1401-09-23 23:46:34",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 772076,
-			"trackingCode": 12,
 			"slug": "آپارتمان 69 متری یک خوابه در بلوار فردوس غربی",
 			"agencyId": 1081,
 			"agencyName": "املاک صاد",
 			"agencyLogo": "uploads/agency-1081/logo/5d9c765fa2959.jpg",
 			"adviserId": 38254,
 			"adviserName": "نیما",
-			"link": "https://www.zoomila.com/تهران/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-23 18:17:15",
 			"storage": true,
 			"yard": false,
@@ -5817,20 +5184,11 @@
 			"coordinate": "35.7305672726733,51.301034688949585",
 			"availableDate": null,
 			"address": {
-			  "addressId": 192408,
-			  "buildingId": 772076,
 			  "main": "فردوس",
 			  "detail": null,
-			  "visible": true,
-			  "createdAt": "1401-09-23 18:17:15",
-			  "updatedAt": "1401-09-23 23:43:08",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 771104,
-			  "createdAt": "1401-09-23 18:17:15",
-			  "updatedAt": "1401-09-23 18:17:15",
-			  "deletedAt": null,
 			  "parking": "اختصاصی",
 			  "kitchenUnit": "ممبران",
 			  "flooring": "سنگ",
@@ -5874,11 +5232,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-23 23:43:08",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "783299"
+			"issell": true
 		  },
 		  {
 			"id": 667485,
@@ -5892,7 +5246,6 @@
 			"area": 45,
 			"areaType": false,
 			"rooms": 1,
-			"photoPath": "https://www.zoomila.com/uploads/agency-1081/772057/",
 			"photos": [
 			  "6399d9ec512dd535.jpg",
 			  "6399d9f31aaae775.jpg",
@@ -5902,15 +5255,12 @@
 			"publishedAt": "1401-09-23 17:46:09",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 772057,
-			"trackingCode": 12,
 			"slug": "آپارتمان 45 متری یک خوابه در فردوس شرقی",
 			"agencyId": 1081,
 			"agencyName": "املاک صاد",
 			"agencyLogo": "uploads/agency-1081/logo/5d9c765fa2959.jpg",
 			"adviserId": 38254,
 			"adviserName": "نیما",
-			"link": "https://www.zoomila.com/تهران/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-23 17:43:22",
 			"storage": true,
 			"yard": true,
@@ -5946,20 +5296,11 @@
 			"coordinate": "35.72712481991002,51.314864829182625",
 			"availableDate": null,
 			"address": {
-			  "addressId": 192405,
-			  "buildingId": 772057,
 			  "main": "فردوس",
 			  "detail": null,
-			  "visible": true,
-			  "createdAt": "1401-09-23 17:43:22",
-			  "updatedAt": "1401-09-23 17:43:22",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 771085,
-			  "createdAt": "1401-09-23 17:43:22",
-			  "updatedAt": "1401-09-23 17:43:22",
-			  "deletedAt": null,
 			  "parking": "اختصاصی",
 			  "kitchenUnit": "ام دی اف",
 			  "flooring": "سنگ",
@@ -6003,11 +5344,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-23 17:43:22",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "783280"
+			"issell": true
 		  },
 		  {
 			"id": 667383,
@@ -6021,20 +5358,16 @@
 			"area": 84,
 			"areaType": false,
 			"rooms": 2,
-			"photoPath": "https://www.zoomila.com//",
 			"photos": null,
 			"publishedAt": "1401-09-23 15:05:48",
 			"cityId": 107,
 			"cityName": "تهران",
-			"buildingId": 771952,
-			"trackingCode": 12,
 			"slug": "آپارتمان 84 متری دو خوابه در سه راه آذری",
 			"agencyId": 1451,
 			"agencyName": "مشاور املاک نورسته",
 			"agencyLogo": "uploads/agency-1451/logo/6304db9aba72f.jpg",
 			"adviserId": 1587,
 			"adviserName": "نورسته",
-			"link": "https://www.zoomila.com/تهران/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-23 14:08:10",
 			"storage": false,
 			"yard": null,
@@ -6070,20 +5403,11 @@
 			"coordinate": "35.670574, 51.352647",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 770980,
-			  "createdAt": "1401-09-23 14:08:10",
-			  "updatedAt": "1401-09-23 14:10:59",
-			  "deletedAt": null,
 			  "parking": "اختصاصی",
 			  "kitchenUnit": "ندارد",
 			  "flooring": "سرامیک",
@@ -6127,11 +5451,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-23 14:08:10",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "783175"
+			"issell": true
 		  },
 		  {
 			"id": 658809,
@@ -6145,22 +5465,18 @@
 			"area": 3000,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com/uploads/agency-12793/762377/",
 			"photos": [
 			  "63787ab9bc643.jpg"
 			],
 			"publishedAt": "1401-08-26 21:25:48",
 			"cityId": 1,
 			"cityName": "تبریز",
-			"buildingId": 762377,
-			"trackingCode": 12,
 			"slug": "زمین مسکونی 3000 متری در هفده شهریور",
 			"agencyId": 12793,
 			"agencyName": "گروه ویلایی جاهد",
 			"agencyLogo": null,
 			"adviserId": 16686,
 			"adviserName": "آقای بهرام جاهد",
-			"link": "https://www.zoomila.com/تبریز/ResidentialLand/رهن-اجاره",
 			"createdAt": "1401-08-26 21:16:14",
 			"storage": null,
 			"yard": null,
@@ -6196,20 +5512,11 @@
 			"coordinate": "38.068187, 46.292578",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 761416,
-			  "createdAt": "1401-08-26 21:16:14",
-			  "updatedAt": "1401-08-28 10:12:11",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -6253,11 +5560,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-08-26 21:16:14",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "773600"
+			"issell": true
 		  },
 		  {
 			"id": 658808,
@@ -6271,22 +5574,18 @@
 			"area": 650,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com/uploads/agency-12793/762376/",
 			"photos": [
 			  "63787a943a9f2.jpg"
 			],
 			"publishedAt": "1401-08-26 21:27:03",
 			"cityId": 1,
 			"cityName": "تبریز",
-			"buildingId": 762376,
-			"trackingCode": 12,
 			"slug": "ویلا 650 متری در سعید آباد",
 			"agencyId": 12793,
 			"agencyName": "گروه ویلایی جاهد",
 			"agencyLogo": null,
 			"adviserId": 16686,
 			"adviserName": "آقای بهرام جاهد",
-			"link": "https://www.zoomila.com/تبریز/Villa/رهن-اجاره",
 			"createdAt": "1401-08-26 21:08:44",
 			"storage": null,
 			"yard": null,
@@ -6324,20 +5623,11 @@
 			"coordinate": "38.089322, 46.332757",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 761415,
-			  "createdAt": "1401-08-26 21:08:44",
-			  "updatedAt": "1401-08-28 10:11:29",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -6381,11 +5671,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-08-26 21:08:44",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "773599"
+			"issell": true
 		  },
 		  {
 			"id": 658805,
@@ -6399,22 +5685,18 @@
 			"area": 4000,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com/uploads/agency-12793/762373/",
 			"photos": [
 			  "63787aa7460df.jpg"
 			],
 			"publishedAt": "1401-08-26 21:25:38",
 			"cityId": 1,
 			"cityName": "تبریز",
-			"buildingId": 762373,
-			"trackingCode": 12,
 			"slug": "زمین زراعی 4000 متری در کوی سهند",
 			"agencyId": 12793,
 			"agencyName": "گروه ویلایی جاهد",
 			"agencyLogo": null,
 			"adviserId": 16686,
 			"adviserName": "آقای بهرام جاهد",
-			"link": "https://www.zoomila.com/تبریز/FarmLand/رهن-اجاره",
 			"createdAt": "1401-08-26 21:01:50",
 			"storage": null,
 			"yard": null,
@@ -6450,20 +5732,11 @@
 			"coordinate": "38.028221, 46.356751",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 761412,
-			  "createdAt": "1401-08-26 21:01:50",
-			  "updatedAt": "1401-08-28 10:11:49",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -6507,11 +5780,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-08-26 21:01:50",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "773596"
+			"issell": true
 		  },
 		  {
 			"id": 658804,
@@ -6525,22 +5794,18 @@
 			"area": 155,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com/uploads/agency-12793/762372/",
 			"photos": [
 			  "63787a7242425.jpg"
 			],
 			"publishedAt": "1401-08-26 21:25:27",
 			"cityId": 1,
 			"cityName": "تبریز",
-			"buildingId": 762372,
-			"trackingCode": 12,
 			"slug": "زمین مسکونی 155 متری در زعفرانیه",
 			"agencyId": 12793,
 			"agencyName": "گروه ویلایی جاهد",
 			"agencyLogo": null,
 			"adviserId": 16686,
 			"adviserName": "آقای بهرام جاهد",
-			"link": "https://www.zoomila.com/تبریز/ResidentialLand/رهن-اجاره",
 			"createdAt": "1401-08-26 20:59:06",
 			"storage": null,
 			"yard": null,
@@ -6576,20 +5841,11 @@
 			"coordinate": "38.041775, 46.339332",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 761411,
-			  "createdAt": "1401-08-26 20:59:06",
-			  "updatedAt": "1401-08-28 10:10:52",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -6633,11 +5889,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-08-26 20:59:06",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "773595"
+			"issell": true
 		  },
 		  {
 			"id": 658421,
@@ -6651,22 +5903,18 @@
 			"area": 1000,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com/uploads/agency-12793/761941/",
 			"photos": [
 			  "63787b1209fbd.jpg"
 			],
 			"publishedAt": "1401-08-25 18:43:30",
 			"cityId": 1,
 			"cityName": "تبریز",
-			"buildingId": 761941,
-			"trackingCode": 12,
 			"slug": "ویلا 1000 متری در یوسف آباد",
 			"agencyId": 12793,
 			"agencyName": "گروه ویلایی جاهد",
 			"agencyLogo": null,
 			"adviserId": 16686,
 			"adviserName": "آقای بهرام جاهد",
-			"link": "https://www.zoomila.com/تبریز/Villa/رهن-اجاره",
 			"createdAt": "1401-08-25 17:35:45",
 			"storage": null,
 			"yard": null,
@@ -6705,20 +5953,11 @@
 			"coordinate": "38.081917, 46.337704",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 760980,
-			  "createdAt": "1401-08-25 17:35:45",
-			  "updatedAt": "1401-08-28 10:14:43",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -6762,11 +6001,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-08-25 17:35:45",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "773164"
+			"issell": true
 		  },
 		  {
 			"id": 658416,
@@ -6780,22 +6015,18 @@
 			"area": 513,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com/uploads/agency-12793/761936/",
 			"photos": [
 			  "63787b9f019bf.jpg"
 			],
 			"publishedAt": "1401-09-13 09:36:01",
 			"cityId": 1,
 			"cityName": "تبریز",
-			"buildingId": 761936,
-			"trackingCode": 12,
 			"slug": "زمین مسکونی 513 متری در هروی",
 			"agencyId": 12793,
 			"agencyName": "گروه ویلایی جاهد",
 			"agencyLogo": null,
 			"adviserId": 16686,
 			"adviserName": "آقای بهرام جاهد",
-			"link": "https://www.zoomila.com/تبریز/ResidentialLand/رهن-اجاره",
 			"createdAt": "1401-08-25 17:14:03",
 			"storage": null,
 			"yard": null,
@@ -6831,20 +6062,11 @@
 			"coordinate": "37.923287, 46.478980",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 760975,
-			  "createdAt": "1401-08-25 17:14:03",
-			  "updatedAt": "1401-08-28 10:15:52",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -6888,11 +6110,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-08-25 17:14:03",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "773159"
+			"issell": true
 		  },
 		  {
 			"id": 658415,
@@ -6906,22 +6124,18 @@
 			"area": 1400,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com/uploads/agency-12793/761935/",
 			"photos": [
 			  "63787badd7ba6.jpg"
 			],
 			"publishedAt": "1401-09-13 09:35:48",
 			"cityId": 1,
 			"cityName": "تبریز",
-			"buildingId": 761935,
-			"trackingCode": 12,
 			"slug": "زمین مسکونی 1400 متری در یوسف آباد",
 			"agencyId": 12793,
 			"agencyName": "گروه ویلایی جاهد",
 			"agencyLogo": null,
 			"adviserId": 16686,
 			"adviserName": "آقای بهرام جاهد",
-			"link": "https://www.zoomila.com/تبریز/ResidentialLand/رهن-اجاره",
 			"createdAt": "1401-08-25 17:09:00",
 			"storage": null,
 			"yard": null,
@@ -6959,20 +6173,11 @@
 			"coordinate": "38.081917, 46.337704",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 760974,
-			  "createdAt": "1401-08-25 17:09:00",
-			  "updatedAt": "1401-08-28 10:16:10",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -7016,11 +6221,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-08-25 17:09:00",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "773158"
+			"issell": true
 		  },
 		  {
 			"id": 658412,
@@ -7034,22 +6235,18 @@
 			"area": 1000,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com/uploads/agency-12793/761932/",
 			"photos": [
 			  "63787be2c6207.jpg"
 			],
 			"publishedAt": "1401-09-13 09:35:40",
 			"cityId": 1,
 			"cityName": "تبریز",
-			"buildingId": 761932,
-			"trackingCode": 12,
 			"slug": "زمین مسکونی 1000 متری در سعید آباد",
 			"agencyId": 12793,
 			"agencyName": "گروه ویلایی جاهد",
 			"agencyLogo": null,
 			"adviserId": 16686,
 			"adviserName": "آقای بهرام جاهد",
-			"link": "https://www.zoomila.com/تبریز/ResidentialLand/رهن-اجاره",
 			"createdAt": "1401-08-25 17:01:19",
 			"storage": null,
 			"yard": null,
@@ -7087,20 +6284,11 @@
 			"coordinate": "38.089322, 46.332757",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 760971,
-			  "createdAt": "1401-08-25 17:01:19",
-			  "updatedAt": "1401-08-28 10:17:05",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -7144,11 +6332,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-08-25 17:01:19",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "773155"
+			"issell": true
 		  },
 		  {
 			"id": 656836,
@@ -7162,22 +6346,18 @@
 			"area": 1800,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com/uploads/agency-12793/760212/",
 			"photos": [
 			  "636fc0f7cecf5.jpg"
 			],
 			"publishedAt": "1401-09-13 09:35:32",
 			"cityId": 1,
 			"cityName": "تبریز",
-			"buildingId": 760212,
-			"trackingCode": 12,
 			"slug": "ویلا 1800 متری در قره آغاج",
 			"agencyId": 12793,
 			"agencyName": "گروه ویلایی جاهد",
 			"agencyLogo": null,
 			"adviserId": 16686,
 			"adviserName": "آقای بهرام جاهد",
-			"link": "https://www.zoomila.com/تبریز/Villa/رهن-اجاره",
 			"createdAt": "1401-08-21 19:20:34",
 			"storage": null,
 			"yard": null,
@@ -7213,20 +6393,11 @@
 			"coordinate": "38.080528,46.268057",
 			"availableDate": null,
 			"address": {
-			  "addressId": 190131,
-			  "buildingId": 760212,
 			  "main": "کوی یاس",
 			  "detail": null,
-			  "visible": true,
-			  "createdAt": "1401-08-21 19:20:34",
-			  "updatedAt": "1401-08-21 19:20:34",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 759255,
-			  "createdAt": "1401-08-21 19:20:34",
-			  "updatedAt": "1401-08-21 19:21:39",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -7270,11 +6441,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-08-21 19:20:34",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "771435"
+			"issell": true
 		  },
 		  {
 			"id": 656812,
@@ -7288,22 +6455,18 @@
 			"area": 400,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com/uploads/agency-12793/760187/",
 			"photos": [
 			  "636fc15dda4f3.jpg"
 			],
 			"publishedAt": "1401-09-13 09:35:22",
 			"cityId": 1,
 			"cityName": "تبریز",
-			"buildingId": 760187,
-			"trackingCode": 12,
 			"slug": "ویلا 400 متری در سعید آباد",
 			"agencyId": 12793,
 			"agencyName": "گروه ویلایی جاهد",
 			"agencyLogo": null,
 			"adviserId": 16686,
 			"adviserName": "آقای بهرام جاهد",
-			"link": "https://www.zoomila.com/تبریز/Villa/رهن-اجاره",
 			"createdAt": "1401-08-21 19:00:40",
 			"storage": null,
 			"yard": null,
@@ -7341,20 +6504,11 @@
 			"coordinate": "38.089322, 46.332757",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 759230,
-			  "createdAt": "1401-08-21 19:00:40",
-			  "updatedAt": "1401-08-21 19:23:07",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -7398,11 +6552,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-08-21 19:00:40",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "771410"
+			"issell": true
 		  },
 		  {
 			"id": 656056,
@@ -7416,22 +6566,18 @@
 			"area": 700,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com/uploads/agency-12793/759377/",
 			"photos": [
 			  "636cb8e9829cc.jpg"
 			],
 			"publishedAt": "1401-09-13 09:35:15",
 			"cityId": 1,
 			"cityName": "تبریز",
-			"buildingId": 759377,
-			"trackingCode": 12,
 			"slug": "ویلا 700 متری در نعمت آباد",
 			"agencyId": 12793,
 			"agencyName": "گروه ویلایی جاهد",
 			"agencyLogo": null,
 			"adviserId": 16686,
 			"adviserName": "آقای بهرام جاهد",
-			"link": "https://www.zoomila.com/تبریز/Villa/رهن-اجاره",
 			"createdAt": "1401-08-19 12:09:20",
 			"storage": null,
 			"yard": null,
@@ -7469,20 +6615,11 @@
 			"coordinate": "38.013478, 46.455131",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 758420,
-			  "createdAt": "1401-08-19 12:09:20",
-			  "updatedAt": "1401-08-19 12:10:15",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -7526,11 +6663,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-08-19 12:09:20",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "770600"
+			"issell": true
 		  },
 		  {
 			"id": 655724,
@@ -7544,22 +6677,18 @@
 			"area": 810,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com/uploads/agency-12793/759012/",
 			"photos": [
 			  "636ca8ef96e42.JPG"
 			],
 			"publishedAt": "1401-09-13 09:35:11",
 			"cityId": 1,
 			"cityName": "تبریز",
-			"buildingId": 759012,
-			"trackingCode": 12,
 			"slug": "ویلا 810 متری در کوی نیاوران",
 			"agencyId": 12793,
 			"agencyName": "گروه ویلایی جاهد",
 			"agencyLogo": null,
 			"adviserId": 16686,
 			"adviserName": "آقای بهرام جاهد",
-			"link": "https://www.zoomila.com/تبریز/Villa/رهن-اجاره",
 			"createdAt": "1401-08-18 18:08:23",
 			"storage": null,
 			"yard": null,
@@ -7597,20 +6726,11 @@
 			"coordinate": "38.043417, 46.401768",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 758055,
-			  "createdAt": "1401-08-18 18:08:23",
-			  "updatedAt": "1401-08-19 11:02:01",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -7654,11 +6774,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-08-18 18:08:23",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "770235"
+			"issell": true
 		  },
 		  {
 			"id": 655369,
@@ -7672,22 +6788,18 @@
 			"area": 1120,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com/uploads/agency-12793/758612/",
 			"photos": [
 			  "636ca8ff0f19c.JPG"
 			],
 			"publishedAt": "1401-09-13 09:35:05",
 			"cityId": 1,
 			"cityName": "تبریز",
-			"buildingId": 758612,
-			"trackingCode": 12,
 			"slug": "ویلا 1120 متری در صوفیان",
 			"agencyId": 12793,
 			"agencyName": "گروه ویلایی جاهد",
 			"agencyLogo": null,
 			"adviserId": 16686,
 			"adviserName": "آقای بهرام جاهد",
-			"link": "https://www.zoomila.com/تبریز/Villa/رهن-اجاره",
 			"createdAt": "1401-08-17 17:44:17",
 			"storage": null,
 			"yard": null,
@@ -7723,20 +6835,11 @@
 			"coordinate": "38.279173, 45.984564",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 757655,
-			  "createdAt": "1401-08-17 17:44:17",
-			  "updatedAt": "1401-08-19 11:02:17",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -7780,11 +6883,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-08-17 17:44:17",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "769835"
+			"issell": true
 		  },
 		  {
 			"id": 655368,
@@ -7798,22 +6897,18 @@
 			"area": 500,
 			"areaType": false,
 			"rooms": 2,
-			"photoPath": "https://www.zoomila.com/uploads/agency-12793/758611/",
 			"photos": [
 			  "636a62f3a9812.png"
 			],
 			"publishedAt": "1401-09-13 09:34:56",
 			"cityId": 1,
 			"cityName": "تبریز",
-			"buildingId": 758611,
-			"trackingCode": 12,
 			"slug": "ویلا 500 متری دو خوابه در کوی فولادی",
 			"agencyId": 12793,
 			"agencyName": "گروه ویلایی جاهد",
 			"agencyLogo": null,
 			"adviserId": 16686,
 			"adviserName": "آقای بهرام جاهد",
-			"link": "https://www.zoomila.com/تبریز/Villa/رهن-اجاره",
 			"createdAt": "1401-08-17 17:12:36",
 			"storage": null,
 			"yard": null,
@@ -7849,20 +6944,11 @@
 			"coordinate": "38.078051, 46.285374",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 757654,
-			  "createdAt": "1401-08-17 17:12:36",
-			  "updatedAt": "1401-08-17 17:38:59",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -7906,11 +6992,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-08-17 17:12:36",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "769834"
+			"issell": true
 		  },
 		  {
 			"id": 653161,
@@ -7924,22 +7006,18 @@
 			"area": 2000,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com/uploads/agency-12793/756221/",
 			"photos": [
 			  "63616d72bf011.png"
 			],
 			"publishedAt": "1401-09-13 09:34:49",
 			"cityId": 1,
 			"cityName": "تبریز",
-			"buildingId": 756221,
-			"trackingCode": 12,
 			"slug": "ویلا 2000 متری در سعیدآباد",
 			"agencyId": 12793,
 			"agencyName": "گروه ویلایی جاهد",
 			"agencyLogo": null,
 			"adviserId": 16686,
 			"adviserName": "آقای بهرام جاهد",
-			"link": "https://www.zoomila.com/تبریز/Villa/رهن-اجاره",
 			"createdAt": "1401-08-10 22:08:02",
 			"storage": null,
 			"yard": null,
@@ -7978,20 +7056,11 @@
 			"coordinate": "38.089287,46.332737",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 755264,
-			  "createdAt": "1401-08-10 22:08:02",
-			  "updatedAt": "1401-08-10 22:34:30",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -8035,11 +7104,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-08-10 22:08:02",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "767444"
+			"issell": true
 		  },
 		  {
 			"id": 653159,
@@ -8053,22 +7118,18 @@
 			"area": 2300,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com/uploads/agency-12793/756219/",
 			"photos": [
 			  "63616e55b0b07.png"
 			],
 			"publishedAt": "1401-09-13 09:34:45",
 			"cityId": 1,
 			"cityName": "تبریز",
-			"buildingId": 756219,
-			"trackingCode": 12,
 			"slug": "ویلا 2300 متری در هروی",
 			"agencyId": 12793,
 			"agencyName": "گروه ویلایی جاهد",
 			"agencyLogo": null,
 			"adviserId": 16686,
 			"adviserName": "آقای بهرام جاهد",
-			"link": "https://www.zoomila.com/تبریز/Villa/رهن-اجاره",
 			"createdAt": "1401-08-10 22:05:24",
 			"storage": null,
 			"yard": null,
@@ -8104,20 +7165,11 @@
 			"coordinate": "37.923287, 46.478980",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 755262,
-			  "createdAt": "1401-08-10 22:05:24",
-			  "updatedAt": "1401-08-10 22:37:09",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -8161,11 +7213,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-08-10 22:05:24",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "767442"
+			"issell": true
 		  },
 		  {
 			"id": 653154,
@@ -8179,22 +7227,18 @@
 			"area": 400,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com/uploads/agency-12793/756214/",
 			"photos": [
 			  "63616e9bba26b.png"
 			],
 			"publishedAt": "1401-09-13 09:34:32",
 			"cityId": 1,
 			"cityName": "تبریز",
-			"buildingId": 756214,
-			"trackingCode": 12,
 			"slug": "ویلا 400 متری در سعید آباد",
 			"agencyId": 12793,
 			"agencyName": "گروه ویلایی جاهد",
 			"agencyLogo": null,
 			"adviserId": 16686,
 			"adviserName": "آقای بهرام جاهد",
-			"link": "https://www.zoomila.com/تبریز/Villa/رهن-اجاره",
 			"createdAt": "1401-08-10 21:59:58",
 			"storage": null,
 			"yard": null,
@@ -8230,20 +7274,11 @@
 			"coordinate": "38.089322, 46.332757",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 755257,
-			  "createdAt": "1401-08-10 21:59:58",
-			  "updatedAt": "1401-08-10 22:39:19",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -8287,11 +7322,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-08-10 21:59:58",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "767437"
+			"issell": true
 		  },
 		  {
 			"id": 647261,
@@ -8305,7 +7336,6 @@
 			"area": 115,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com/uploads/agency-4509/749661/",
 			"photos": [
 			  "634857e4e4867.jpg",
 			  "634857e6ea049.jpg"
@@ -8313,15 +7343,12 @@
 			"publishedAt": "1401-07-22 08:53:30",
 			"cityId": 1,
 			"cityName": "تبریز",
-			"buildingId": 749661,
-			"trackingCode": 12,
 			"slug": "آپارتمان 115 متری در زعفرانیه",
 			"agencyId": 4509,
 			"agencyName": "سامانه ملکِ تون melketun",
 			"agencyLogo": "uploads/agency-4509/logo/62d57ae484055.",
 			"adviserId": 6015,
 			"adviserName": "سامانه ملکِ تون",
-			"link": "https://www.zoomila.com/تبریز/Apartment/رهن-اجاره",
 			"createdAt": "1401-07-21 21:53:47",
 			"storage": null,
 			"yard": null,
@@ -8357,20 +7384,11 @@
 			"coordinate": "38.041775, 46.339332",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 748705,
-			  "createdAt": "1401-07-21 21:53:47",
-			  "updatedAt": "1401-07-21 21:54:57",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -8414,11 +7432,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-07-21 21:53:47",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "760884"
+			"issell": true
 		  },
 		  {
 			"id": 647260,
@@ -8432,7 +7446,6 @@
 			"area": 94,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com/uploads/agency-4509/749660/",
 			"photos": [
 			  "6348575808497.jpg",
 			  "63485759f1699.jpg",
@@ -8442,15 +7455,12 @@
 			"publishedAt": "1401-07-22 08:53:19",
 			"cityId": 1,
 			"cityName": "تبریز",
-			"buildingId": 749660,
-			"trackingCode": 12,
 			"slug": "آپارتمان 94 متری در دادگستری",
 			"agencyId": 4509,
 			"agencyName": "سامانه ملکِ تون melketun",
 			"agencyLogo": "uploads/agency-4509/logo/62d57ae484055.",
 			"adviserId": 6015,
 			"adviserName": "سامانه ملکِ تون",
-			"link": "https://www.zoomila.com/تبریز/Apartment/رهن-اجاره",
 			"createdAt": "1401-07-21 21:51:05",
 			"storage": null,
 			"yard": null,
@@ -8488,20 +7498,11 @@
 			"coordinate": "38.026192, 46.350962",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 748704,
-			  "createdAt": "1401-07-21 21:51:05",
-			  "updatedAt": "1401-07-21 21:52:36",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -8545,11 +7546,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-07-22 08:53:09",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "760883"
+			"issell": true
 		  },
 		  {
 			"id": 661992,
@@ -8563,22 +7560,18 @@
 			"area": 1000,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com/uploads/agency-12793/765894/",
 			"photos": [
 			  "63821ea052a78.jpg"
 			],
 			"publishedAt": "1401-09-05 17:52:31",
 			"cityId": 1,
 			"cityName": "تبریز",
-			"buildingId": 765894,
-			"trackingCode": 12,
 			"slug": "ویلا 1000 متری در کوی بنفشه",
 			"agencyId": 12793,
 			"agencyName": "گروه ویلایی جاهد",
 			"agencyLogo": null,
 			"adviserId": 16686,
 			"adviserName": "آقای بهرام جاهد",
-			"link": "https://www.zoomila.com/تبریز/Villa/رهن-اجاره",
 			"createdAt": "1401-09-05 17:41:13",
 			"storage": null,
 			"yard": null,
@@ -8614,20 +7607,11 @@
 			"coordinate": "38.042174, 46.364929",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 764933,
-			  "createdAt": "1401-09-05 17:41:13",
-			  "updatedAt": "1401-09-05 17:42:16",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -8671,11 +7655,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-05 17:41:13",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "777117"
+			"issell": true
 		  },
 		  {
 			"id": 667775,
@@ -8689,22 +7669,18 @@
 			"area": 75,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com/uploads/agency-30232/772368/",
 			"photos": [
 			  "639b209f73efd.png"
 			],
 			"publishedAt": "1401-09-24 16:56:56",
 			"cityId": 461,
 			"cityName": "پرند",
-			"buildingId": 772368,
-			"trackingCode": 12,
 			"slug": "آپارتمان 75 متری در فاز 5",
 			"agencyId": 30232,
 			"agencyName": "املاک سادات",
 			"agencyLogo": "uploads/agency-30232/logo/63919a5d0684f.jpg",
 			"adviserId": 38340,
 			"adviserName": "علی سیدزاده",
-			"link": "https://www.zoomila.com/پرند/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-24 16:53:42",
 			"storage": null,
 			"yard": null,
@@ -8740,20 +7716,11 @@
 			"coordinate": "35.478943, 50.934377",
 			"availableDate": null,
 			"address": {
-			  "addressId": 192488,
-			  "buildingId": 772368,
 			  "main": "پرند فاز5 مپسا5",
 			  "detail": null,
-			  "visible": true,
-			  "createdAt": "1401-09-24 16:53:42",
-			  "updatedAt": "1401-09-24 16:53:42",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 771396,
-			  "createdAt": "1401-09-24 16:53:42",
-			  "updatedAt": "1401-09-24 16:57:58",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -8797,11 +7764,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-24 16:53:42",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "783591"
+			"issell": true
 		  },
 		  {
 			"id": 667771,
@@ -8815,22 +7778,18 @@
 			"area": 88,
 			"areaType": false,
 			"rooms": 2,
-			"photoPath": "https://www.zoomila.com/uploads/agency-30232/772364/",
 			"photos": [
 			  "639b1d3f3a0b5.jpg"
 			],
 			"publishedAt": "1401-09-24 16:56:28",
 			"cityId": 461,
 			"cityName": "پرند",
-			"buildingId": 772364,
-			"trackingCode": 12,
 			"slug": "آپارتمان 88 متری دو خوابه در فاز 0",
 			"agencyId": 30232,
 			"agencyName": "املاک سادات",
 			"agencyLogo": "uploads/agency-30232/logo/63919a5d0684f.jpg",
 			"adviserId": 38339,
 			"adviserName": "سرکار خانم عبدالله ی",
-			"link": "https://www.zoomila.com/پرند/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-24 16:41:56",
 			"storage": null,
 			"yard": null,
@@ -8866,20 +7825,11 @@
 			"coordinate": "35.472093, 50.987162",
 			"availableDate": null,
 			"address": {
-			  "addressId": 192485,
-			  "buildingId": 772364,
 			  "main": "فازصفر انتهای بیتون",
 			  "detail": null,
-			  "visible": true,
-			  "createdAt": "1401-09-24 16:41:56",
-			  "updatedAt": "1401-09-24 16:56:10",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 771392,
-			  "createdAt": "1401-09-24 16:41:56",
-			  "updatedAt": "1401-09-24 16:43:18",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -8923,11 +7873,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-24 16:56:10",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "783587"
+			"issell": true
 		  },
 		  {
 			"id": 667646,
@@ -8941,22 +7887,18 @@
 			"area": 146,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com/uploads/agency-30232/772231/",
 			"photos": [
 			  "639ace5c457c0.jpg"
 			],
 			"publishedAt": "1401-09-24 11:42:41",
 			"cityId": 461,
 			"cityName": "پرند",
-			"buildingId": 772231,
-			"trackingCode": 12,
 			"slug": "آپارتمان 146 متری در فاز 1",
 			"agencyId": 30232,
 			"agencyName": "املاک سادات",
 			"agencyLogo": "uploads/agency-30232/logo/63919a5d0684f.jpg",
 			"adviserId": 35565,
 			"adviserName": "آقای سید زاده",
-			"link": "https://www.zoomila.com/پرند/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-24 11:04:50",
 			"storage": null,
 			"yard": null,
@@ -8992,20 +7934,11 @@
 			"coordinate": "35.469926, 50.978064",
 			"availableDate": null,
 			"address": {
-			  "addressId": 192468,
-			  "buildingId": 772231,
 			  "main": "فاز 1 دنای شمالی",
 			  "detail": null,
-			  "visible": true,
-			  "createdAt": "1401-09-24 11:04:50",
-			  "updatedAt": "1401-09-24 11:04:50",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 771259,
-			  "createdAt": "1401-09-24 11:04:50",
-			  "updatedAt": "1401-09-24 11:05:56",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -9049,11 +7982,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-24 11:04:50",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "783454"
+			"issell": true
 		  },
 		  {
 			"id": 667393,
@@ -9067,7 +7996,6 @@
 			"area": 86,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com/uploads/agency-32081/771963/",
 			"photos": [
 			  "6399c5ec63876.jpg",
 			  "6399c5f74503e.jpg",
@@ -9080,15 +8008,12 @@
 			"publishedAt": "1401-09-23 16:22:17",
 			"cityId": 461,
 			"cityName": "پرند",
-			"buildingId": 771963,
-			"trackingCode": 12,
 			"slug": "آپارتمان 86 متری در فاز 6",
 			"agencyId": 32081,
 			"agencyName": "زرین",
 			"agencyLogo": "uploads/agency-32081/logo/637dc108f1ced.jpg",
 			"adviserId": 37545,
 			"adviserName": "جواد زرین",
-			"link": "https://www.zoomila.com/پرند/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-23 16:13:55",
 			"storage": true,
 			"yard": false,
@@ -9127,20 +8052,11 @@
 			"coordinate": "35.510438, 50.928875",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 770991,
-			  "createdAt": "1401-09-23 16:13:55",
-			  "updatedAt": "1401-09-23 16:22:14",
-			  "deletedAt": null,
 			  "parking": "ندارد",
 			  "kitchenUnit": "MDF",
 			  "flooring": "سرامیک",
@@ -9184,11 +8100,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-23 16:13:55",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "783186"
+			"issell": true
 		  },
 		  {
 			"id": 667368,
@@ -9202,7 +8114,6 @@
 			"area": 88,
 			"areaType": false,
 			"rooms": 2,
-			"photoPath": "https://www.zoomila.com/uploads/agency-5176/771936/",
 			"photos": [
 			  "639984e56f6e1.JPG",
 			  "639984ef0bb80.jpg"
@@ -9210,15 +8121,12 @@
 			"publishedAt": "1401-09-23 12:16:05",
 			"cityId": 461,
 			"cityName": "پرند",
-			"buildingId": 771936,
-			"trackingCode": 12,
 			"slug": "آپارتمان 88 متری دو خوابه در فاز 6",
 			"agencyId": 5176,
 			"agencyName": "املاک بزرگ اوج",
 			"agencyLogo": "uploads/agency-5176/logo/6268ce6fe0cdf.jpeg",
 			"adviserId": 12507,
 			"adviserName": "پدرام شکری",
-			"link": "https://www.zoomila.com/پرند/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-23 11:39:44",
 			"storage": null,
 			"yard": null,
@@ -9254,20 +8162,11 @@
 			"coordinate": "35.510438, 50.928875",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 770964,
-			  "createdAt": "1401-09-23 11:39:44",
-			  "updatedAt": "1401-09-23 11:41:13",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -9311,11 +8210,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-23 11:39:44",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "783159"
+			"issell": true
 		  },
 		  {
 			"id": 667192,
@@ -9329,7 +8224,6 @@
 			"area": 85,
 			"areaType": false,
 			"rooms": 2,
-			"photoPath": "https://www.zoomila.com/uploads/agency-5562/771736/",
 			"photos": [
 			  "63988934c582f847.jpg",
 			  "6398894b9271a241.jpg",
@@ -9339,15 +8233,12 @@
 			"publishedAt": "1401-09-22 17:49:50",
 			"cityId": 461,
 			"cityName": "پرند",
-			"buildingId": 771736,
-			"trackingCode": 12,
 			"slug": "آپارتمان 85 متری دو خوابه در شهرک سلام",
 			"agencyId": 5562,
 			"agencyName": "سایت    مسکن    علمی",
 			"agencyLogo": "uploads/agency-5562/logo/62dbb383ab00c.jpeg",
 			"adviserId": 24134,
 			"adviserName": "آقای حیدری",
-			"link": "https://www.zoomila.com/پرند/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-22 17:46:48",
 			"storage": false,
 			"yard": false,
@@ -9386,20 +8277,11 @@
 			"coordinate": "35.489238,50.915902",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 770764,
-			  "createdAt": "1401-09-22 17:46:48",
-			  "updatedAt": "1401-09-22 17:46:48",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -9443,11 +8325,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-22 17:46:48",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "782959"
+			"issell": true
 		  },
 		  {
 			"id": 667191,
@@ -9461,7 +8339,6 @@
 			"area": 80,
 			"areaType": false,
 			"rooms": 2,
-			"photoPath": "https://www.zoomila.com/uploads/agency-5562/771735/",
 			"photos": [
 			  "639888b9d5042255.jpg",
 			  "639888c8f0350386.jpg",
@@ -9471,15 +8348,12 @@
 			"publishedAt": "1401-09-22 17:49:45",
 			"cityId": 461,
 			"cityName": "پرند",
-			"buildingId": 771735,
-			"trackingCode": 12,
 			"slug": "آپارتمان 80 متری دو خوابه در شهرک آسمان",
 			"agencyId": 5562,
 			"agencyName": "سایت    مسکن    علمی",
 			"agencyLogo": "uploads/agency-5562/logo/62dbb383ab00c.jpeg",
 			"adviserId": 24134,
 			"adviserName": "آقای حیدری",
-			"link": "https://www.zoomila.com/پرند/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-22 17:44:36",
 			"storage": false,
 			"yard": false,
@@ -9518,20 +8392,11 @@
 			"coordinate": "35.513642,50.929467",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 770763,
-			  "createdAt": "1401-09-22 17:44:36",
-			  "updatedAt": "1401-09-22 17:44:36",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -9575,11 +8440,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-22 17:44:36",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "782958"
+			"issell": true
 		  },
 		  {
 			"id": 667179,
@@ -9593,7 +8454,6 @@
 			"area": 75,
 			"areaType": false,
 			"rooms": 2,
-			"photoPath": "https://www.zoomila.com/uploads/agency-5176/771720/",
 			"photos": [
 			  "6398819ca320a.jpg",
 			  "639881a552398.jpg",
@@ -9607,15 +8467,12 @@
 			"publishedAt": "1401-09-22 17:28:02",
 			"cityId": 461,
 			"cityName": "پرند",
-			"buildingId": 771720,
-			"trackingCode": 12,
 			"slug": "آپارتمان 75 متری دو خوابه در فاز 6",
 			"agencyId": 5176,
 			"agencyName": "املاک بزرگ اوج",
 			"agencyLogo": "uploads/agency-5176/logo/6268ce6fe0cdf.jpeg",
 			"adviserId": 6899,
 			"adviserName": "الیاس ولیزاده",
-			"link": "https://www.zoomila.com/پرند/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-22 17:09:56",
 			"storage": true,
 			"yard": null,
@@ -9651,20 +8508,11 @@
 			"coordinate": "35.510438, 50.928875",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 770748,
-			  "createdAt": "1401-09-22 17:09:56",
-			  "updatedAt": "1401-09-22 17:15:02",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": "MDF",
 			  "flooring": null,
@@ -9708,11 +8556,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-22 17:09:56",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "782943"
+			"issell": true
 		  },
 		  {
 			"id": 667176,
@@ -9726,7 +8570,6 @@
 			"area": 74,
 			"areaType": false,
 			"rooms": 2,
-			"photoPath": "https://www.zoomila.com/uploads/agency-5176/771717/",
 			"photos": [
 			  "63987ed636f0e.jpg",
 			  "63987edde3662.jpg",
@@ -9746,15 +8589,12 @@
 			"publishedAt": "1401-09-22 17:02:27",
 			"cityId": 461,
 			"cityName": "پرند",
-			"buildingId": 771717,
-			"trackingCode": 12,
 			"slug": "آپارتمان 74 متری دو خوابه در فاز 6",
 			"agencyId": 5176,
 			"agencyName": "املاک بزرگ اوج",
 			"agencyLogo": "uploads/agency-5176/logo/6268ce6fe0cdf.jpeg",
 			"adviserId": 12507,
 			"adviserName": "پدرام شکری",
-			"link": "https://www.zoomila.com/پرند/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-22 16:59:56",
 			"storage": true,
 			"yard": null,
@@ -9790,20 +8630,11 @@
 			"coordinate": "35.50826476964595,50.90969905257226",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 770745,
-			  "createdAt": "1401-09-22 16:59:56",
-			  "updatedAt": "1401-09-22 17:05:54",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": "MDF",
 			  "flooring": "سرامیک",
@@ -9847,11 +8678,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-22 16:59:56",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "782940"
+			"issell": true
 		  },
 		  {
 			"id": 667105,
@@ -9865,7 +8692,6 @@
 			"area": 55,
 			"areaType": false,
 			"rooms": 1,
-			"photoPath": "https://www.zoomila.com/uploads/agency-5176/771645/",
 			"photos": [
 			  "639840626a951.jpg",
 			  "6398406a053f9.jpg",
@@ -9879,15 +8705,12 @@
 			"publishedAt": "1401-09-22 12:36:55",
 			"cityId": 461,
 			"cityName": "پرند",
-			"buildingId": 771645,
-			"trackingCode": 12,
 			"slug": "آپارتمان 55 متری یک خوابه در فاز 2",
 			"agencyId": 5176,
 			"agencyName": "املاک بزرگ اوج",
 			"agencyLogo": "uploads/agency-5176/logo/6268ce6fe0cdf.jpeg",
 			"adviserId": 12507,
 			"adviserName": "پدرام شکری",
-			"link": "https://www.zoomila.com/پرند/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-22 12:34:29",
 			"storage": true,
 			"yard": true,
@@ -9923,20 +8746,11 @@
 			"coordinate": "35.470835, 50.967421",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 770673,
-			  "createdAt": "1401-09-22 12:34:29",
-			  "updatedAt": "1401-09-22 12:37:33",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": "MDF",
 			  "flooring": "سرامیک",
@@ -9980,11 +8794,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-22 12:34:29",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "782868"
+			"issell": true
 		  },
 		  {
 			"id": 666651,
@@ -9998,7 +8808,6 @@
 			"area": 99,
 			"areaType": false,
 			"rooms": 2,
-			"photoPath": "https://www.zoomila.com/uploads/agency-32483/771112/",
 			"photos": [
 			  "63971419d6a22974.jpg",
 			  "6397143331507716.jpg"
@@ -10006,15 +8815,12 @@
 			"publishedAt": "1401-09-21 15:28:50",
 			"cityId": 461,
 			"cityName": "پرند",
-			"buildingId": 771112,
-			"trackingCode": 12,
 			"slug": "آپارتمان 99 متری دو خوابه در میدان استقلال",
 			"agencyId": 32483,
 			"agencyName": "املاک اصلی پرند",
 			"agencyLogo": "uploads/agency-32483/logo/638871b8495d3.jpeg",
 			"adviserId": 38013,
 			"adviserName": "خانم توکلی",
-			"link": "https://www.zoomila.com/پرند/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-21 15:14:56",
 			"storage": true,
 			"yard": false,
@@ -10052,20 +8858,11 @@
 			"coordinate": "35.467527,50.964486",
 			"availableDate": "1401-09-21",
 			"address": {
-			  "addressId": 192261,
-			  "buildingId": 771112,
 			  "main": "فاز ۲ بهاران",
 			  "detail": null,
-			  "visible": true,
-			  "createdAt": "1401-09-21 15:14:56",
-			  "updatedAt": "1401-09-21 15:14:56",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 770140,
-			  "createdAt": "1401-09-21 15:14:56",
-			  "updatedAt": "1401-09-21 15:14:56",
-			  "deletedAt": null,
 			  "parking": "اختصاصی",
 			  "kitchenUnit": "ام دی اف",
 			  "flooring": "سرامیک",
@@ -10109,11 +8906,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-21 15:14:56",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "782335"
+			"issell": true
 		  },
 		  {
 			"id": 666645,
@@ -10127,7 +8920,6 @@
 			"area": 90,
 			"areaType": false,
 			"rooms": 3,
-			"photoPath": "https://www.zoomila.com/uploads/agency-18061/771106/",
 			"photos": [
 			  "6396fa1dd0e3e779.jpg",
 			  "6396fa23bfd69899.jpg",
@@ -10137,15 +8929,12 @@
 			"publishedAt": "1401-09-22 10:41:44",
 			"cityId": 461,
 			"cityName": "پرند",
-			"buildingId": 771106,
-			"trackingCode": 12,
 			"slug": "آپارتمان 90 متری سه خوابه در شهرک آفتاب",
 			"agencyId": 18061,
 			"agencyName": "املاک منزلی",
 			"agencyLogo": "uploads/agency-18061/logo/626cc5f93ba01.jpeg",
 			"adviserId": 22554,
 			"adviserName": "آقای منزلی",
-			"link": "https://www.zoomila.com/پرند/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-21 13:23:50",
 			"storage": false,
 			"yard": false,
@@ -10183,20 +8972,11 @@
 			"coordinate": "35.475034,50.931245",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 770134,
-			  "createdAt": "1401-09-21 13:23:50",
-			  "updatedAt": "1401-09-21 13:23:50",
-			  "deletedAt": null,
 			  "parking": "0",
 			  "kitchenUnit": "ممبران",
 			  "flooring": "پارکت",
@@ -10240,11 +9020,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-21 13:23:50",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "782329"
+			"issell": true
 		  },
 		  {
 			"id": 658260,
@@ -10258,20 +9034,16 @@
 			"area": 83,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com//",
 			"photos": null,
 			"publishedAt": "1401-08-25 12:16:21",
 			"cityId": 96,
 			"cityName": "بوشهر",
-			"buildingId": 761770,
-			"trackingCode": 12,
 			"slug": "خانه 83 متری در خورموج",
 			"agencyId": 25311,
 			"agencyName": "مشاور املاک پارسا",
 			"agencyLogo": null,
 			"adviserId": 30230,
 			"adviserName": "مشاور املاک پارسا",
-			"link": "https://www.zoomila.com/بوشهر/Home/رهن-اجاره",
 			"createdAt": "1401-08-25 12:01:51",
 			"storage": null,
 			"yard": null,
@@ -10307,20 +9079,11 @@
 			"coordinate": "28.653377,51.378785",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 760809,
-			  "createdAt": "1401-08-25 12:01:51",
-			  "updatedAt": "1401-08-25 12:01:56",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -10364,11 +9127,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-08-25 12:01:51",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "772993"
+			"issell": true
 		  },
 		  {
 			"id": 658254,
@@ -10382,20 +9141,16 @@
 			"area": 83,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com//",
 			"photos": null,
 			"publishedAt": "1401-08-25 11:44:52",
 			"cityId": 96,
 			"cityName": "بوشهر",
-			"buildingId": 761763,
-			"trackingCode": 12,
 			"slug": "آپارتمان 83 متری در خورموج",
 			"agencyId": 25313,
 			"agencyName": "املاک مذاکره",
 			"agencyLogo": null,
 			"adviserId": 30232,
 			"adviserName": "املاک مذاکره",
-			"link": "https://www.zoomila.com/بوشهر/Apartment/رهن-اجاره",
 			"createdAt": "1401-08-25 11:44:10",
 			"storage": null,
 			"yard": null,
@@ -10431,20 +9186,11 @@
 			"coordinate": "28.653377,51.378785",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 760802,
-			  "createdAt": "1401-08-25 11:44:10",
-			  "updatedAt": "1401-08-25 11:44:15",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -10488,11 +9234,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-08-25 11:44:10",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "772986"
+			"issell": true
 		  },
 		  {
 			"id": 658251,
@@ -10506,20 +9248,16 @@
 			"area": 104,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com//",
 			"photos": null,
 			"publishedAt": "1401-08-25 11:42:50",
 			"cityId": 96,
 			"cityName": "بوشهر",
-			"buildingId": 761759,
-			"trackingCode": 12,
 			"slug": "آپارتمان 104 متری در عالیشهر",
 			"agencyId": 25315,
 			"agencyName": "املاک شهر",
 			"agencyLogo": null,
 			"adviserId": 30234,
 			"adviserName": "بلوچی",
-			"link": "https://www.zoomila.com/بوشهر/Apartment/رهن-اجاره",
 			"createdAt": "1401-08-25 11:39:21",
 			"storage": null,
 			"yard": null,
@@ -10555,20 +9293,11 @@
 			"coordinate": "28.935705,51.068280",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 760798,
-			  "createdAt": "1401-08-25 11:39:21",
-			  "updatedAt": "1401-08-25 11:39:26",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -10612,11 +9341,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-08-25 11:39:21",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "772982"
+			"issell": true
 		  },
 		  {
 			"id": 656861,
@@ -10630,7 +9355,6 @@
 			"area": 210,
 			"areaType": false,
 			"rooms": 3,
-			"photoPath": "https://www.zoomila.com/uploads/agency-5815/760250/",
 			"photos": [
 			  "636fd1f164cfe.jpg",
 			  "636fd1fce80cf.jpg"
@@ -10638,15 +9362,12 @@
 			"publishedAt": "1401-09-20 09:16:38",
 			"cityId": 23,
 			"cityName": "ارومیه",
-			"buildingId": 760250,
-			"trackingCode": 12,
 			"slug": "آپارتمان 210 متری سه خوابه در فضلا",
 			"agencyId": 5815,
 			"agencyName": "املاک پلاک",
 			"agencyLogo": "uploads/agency-5815/logo/5fb4d8c9151f3.jpeg",
 			"adviserId": 7680,
 			"adviserName": "سعید شریعتی",
-			"link": "https://www.zoomila.com/ارومیه/Apartment/رهن-اجاره",
 			"createdAt": "1401-08-21 20:33:26",
 			"storage": null,
 			"yard": null,
@@ -10682,20 +9403,11 @@
 			"coordinate": "37.519872, 45.053161",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 759293,
-			  "createdAt": "1401-08-21 20:33:26",
-			  "updatedAt": "1401-08-21 20:34:06",
-			  "deletedAt": null,
 			  "parking": "بدون مزاحم",
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -10739,11 +9451,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-08-21 20:59:08",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "771473"
+			"issell": true
 		  },
 		  {
 			"id": 656860,
@@ -10757,22 +9465,18 @@
 			"area": 171,
 			"areaType": false,
 			"rooms": 3,
-			"photoPath": "https://www.zoomila.com/uploads/agency-5815/760249/",
 			"photos": [
 			  "636fd1166408b.jpg"
 			],
 			"publishedAt": "1401-09-20 09:16:45",
 			"cityId": 23,
 			"cityName": "ارومیه",
-			"buildingId": 760249,
-			"trackingCode": 12,
 			"slug": "آپارتمان 171 متری سه خوابه در خیابان براعتی",
 			"agencyId": 5815,
 			"agencyName": "املاک پلاک",
 			"agencyLogo": "uploads/agency-5815/logo/5fb4d8c9151f3.jpeg",
 			"adviserId": 7680,
 			"adviserName": "سعید شریعتی",
-			"link": "https://www.zoomila.com/ارومیه/Apartment/رهن-اجاره",
 			"createdAt": "1401-08-21 20:29:44",
 			"storage": null,
 			"yard": null,
@@ -10808,20 +9512,11 @@
 			"coordinate": "37.528554, 45.089051",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 759292,
-			  "createdAt": "1401-08-21 20:29:44",
-			  "updatedAt": "1401-08-21 20:31:18",
-			  "deletedAt": null,
 			  "parking": "بدون مزاحم",
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -10865,11 +9560,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-08-21 20:58:43",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "771472"
+			"issell": true
 		  },
 		  {
 			"id": 655070,
@@ -10883,7 +9574,6 @@
 			"area": 160,
 			"areaType": false,
 			"rooms": 3,
-			"photoPath": "https://www.zoomila.com/uploads/agency-5815/758296/",
 			"photos": [
 			  "63695fe3155fc.jpg",
 			  "63695fdbb6121.jpg"
@@ -10891,15 +9581,12 @@
 			"publishedAt": "1401-09-20 09:16:53",
 			"cityId": 23,
 			"cityName": "ارومیه",
-			"buildingId": 758296,
-			"trackingCode": 12,
 			"slug": "آپارتمان 160 متری سه خوابه در خیابان بدیعی",
 			"agencyId": 5815,
 			"agencyName": "املاک پلاک",
 			"agencyLogo": "uploads/agency-5815/logo/5fb4d8c9151f3.jpeg",
 			"adviserId": 7680,
 			"adviserName": "سعید شریعتی",
-			"link": "https://www.zoomila.com/ارومیه/Apartment/رهن-اجاره",
 			"createdAt": "1401-08-16 23:13:06",
 			"storage": null,
 			"yard": null,
@@ -10935,20 +9622,11 @@
 			"coordinate": "37.513027, 45.038786",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 757339,
-			  "createdAt": "1401-08-16 23:13:06",
-			  "updatedAt": "1401-08-17 01:00:51",
-			  "deletedAt": null,
 			  "parking": "بدون مزاحم",
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -10992,11 +9670,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-08-17 01:00:18",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "769519"
+			"issell": true
 		  },
 		  {
 			"id": 655067,
@@ -11010,7 +9684,6 @@
 			"area": 180,
 			"areaType": false,
 			"rooms": 3,
-			"photoPath": "https://www.zoomila.com/uploads/agency-5815/758293/",
 			"photos": [
 			  "63695d4826ca5.jpg",
 			  "63695d4fb6740.jpg"
@@ -11018,15 +9691,12 @@
 			"publishedAt": "1401-09-20 09:17:00",
 			"cityId": 23,
 			"cityName": "ارومیه",
-			"buildingId": 758293,
-			"trackingCode": 12,
 			"slug": "آپارتمان 180 متری سه خوابه در خیابان بدیعی",
 			"agencyId": 5815,
 			"agencyName": "املاک پلاک",
 			"agencyLogo": "uploads/agency-5815/logo/5fb4d8c9151f3.jpeg",
 			"adviserId": 7680,
 			"adviserName": "سعید شریعتی",
-			"link": "https://www.zoomila.com/ارومیه/Apartment/رهن-اجاره",
 			"createdAt": "1401-08-16 23:02:13",
 			"storage": null,
 			"yard": null,
@@ -11062,20 +9732,11 @@
 			"coordinate": "37.513027, 45.038786",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 757336,
-			  "createdAt": "1401-08-16 23:02:13",
-			  "updatedAt": "1401-08-16 23:02:55",
-			  "deletedAt": null,
 			  "parking": "بدون مزاحم",
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -11119,11 +9780,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-08-17 00:55:43",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "769516"
+			"issell": true
 		  },
 		  {
 			"id": 655065,
@@ -11137,22 +9794,18 @@
 			"area": 230,
 			"areaType": false,
 			"rooms": 4,
-			"photoPath": "https://www.zoomila.com/uploads/agency-5815/758291/",
 			"photos": [
 			  "63695ce0d6ad9.jpg"
 			],
 			"publishedAt": "1401-09-20 09:17:07",
 			"cityId": 23,
 			"cityName": "ارومیه",
-			"buildingId": 758291,
-			"trackingCode": 12,
 			"slug": "آپارتمان 230 متری چهار خوابه در خیابان امین",
 			"agencyId": 5815,
 			"agencyName": "املاک پلاک",
 			"agencyLogo": "uploads/agency-5815/logo/5fb4d8c9151f3.jpeg",
 			"adviserId": 7680,
 			"adviserName": "سعید شریعتی",
-			"link": "https://www.zoomila.com/ارومیه/Apartment/رهن-اجاره",
 			"createdAt": "1401-08-16 23:00:23",
 			"storage": null,
 			"yard": null,
@@ -11188,20 +9841,11 @@
 			"coordinate": "37.527657, 45.067796",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 757334,
-			  "createdAt": "1401-08-16 23:00:23",
-			  "updatedAt": "1401-08-16 23:01:03",
-			  "deletedAt": null,
 			  "parking": "بدون مزاحم",
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -11245,11 +9889,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-08-17 00:52:58",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "769514"
+			"issell": true
 		  },
 		  {
 			"id": 667104,
@@ -11263,7 +9903,6 @@
 			"area": 490,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com/uploads/agency-27509/771644/",
 			"photos": [
 			  "63983f70ec852.jpg",
 			  "63983ee7d43c4.jpg",
@@ -11285,15 +9924,12 @@
 			"publishedAt": "1401-09-22 12:36:47",
 			"cityId": 78,
 			"cityName": "کرج",
-			"buildingId": 771644,
-			"trackingCode": 12,
 			"slug": "ویلا 490 متری در چنارک",
 			"agencyId": 27509,
 			"agencyName": "املاک راشا",
 			"agencyLogo": "uploads/agency-27509/logo/6396e30d2fdae.jpg",
 			"adviserId": 32606,
 			"adviserName": "اکبر کمالی",
-			"link": "https://www.zoomila.com/کرج/Villa/رهن-اجاره",
 			"createdAt": "1401-09-22 12:27:46",
 			"storage": null,
 			"yard": null,
@@ -11331,20 +9967,11 @@
 			"coordinate": "35.884371,50.932756",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 770672,
-			  "createdAt": "1401-09-22 12:27:46",
-			  "updatedAt": "1401-09-22 12:32:02",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": "سنگ",
@@ -11388,11 +10015,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-22 12:27:46",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "782867"
+			"issell": true
 		  },
 		  {
 			"id": 666649,
@@ -11406,7 +10029,6 @@
 			"area": 440,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com/uploads/agency-32530/771110/",
 			"photos": [
 			  "639711bcc2d65.jpg",
 			  "639711c030022.jpg",
@@ -11417,15 +10039,12 @@
 			"publishedAt": "1401-09-24 12:25:03",
 			"cityId": 78,
 			"cityName": "کرج",
-			"buildingId": 771110,
-			"trackingCode": 12,
 			"slug": "زمین مسکونی 440 متری در تهراندشت",
 			"agencyId": 32530,
 			"agencyName": "املاک پدیده",
 			"agencyLogo": null,
 			"adviserId": 38076,
 			"adviserName": "هژیر یاهو",
-			"link": "https://www.zoomila.com/کرج/ResidentialLand/رهن-اجاره",
 			"createdAt": "1401-09-21 15:04:06",
 			"storage": null,
 			"yard": null,
@@ -11461,20 +10080,11 @@
 			"coordinate": "35.909867, 50.748188",
 			"availableDate": null,
 			"address": {
-			  "addressId": 192259,
-			  "buildingId": 771110,
 			  "main": "کرج.تهراندشت. سرخاب",
 			  "detail": "کرج.تهراندشت. سرخاب",
-			  "visible": true,
-			  "createdAt": "1401-09-21 15:04:06",
-			  "updatedAt": "1401-09-22 13:57:05",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 770138,
-			  "createdAt": "1401-09-21 15:04:06",
-			  "updatedAt": "1401-09-21 15:05:09",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -11518,11 +10128,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-22 13:57:05",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "782333"
+			"issell": true
 		  },
 		  {
 			"id": 666373,
@@ -11536,7 +10142,6 @@
 			"area": 330,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com/uploads/agency-32530/770812/",
 			"photos": [
 			  "63971217295c3.jpg",
 			  "6397121aa1156.jpg",
@@ -11548,15 +10153,12 @@
 			"publishedAt": "1401-09-24 12:25:07",
 			"cityId": 78,
 			"cityName": "کرج",
-			"buildingId": 770812,
-			"trackingCode": 12,
 			"slug": "ویلا 330 متری در تهراندشت",
 			"agencyId": 32530,
 			"agencyName": "املاک پدیده",
 			"agencyLogo": null,
 			"adviserId": 38076,
 			"adviserName": "هژیر یاهو",
-			"link": "https://www.zoomila.com/کرج/Villa/رهن-اجاره",
 			"createdAt": "1401-09-20 09:25:02",
 			"storage": null,
 			"yard": null,
@@ -11592,20 +10194,11 @@
 			"coordinate": "35.909867, 50.748188",
 			"availableDate": null,
 			"address": {
-			  "addressId": 192177,
-			  "buildingId": 770812,
 			  "main": "کرج.تهراندشت. سعید آباد",
 			  "detail": "کرج.تهراندشت. سعید آباد",
-			  "visible": true,
-			  "createdAt": "1401-09-20 09:25:02",
-			  "updatedAt": "1401-09-20 10:44:25",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 769840,
-			  "createdAt": "1401-09-20 09:25:02",
-			  "updatedAt": "1401-09-21 15:06:28",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -11649,11 +10242,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-20 09:25:02",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "782035"
+			"issell": true
 		  },
 		  {
 			"id": 666372,
@@ -11667,7 +10256,6 @@
 			"area": 460,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com/uploads/agency-32530/770811/",
 			"photos": [
 			  "63971251bd53a.jpg",
 			  "63971254b9b9f.jpg",
@@ -11682,15 +10270,12 @@
 			"publishedAt": "1401-09-24 12:25:14",
 			"cityId": 78,
 			"cityName": "کرج",
-			"buildingId": 770811,
-			"trackingCode": 12,
 			"slug": "ویلا 460 متری در نمکلان",
 			"agencyId": 32530,
 			"agencyName": "املاک پدیده",
 			"agencyLogo": null,
 			"adviserId": 38076,
 			"adviserName": "هژیر یاهو",
-			"link": "https://www.zoomila.com/کرج/Villa/رهن-اجاره",
 			"createdAt": "1401-09-20 09:21:50",
 			"storage": null,
 			"yard": null,
@@ -11726,20 +10311,11 @@
 			"coordinate": "35.885274, 50.683188",
 			"availableDate": null,
 			"address": {
-			  "addressId": 192176,
-			  "buildingId": 770811,
 			  "main": "کرج.تهراندشت. نمکلان",
 			  "detail": "کرج.تهراندشت. نمکلان",
-			  "visible": true,
-			  "createdAt": "1401-09-20 09:21:50",
-			  "updatedAt": "1401-09-20 09:21:50",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 769839,
-			  "createdAt": "1401-09-20 09:21:50",
-			  "updatedAt": "1401-09-21 15:09:13",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -11783,11 +10359,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-20 09:21:50",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "782034"
+			"issell": true
 		  },
 		  {
 			"id": 666184,
@@ -11801,7 +10373,6 @@
 			"area": 400,
 			"areaType": false,
 			"rooms": 2,
-			"photoPath": "https://www.zoomila.com/uploads/agency-3427/770609/",
 			"photos": [
 			  "639345d89aaaf.jpg",
 			  "639345b915bb7.jpg",
@@ -11815,15 +10386,12 @@
 			"publishedAt": "1401-09-18 18:19:12",
 			"cityId": 78,
 			"cityName": "کرج",
-			"buildingId": 770609,
-			"trackingCode": 12,
 			"slug": "ویلا 400 متری دو خوابه در چهارباغ",
 			"agencyId": 3427,
 			"agencyName": "املاک 121",
 			"agencyLogo": "uploads/agency-3427/logo/617f984685542.jpeg",
 			"adviserId": 4652,
 			"adviserName": "رضا پناهی",
-			"link": "https://www.zoomila.com/کرج/Villa/رهن-اجاره",
 			"createdAt": "1401-09-18 17:56:45",
 			"storage": true,
 			"yard": true,
@@ -11859,20 +10427,11 @@
 			"coordinate": "35.838445, 50.848975",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 769637,
-			  "createdAt": "1401-09-18 17:56:45",
-			  "updatedAt": "1401-09-18 18:18:55",
-			  "deletedAt": null,
 			  "parking": "اختصاصی",
 			  "kitchenUnit": "ممبران",
 			  "flooring": "سرامیک",
@@ -11916,11 +10475,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-18 17:56:45",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "781832"
+			"issell": true
 		  },
 		  {
 			"id": 665860,
@@ -11934,7 +10489,6 @@
 			"area": 400,
 			"areaType": false,
 			"rooms": 2,
-			"photoPath": "https://www.zoomila.com/uploads/agency-32530/770246/",
 			"photos": [
 			  "639155516a3f3.jpg",
 			  "6391557c8a4b6.jpg",
@@ -11945,15 +10499,12 @@
 			"publishedAt": "1401-09-24 12:25:26",
 			"cityId": 78,
 			"cityName": "کرج",
-			"buildingId": 770246,
-			"trackingCode": 12,
 			"slug": "ویلا 400 متری دو خوابه در تهراندشت",
 			"agencyId": 32530,
 			"agencyName": "املاک پدیده",
 			"agencyLogo": null,
 			"adviserId": 38076,
 			"adviserName": "هژیر یاهو",
-			"link": "https://www.zoomila.com/کرج/Villa/رهن-اجاره",
 			"createdAt": "1401-09-17 06:38:40",
 			"storage": null,
 			"yard": null,
@@ -11989,20 +10540,11 @@
 			"coordinate": "35.909867, 50.748188",
 			"availableDate": null,
 			"address": {
-			  "addressId": 192062,
-			  "buildingId": 770246,
 			  "main": "کرج. تهراندشت. احمد آباد",
 			  "detail": "کرج. تهراندشت. احمد آباد",
-			  "visible": true,
-			  "createdAt": "1401-09-17 06:38:40",
-			  "updatedAt": "1401-09-17 06:38:40",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 769274,
-			  "createdAt": "1401-09-17 06:38:40",
-			  "updatedAt": "1401-09-17 08:03:26",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -12046,11 +10588,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-17 06:38:40",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "781469"
+			"issell": true
 		  },
 		  {
 			"id": 665859,
@@ -12064,7 +10602,6 @@
 			"area": 400,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com/uploads/agency-32530/770245/",
 			"photos": [
 			  "639154ae4a30d.jpg",
 			  "639154c45689d.jpg"
@@ -12072,15 +10609,12 @@
 			"publishedAt": "1401-09-17 08:02:44",
 			"cityId": 78,
 			"cityName": "کرج",
-			"buildingId": 770245,
-			"trackingCode": 12,
 			"slug": "ویلا 400 متری در تهراندشت",
 			"agencyId": 32530,
 			"agencyName": "املاک پدیده",
 			"agencyLogo": null,
 			"adviserId": 38076,
 			"adviserName": "هژیر یاهو",
-			"link": "https://www.zoomila.com/کرج/Villa/رهن-اجاره",
 			"createdAt": "1401-09-17 06:35:43",
 			"storage": null,
 			"yard": null,
@@ -12116,20 +10650,11 @@
 			"coordinate": "35.909867, 50.748188",
 			"availableDate": null,
 			"address": {
-			  "addressId": 192061,
-			  "buildingId": 770245,
 			  "main": "کرج. تهراندشت. احمد آباد",
 			  "detail": "کرج. تهراندشت. احمد آباد",
-			  "visible": true,
-			  "createdAt": "1401-09-17 06:35:43",
-			  "updatedAt": "1401-09-17 06:35:43",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 769273,
-			  "createdAt": "1401-09-17 06:35:43",
-			  "updatedAt": "1401-09-17 06:36:56",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -12173,11 +10698,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-17 06:35:43",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "781468"
+			"issell": true
 		  },
 		  {
 			"id": 665858,
@@ -12191,7 +10712,6 @@
 			"area": 500,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com/uploads/agency-32530/770244/",
 			"photos": [
 			  "6391540f69e4d.jpg",
 			  "6391541a46982.jpg"
@@ -12199,15 +10719,12 @@
 			"publishedAt": "1401-09-24 12:25:35",
 			"cityId": 78,
 			"cityName": "کرج",
-			"buildingId": 770244,
-			"trackingCode": 12,
 			"slug": "زمین مسکونی 500 متری در تهراندشت",
 			"agencyId": 32530,
 			"agencyName": "املاک پدیده",
 			"agencyLogo": null,
 			"adviserId": 38076,
 			"adviserName": "هژیر یاهو",
-			"link": "https://www.zoomila.com/کرج/ResidentialLand/رهن-اجاره",
 			"createdAt": "1401-09-17 06:31:55",
 			"storage": null,
 			"yard": null,
@@ -12243,20 +10760,11 @@
 			"coordinate": "35.909867, 50.748188",
 			"availableDate": null,
 			"address": {
-			  "addressId": 192060,
-			  "buildingId": 770244,
 			  "main": "کرج. تهراندشت. احمدآباد",
 			  "detail": "کرج. تهراندشت. احمدآباد",
-			  "visible": true,
-			  "createdAt": "1401-09-17 06:31:55",
-			  "updatedAt": "1401-09-19 17:35:56",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 769272,
-			  "createdAt": "1401-09-17 06:31:55",
-			  "updatedAt": "1401-09-19 17:36:04",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -12300,11 +10808,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-17 07:56:34",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "781467"
+			"issell": true
 		  },
 		  {
 			"id": 649407,
@@ -12318,7 +10822,6 @@
 			"area": 140,
 			"areaType": false,
 			"rooms": 2,
-			"photoPath": "https://www.zoomila.com/uploads/agency-26387/752039/",
 			"photos": [
 			  "63510a7717774617.jpg",
 			  "63510a8549c22244.jpg",
@@ -12331,15 +10834,12 @@
 			"publishedAt": "1401-09-12 12:01:42",
 			"cityId": 53,
 			"cityName": "اصفهان",
-			"buildingId": 752039,
-			"trackingCode": 12,
 			"slug": "ویلا 140 متری دو خوابه در بهارستان",
 			"agencyId": 26387,
 			"agencyName": "املاک نیاوران",
 			"agencyLogo": "uploads/agency-26387/logo/62de35030c083.jpeg",
 			"adviserId": 31421,
 			"adviserName": "خانم محسنی",
-			"link": "https://www.zoomila.com/اصفهان/Villa/رهن-اجاره",
 			"createdAt": "1401-07-28 12:16:40",
 			"storage": true,
 			"yard": true,
@@ -12377,20 +10877,11 @@
 			"coordinate": "32.496348,51.769979",
 			"availableDate": null,
 			"address": {
-			  "addressId": 188536,
-			  "buildingId": 752039,
 			  "main": "اصفهان/ بهارستان",
 			  "detail": "اصفهان بهارستان",
-			  "visible": true,
-			  "createdAt": "1401-07-28 12:16:40",
-			  "updatedAt": "1401-07-28 12:16:40",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 751082,
-			  "createdAt": "1401-07-28 12:16:40",
-			  "updatedAt": "1401-07-28 12:16:40",
-			  "deletedAt": null,
 			  "parking": "اختصاصی",
 			  "kitchenUnit": "ام دی اف",
 			  "flooring": "سرامیک",
@@ -12434,11 +10925,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-07-28 12:16:40",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "763262"
+			"issell": true
 		  },
 		  {
 			"id": 645348,
@@ -12452,7 +10939,6 @@
 			"area": 116,
 			"areaType": false,
 			"rooms": 2,
-			"photoPath": "https://www.zoomila.com/uploads/agency-3047/747546/",
 			"photos": [
 			  "633e88272a21f651.jpg",
 			  "633e88985d95b972.jpg"
@@ -12460,15 +10946,12 @@
 			"publishedAt": "1401-09-20 09:20:57",
 			"cityId": 53,
 			"cityName": "اصفهان",
-			"buildingId": 747546,
-			"trackingCode": 12,
 			"slug": "آپارتمان 116 متری دو خوابه در خانه اصفهان",
 			"agencyId": 3047,
 			"agencyName": "املاک شهر",
 			"agencyLogo": "uploads/agency-3047/logo/6339dc0b3583a.jpg",
 			"adviserId": 37171,
 			"adviserName": "رضا جوکار",
-			"link": "https://www.zoomila.com/اصفهان/Apartment/رهن-اجاره",
 			"createdAt": "1401-07-14 11:19:48",
 			"storage": true,
 			"yard": true,
@@ -12506,20 +10989,11 @@
 			"coordinate": "32.70523568947809,51.63090918213129",
 			"availableDate": null,
 			"address": {
-			  "addressId": 187465,
-			  "buildingId": 747546,
 			  "main": "خانه اصفهان خ ماه فرخی ، خ کاج",
 			  "detail": "آپارتمان الماس",
-			  "visible": true,
-			  "createdAt": "1401-07-14 11:19:48",
-			  "updatedAt": "1401-07-14 14:11:16",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 746598,
-			  "createdAt": "1401-07-14 11:19:48",
-			  "updatedAt": "1401-07-14 14:11:16",
-			  "deletedAt": null,
 			  "parking": "اختصاصی",
 			  "kitchenUnit": "ام دی اف",
 			  "flooring": "سرامیک",
@@ -12563,11 +11037,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-07-14 11:19:48",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "758769"
+			"issell": true
 		  },
 		  {
 			"id": 645338,
@@ -12581,7 +11051,6 @@
 			"area": 130,
 			"areaType": false,
 			"rooms": 6,
-			"photoPath": "https://www.zoomila.com/uploads/agency-3047/747536/",
 			"photos": [
 			  "633e82126ba51411.jpg",
 			  "633e82a4bce7c866.jpg"
@@ -12589,15 +11058,12 @@
 			"publishedAt": "1401-09-20 09:20:50",
 			"cityId": 53,
 			"cityName": "اصفهان",
-			"buildingId": 747536,
-			"trackingCode": 12,
 			"slug": "آپارتمان 130 متری شش خوابه در ابوریحان",
 			"agencyId": 3047,
 			"agencyName": "املاک شهر",
 			"agencyLogo": "uploads/agency-3047/logo/6339dc0b3583a.jpg",
 			"adviserId": 37171,
 			"adviserName": "رضا جوکار",
-			"link": "https://www.zoomila.com/اصفهان/Apartment/رهن-اجاره",
 			"createdAt": "1401-07-14 10:54:22",
 			"storage": true,
 			"yard": false,
@@ -12635,20 +11101,11 @@
 			"coordinate": "32.70552006792319,51.72945320606232",
 			"availableDate": null,
 			"address": {
-			  "addressId": 187463,
-			  "buildingId": 747536,
 			  "main": "زینبیه اول ابوریحان",
 			  "detail": "زینبیه اول ابوریحان",
-			  "visible": true,
-			  "createdAt": "1401-07-14 10:54:22",
-			  "updatedAt": "1401-07-14 14:13:07",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 746588,
-			  "createdAt": "1401-07-14 10:54:22",
-			  "updatedAt": "1401-07-14 14:13:07",
-			  "deletedAt": null,
 			  "parking": "اختصاصی",
 			  "kitchenUnit": "ام دی اف",
 			  "flooring": "سرامیک",
@@ -12692,11 +11149,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-07-14 10:54:22",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "758759"
+			"issell": true
 		  },
 		  {
 			"id": 645437,
@@ -12710,7 +11163,6 @@
 			"area": 280,
 			"areaType": false,
 			"rooms": 3,
-			"photoPath": "https://www.zoomila.com/uploads/agency-3047/747638/",
 			"photos": [
 			  "633eafff57823360.jpg",
 			  "633eb03881618541.jpg"
@@ -12718,15 +11170,12 @@
 			"publishedAt": "1401-09-20 09:21:15",
 			"cityId": 53,
 			"cityName": "اصفهان",
-			"buildingId": 747638,
-			"trackingCode": 12,
 			"slug": "کلنگی 280 متری سه خوابه در شهیدان کاظمی",
 			"agencyId": 3047,
 			"agencyName": "املاک شهر",
 			"agencyLogo": "uploads/agency-3047/logo/6339dc0b3583a.jpg",
 			"adviserId": 37171,
 			"adviserName": "رضا جوکار",
-			"link": "https://www.zoomila.com/اصفهان/OldHouse/رهن-اجاره",
 			"createdAt": "1401-07-14 14:08:51",
 			"storage": true,
 			"yard": true,
@@ -12764,20 +11213,11 @@
 			"coordinate": "32.694448952247264,51.63199782371521",
 			"availableDate": null,
 			"address": {
-			  "addressId": 187472,
-			  "buildingId": 747638,
 			  "main": "خ امام خمینی شهیدان کاظمی کوی فرهنگیان",
 			  "detail": "خانه عسگری",
-			  "visible": true,
-			  "createdAt": "1401-07-14 14:08:51",
-			  "updatedAt": "1401-07-14 14:08:51",
-			  "deletedAt": null
+			  "visible": true
 			},
 			"facility": {
-			  "facilityId": 746690,
-			  "createdAt": "1401-07-14 14:08:51",
-			  "updatedAt": "1401-07-14 14:08:51",
-			  "deletedAt": null,
 			  "parking": "اختصاصی",
 			  "kitchenUnit": "فلزی",
 			  "flooring": "موکت",
@@ -12821,11 +11261,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-07-14 14:08:51",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "758861"
+			"issell": true
 		  },
 		  {
 			"id": 667496,
@@ -12839,20 +11275,16 @@
 			"area": 42,
 			"areaType": false,
 			"rooms": 1,
-			"photoPath": "https://www.zoomila.com//",
 			"photos": null,
 			"publishedAt": "1401-09-23 18:06:12",
 			"cityId": 53,
 			"cityName": "اصفهان",
-			"buildingId": 772068,
-			"trackingCode": 12,
 			"slug": "خانه 42 متری یک خوابه در خیابان باغ دریاچه",
 			"agencyId": 9505,
 			"agencyName": "املاک مهرنگار",
 			"agencyLogo": "uploads/agency-9505/logo/60d2bef9ba5ce.jpeg",
 			"adviserId": 12739,
 			"adviserName": "آقای جهاندار",
-			"link": "https://www.zoomila.com/اصفهان/Home/رهن-اجاره",
 			"createdAt": "1401-09-23 17:53:59",
 			"storage": null,
 			"yard": null,
@@ -12888,20 +11320,11 @@
 			"coordinate": "32.633678, 51.632637",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 771096,
-			  "createdAt": "1401-09-23 17:53:59",
-			  "updatedAt": "1401-09-23 17:55:25",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -12945,11 +11368,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-23 17:53:59",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "783291"
+			"issell": true
 		  },
 		  {
 			"id": 667495,
@@ -12963,20 +11382,16 @@
 			"area": 80,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com//",
 			"photos": null,
 			"publishedAt": "1401-09-23 18:06:07",
 			"cityId": 53,
 			"cityName": "اصفهان",
-			"buildingId": 772067,
-			"trackingCode": 12,
 			"slug": "خانه 80 متری در خیابان باغ دریاچه",
 			"agencyId": 9505,
 			"agencyName": "املاک مهرنگار",
 			"agencyLogo": "uploads/agency-9505/logo/60d2bef9ba5ce.jpeg",
 			"adviserId": 12739,
 			"adviserName": "آقای جهاندار",
-			"link": "https://www.zoomila.com/اصفهان/Home/رهن-اجاره",
 			"createdAt": "1401-09-23 17:52:56",
 			"storage": null,
 			"yard": null,
@@ -13012,20 +11427,11 @@
 			"coordinate": "32.633678, 51.632637",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 771095,
-			  "createdAt": "1401-09-23 17:52:56",
-			  "updatedAt": "1401-09-23 17:53:31",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -13069,11 +11475,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-23 17:52:56",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "783290"
+			"issell": true
 		  },
 		  {
 			"id": 667494,
@@ -13087,20 +11489,16 @@
 			"area": 250,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com//",
 			"photos": null,
 			"publishedAt": "1401-09-23 18:06:02",
 			"cityId": 53,
 			"cityName": "اصفهان",
-			"buildingId": 772066,
-			"trackingCode": 12,
 			"slug": "خانه 250 متری در کوی امیریه",
 			"agencyId": 9505,
 			"agencyName": "املاک مهرنگار",
 			"agencyLogo": "uploads/agency-9505/logo/60d2bef9ba5ce.jpeg",
 			"adviserId": 12739,
 			"adviserName": "آقای جهاندار",
-			"link": "https://www.zoomila.com/اصفهان/Home/رهن-اجاره",
 			"createdAt": "1401-09-23 17:51:56",
 			"storage": null,
 			"yard": null,
@@ -13136,20 +11534,11 @@
 			"coordinate": "32.609821, 51.608081",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 771094,
-			  "createdAt": "1401-09-23 17:51:56",
-			  "updatedAt": "1401-09-23 17:52:32",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -13193,11 +11582,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-23 17:51:56",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "783289"
+			"issell": true
 		  },
 		  {
 			"id": 667492,
@@ -13211,20 +11596,16 @@
 			"area": 235,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com//",
 			"photos": null,
 			"publishedAt": "1401-09-23 18:05:57",
 			"cityId": 53,
 			"cityName": "اصفهان",
-			"buildingId": 772064,
-			"trackingCode": 12,
 			"slug": "خانه 235 متری در خیابان حکیم نظامی",
 			"agencyId": 9505,
 			"agencyName": "املاک مهرنگار",
 			"agencyLogo": "uploads/agency-9505/logo/60d2bef9ba5ce.jpeg",
 			"adviserId": 12739,
 			"adviserName": "آقای جهاندار",
-			"link": "https://www.zoomila.com/اصفهان/Home/رهن-اجاره",
 			"createdAt": "1401-09-23 17:50:33",
 			"storage": null,
 			"yard": null,
@@ -13260,20 +11641,11 @@
 			"coordinate": "32.632115, 51.653401",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 771092,
-			  "createdAt": "1401-09-23 17:50:33",
-			  "updatedAt": "1401-09-23 17:51:14",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -13317,11 +11689,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-23 17:50:33",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "783287"
+			"issell": true
 		  },
 		  {
 			"id": 667491,
@@ -13335,20 +11703,16 @@
 			"area": 65,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com//",
 			"photos": null,
 			"publishedAt": "1401-09-23 18:05:45",
 			"cityId": 53,
 			"cityName": "اصفهان",
-			"buildingId": 772063,
-			"trackingCode": 12,
 			"slug": "خانه 65 متری در بلوار کهندژ",
 			"agencyId": 9505,
 			"agencyName": "املاک مهرنگار",
 			"agencyLogo": "uploads/agency-9505/logo/60d2bef9ba5ce.jpeg",
 			"adviserId": 12739,
 			"adviserName": "آقای جهاندار",
-			"link": "https://www.zoomila.com/اصفهان/Home/رهن-اجاره",
 			"createdAt": "1401-09-23 17:49:32",
 			"storage": null,
 			"yard": null,
@@ -13384,20 +11748,11 @@
 			"coordinate": "32.677546, 51.595300",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 771091,
-			  "createdAt": "1401-09-23 17:49:32",
-			  "updatedAt": "1401-09-23 17:50:08",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -13441,11 +11796,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-23 17:49:32",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "783286"
+			"issell": true
 		  },
 		  {
 			"id": 667490,
@@ -13459,20 +11810,16 @@
 			"area": 75,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com//",
 			"photos": null,
 			"publishedAt": "1401-09-23 18:05:40",
 			"cityId": 53,
 			"cityName": "اصفهان",
-			"buildingId": 772062,
-			"trackingCode": 12,
 			"slug": "خانه 75 متری در خیابان رودکی",
 			"agencyId": 9505,
 			"agencyName": "املاک مهرنگار",
 			"agencyLogo": "uploads/agency-9505/logo/60d2bef9ba5ce.jpeg",
 			"adviserId": 12739,
 			"adviserName": "آقای جهاندار",
-			"link": "https://www.zoomila.com/اصفهان/Home/رهن-اجاره",
 			"createdAt": "1401-09-23 17:48:38",
 			"storage": null,
 			"yard": null,
@@ -13508,20 +11855,11 @@
 			"coordinate": "32.629888, 51.631743",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 771090,
-			  "createdAt": "1401-09-23 17:48:38",
-			  "updatedAt": "1401-09-23 17:49:10",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -13565,11 +11903,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-23 17:48:38",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "783285"
+			"issell": true
 		  },
 		  {
 			"id": 667489,
@@ -13583,20 +11917,16 @@
 			"area": 138,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com//",
 			"photos": null,
 			"publishedAt": "1401-09-23 18:05:35",
 			"cityId": 53,
 			"cityName": "اصفهان",
-			"buildingId": 772061,
-			"trackingCode": 12,
 			"slug": "خانه 138 متری در برازنده",
 			"agencyId": 9505,
 			"agencyName": "املاک مهرنگار",
 			"agencyLogo": "uploads/agency-9505/logo/60d2bef9ba5ce.jpeg",
 			"adviserId": 12739,
 			"adviserName": "آقای جهاندار",
-			"link": "https://www.zoomila.com/اصفهان/Home/رهن-اجاره",
 			"createdAt": "1401-09-23 17:47:28",
 			"storage": null,
 			"yard": null,
@@ -13632,20 +11962,11 @@
 			"coordinate": "32.708132, 51.691596",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 771089,
-			  "createdAt": "1401-09-23 17:47:28",
-			  "updatedAt": "1401-09-23 17:48:06",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -13689,11 +12010,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-23 17:47:28",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "783284"
+			"issell": true
 		  },
 		  {
 			"id": 650175,
@@ -13707,7 +12024,6 @@
 			"area": 90,
 			"areaType": false,
 			"rooms": 2,
-			"photoPath": "https://www.zoomila.com/uploads/agency-90/752896/",
 			"photos": [
 			  "6354f1a63575a641.jpg",
 			  "6354f1b13b0e4384.jpg"
@@ -13715,15 +12031,12 @@
 			"publishedAt": "1401-09-12 08:56:53",
 			"cityId": 440,
 			"cityName": "همدان",
-			"buildingId": 752896,
-			"trackingCode": 12,
 			"slug": "آپارتمان 90 متری دو خوابه در شهناز",
 			"agencyId": 90,
 			"agencyName": "پایتخت",
 			"agencyLogo": null,
 			"adviserId": 27695,
 			"adviserName": "حمید سوری",
-			"link": "https://www.zoomila.com/همدان/Apartment/رهن-اجاره",
 			"createdAt": "1401-08-01 11:18:21",
 			"storage": false,
 			"yard": false,
@@ -13759,20 +12072,11 @@
 			"coordinate": "34.782941,48.518908",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 751939,
-			  "createdAt": "1401-08-01 11:18:21",
-			  "updatedAt": "1401-08-01 11:18:21",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -13816,11 +12120,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-12 08:56:43",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "764119"
+			"issell": true
 		  },
 		  {
 			"id": 633063,
@@ -13834,22 +12134,18 @@
 			"area": 94,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com/uploads/agency-105/733253/",
 			"photos": [
 			  "630b2f465269c.png"
 			],
 			"publishedAt": "1401-09-20 09:48:35",
 			"cityId": 440,
 			"cityName": "همدان",
-			"buildingId": 733253,
-			"trackingCode": 12,
 			"slug": "آپارتمان 94 متری در بلوار مدنی",
 			"agencyId": 105,
 			"agencyName": "پارس نو",
 			"agencyLogo": null,
 			"adviserId": 108,
 			"adviserName": "شکری",
-			"link": "https://www.zoomila.com/همدان/Apartment/رهن-اجاره",
 			"createdAt": "1401-06-04 18:55:55",
 			"storage": null,
 			"yard": null,
@@ -13885,20 +12181,11 @@
 			"coordinate": "34.791638, 48.516747",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 732309,
-			  "createdAt": "1401-06-04 18:55:55",
-			  "updatedAt": "1401-06-06 13:33:02",
-			  "deletedAt": null,
 			  "parking": "بدون مزاحم",
 			  "kitchenUnit": "MDF",
 			  "flooring": "سرامیک",
@@ -13942,11 +12229,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-06-05 00:08:36",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "744476"
+			"issell": true
 		  },
 		  {
 			"id": 633062,
@@ -13960,22 +12243,18 @@
 			"area": 118,
 			"areaType": false,
 			"rooms": 3,
-			"photoPath": "https://www.zoomila.com/uploads/agency-105/733252/",
 			"photos": [
 			  "630b2f8158cf4.png"
 			],
 			"publishedAt": "1401-09-20 09:48:40",
 			"cityId": 440,
 			"cityName": "همدان",
-			"buildingId": 733252,
-			"trackingCode": 12,
 			"slug": "آپارتمان 118 متری سه خوابه در میرزاده عشقی",
 			"agencyId": 105,
 			"agencyName": "پارس نو",
 			"agencyLogo": null,
 			"adviserId": 108,
 			"adviserName": "شکری",
-			"link": "https://www.zoomila.com/همدان/Apartment/رهن-اجاره",
 			"createdAt": "1401-06-04 18:55:02",
 			"storage": true,
 			"yard": null,
@@ -14011,20 +12290,11 @@
 			"coordinate": "34.790235, 48.507643",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 732308,
-			  "createdAt": "1401-06-04 18:55:02",
-			  "updatedAt": "1401-06-06 17:50:40",
-			  "deletedAt": null,
 			  "parking": "بدون مزاحم",
 			  "kitchenUnit": "MDF",
 			  "flooring": null,
@@ -14068,11 +12338,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-06-06 17:50:24",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "744475"
+			"issell": true
 		  },
 		  {
 			"id": 628331,
@@ -14086,22 +12352,18 @@
 			"area": 100,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com/uploads/agency-105/727874/",
 			"photos": [
 			  "630b2fd885bcb.png"
 			],
 			"publishedAt": "1401-09-20 09:49:00",
 			"cityId": 440,
 			"cityName": "همدان",
-			"buildingId": 727874,
-			"trackingCode": 12,
 			"slug": "آپارتمان 100 متری در صدف",
 			"agencyId": 105,
 			"agencyName": "پارس نو",
 			"agencyLogo": null,
 			"adviserId": 108,
 			"adviserName": "شکری",
-			"link": "https://www.zoomila.com/همدان/Apartment/رهن-اجاره",
 			"createdAt": "1401-05-24 23:10:25",
 			"storage": null,
 			"yard": null,
@@ -14137,20 +12399,11 @@
 			"coordinate": "34.791401, 48.525611",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 726930,
-			  "createdAt": "1401-05-24 23:10:25",
-			  "updatedAt": "1401-06-06 13:35:29",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -14194,11 +12447,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-05-24 23:10:25",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "739097"
+			"issell": true
 		  },
 		  {
 			"id": 622475,
@@ -14212,22 +12461,18 @@
 			"area": 90,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com/uploads/agency-105/721456/",
 			"photos": [
 			  "6357988c9a7c5.png"
 			],
 			"publishedAt": "1401-09-20 09:48:00",
 			"cityId": 440,
 			"cityName": "همدان",
-			"buildingId": 721456,
-			"trackingCode": 12,
 			"slug": "خانه 90 متری در خواجه رشید",
 			"agencyId": 105,
 			"agencyName": "پارس نو",
 			"agencyLogo": null,
 			"adviserId": 108,
 			"adviserName": "شکری",
-			"link": "https://www.zoomila.com/همدان/Home/رهن-اجاره",
 			"createdAt": "1401-05-11 15:23:29",
 			"storage": null,
 			"yard": null,
@@ -14265,20 +12510,11 @@
 			"coordinate": "34.792155, 48.511297",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 720512,
-			  "createdAt": "1401-05-11 15:23:29",
-			  "updatedAt": "1401-08-03 11:34:29",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -14322,11 +12558,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-05-11 15:23:29",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "732679"
+			"issell": true
 		  },
 		  {
 			"id": 622473,
@@ -14340,22 +12572,18 @@
 			"area": 62,
 			"areaType": false,
 			"rooms": 1,
-			"photoPath": "https://www.zoomila.com/uploads/agency-105/721454/",
 			"photos": [
 			  "63579c5280799.png"
 			],
 			"publishedAt": "1401-09-20 09:47:55",
 			"cityId": 440,
 			"cityName": "همدان",
-			"buildingId": 721454,
-			"trackingCode": 12,
 			"slug": "آپارتمان 62 متری یک خوابه در بلوار کاشانی",
 			"agencyId": 105,
 			"agencyName": "پارس نو",
 			"agencyLogo": null,
 			"adviserId": 108,
 			"adviserName": "شکری",
-			"link": "https://www.zoomila.com/همدان/Apartment/رهن-اجاره",
 			"createdAt": "1401-05-11 15:22:37",
 			"storage": true,
 			"yard": null,
@@ -14391,20 +12619,11 @@
 			"coordinate": "34.799999, 48.506717",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 720510,
-			  "createdAt": "1401-05-11 15:22:37",
-			  "updatedAt": "1401-08-03 11:50:35",
-			  "deletedAt": null,
 			  "parking": "مزاحم",
 			  "kitchenUnit": "MDF",
 			  "flooring": null,
@@ -14448,11 +12667,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-05-11 15:22:37",
-			"agreedPrice": false,
-			"zoomilaTrackingCode": "732677"
+			"issell": true
 		  },
 		  {
 			"id": 665774,
@@ -14466,20 +12681,16 @@
 			"area": 80,
 			"areaType": false,
 			"rooms": 2,
-			"photoPath": "https://www.zoomila.com//",
 			"photos": null,
 			"publishedAt": "1401-09-17 01:06:36",
 			"cityId": 440,
 			"cityName": "همدان",
-			"buildingId": 770152,
-			"trackingCode": 12,
 			"slug": "آپارتمان 80 متری دو خوابه در میدان بعثت",
 			"agencyId": 90,
 			"agencyName": "پایتخت",
 			"agencyLogo": null,
 			"adviserId": 93,
 			"adviserName": "ساعی",
-			"link": "https://www.zoomila.com/همدان/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-16 20:45:47",
 			"storage": true,
 			"yard": null,
@@ -14515,20 +12726,11 @@
 			"coordinate": "34.776430, 48.512227",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 769180,
-			  "createdAt": "1401-09-16 20:45:47",
-			  "updatedAt": "1401-09-16 20:46:12",
-			  "deletedAt": null,
 			  "parking": "اختصاصی",
 			  "kitchenUnit": "فلزی",
 			  "flooring": "سرامیک",
@@ -14572,11 +12774,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-17 01:06:30",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "781375"
+			"issell": true
 		  },
 		  {
 			"id": 665772,
@@ -14590,20 +12788,16 @@
 			"area": 80,
 			"areaType": false,
 			"rooms": 2,
-			"photoPath": "https://www.zoomila.com//",
 			"photos": null,
 			"publishedAt": "1401-09-17 01:03:44",
 			"cityId": 440,
 			"cityName": "همدان",
-			"buildingId": 770149,
-			"trackingCode": 12,
 			"slug": "آپارتمان 80 متری دو خوابه در پردیس",
 			"agencyId": 90,
 			"agencyName": "پایتخت",
 			"agencyLogo": null,
 			"adviserId": 93,
 			"adviserName": "ساعی",
-			"link": "https://www.zoomila.com/همدان/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-16 20:44:52",
 			"storage": null,
 			"yard": null,
@@ -14639,20 +12833,11 @@
 			"coordinate": "34.763337, 48.517106",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 769177,
-			  "createdAt": "1401-09-16 20:44:52",
-			  "updatedAt": "1401-09-16 20:45:14",
-			  "deletedAt": null,
 			  "parking": "مزاحم",
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -14696,11 +12881,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-17 01:02:58",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "781372"
+			"issell": true
 		  },
 		  {
 			"id": 665770,
@@ -14714,20 +12895,16 @@
 			"area": 70,
 			"areaType": false,
 			"rooms": 2,
-			"photoPath": "https://www.zoomila.com//",
 			"photos": null,
 			"publishedAt": "1401-09-17 00:59:58",
 			"cityId": 440,
 			"cityName": "همدان",
-			"buildingId": 770147,
-			"trackingCode": 12,
 			"slug": "آپارتمان 70 متری دو خوابه در میدان بعثت",
 			"agencyId": 90,
 			"agencyName": "پایتخت",
 			"agencyLogo": null,
 			"adviserId": 93,
 			"adviserName": "ساعی",
-			"link": "https://www.zoomila.com/همدان/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-16 20:44:05",
 			"storage": true,
 			"yard": null,
@@ -14763,20 +12940,11 @@
 			"coordinate": "34.776430, 48.512227",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 769175,
-			  "createdAt": "1401-09-16 20:44:05",
-			  "updatedAt": "1401-09-16 20:44:24",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -14820,11 +12988,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-17 00:58:45",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "781370"
+			"issell": true
 		  },
 		  {
 			"id": 665767,
@@ -14838,20 +13002,16 @@
 			"area": 122,
 			"areaType": false,
 			"rooms": 3,
-			"photoPath": "https://www.zoomila.com//",
 			"photos": null,
 			"publishedAt": "1401-09-17 00:56:08",
 			"cityId": 440,
 			"cityName": "همدان",
-			"buildingId": 770144,
-			"trackingCode": 12,
 			"slug": "آپارتمان 122 متری سه خوابه در بلوار رسالت",
 			"agencyId": 90,
 			"agencyName": "پایتخت",
 			"agencyLogo": null,
 			"adviserId": 93,
 			"adviserName": "ساعی",
-			"link": "https://www.zoomila.com/همدان/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-16 20:43:01",
 			"storage": true,
 			"yard": null,
@@ -14887,20 +13047,11 @@
 			"coordinate": "34.780502, 48.529298",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 769172,
-			  "createdAt": "1401-09-16 20:43:01",
-			  "updatedAt": "1401-09-16 20:43:29",
-			  "deletedAt": null,
 			  "parking": "بدون مزاحم",
 			  "kitchenUnit": null,
 			  "flooring": "سرامیک",
@@ -14944,11 +13095,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-17 00:56:09",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "781367"
+			"issell": true
 		  },
 		  {
 			"id": 665765,
@@ -14962,20 +13109,16 @@
 			"area": 101,
 			"areaType": false,
 			"rooms": 2,
-			"photoPath": "https://www.zoomila.com//",
 			"photos": null,
 			"publishedAt": "1401-09-17 00:50:30",
 			"cityId": 440,
 			"cityName": "همدان",
-			"buildingId": 770142,
-			"trackingCode": 12,
 			"slug": "آپارتمان 101 متری دو خوابه در سنگ شیر",
 			"agencyId": 90,
 			"agencyName": "پایتخت",
 			"agencyLogo": null,
 			"adviserId": 93,
 			"adviserName": "ساعی",
-			"link": "https://www.zoomila.com/همدان/Apartment/رهن-اجاره",
 			"createdAt": "1401-09-16 20:41:57",
 			"storage": null,
 			"yard": null,
@@ -15011,20 +13154,11 @@
 			"coordinate": "34.786122, 48.524081",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 769170,
-			  "createdAt": "1401-09-16 20:41:57",
-			  "updatedAt": "1401-09-16 20:42:25",
-			  "deletedAt": null,
 			  "parking": "اختصاصی",
 			  "kitchenUnit": "MDF",
 			  "flooring": "سرامیک",
@@ -15068,11 +13202,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-17 00:49:27",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "781365"
+			"issell": true
 		  },
 		  {
 			"id": 664776,
@@ -15086,20 +13216,16 @@
 			"area": 140,
 			"areaType": false,
 			"rooms": 0,
-			"photoPath": "https://www.zoomila.com//",
 			"photos": null,
 			"publishedAt": "1401-09-13 18:43:36",
 			"cityId": 440,
 			"cityName": "همدان",
-			"buildingId": 769028,
-			"trackingCode": 12,
 			"slug": "انبار 140 متری در بلوار علویان",
 			"agencyId": 105,
 			"agencyName": "پارس نو",
 			"agencyLogo": null,
 			"adviserId": 108,
 			"adviserName": "شکری",
-			"link": "https://www.zoomila.com/همدان/Store/رهن-اجاره",
 			"createdAt": "1401-09-13 18:10:34",
 			"storage": null,
 			"yard": null,
@@ -15135,20 +13261,11 @@
 			"coordinate": "34.805089, 48.512693",
 			"availableDate": null,
 			"address": {
-			  "addressId": null,
-			  "buildingId": null,
 			  "main": null,
 			  "detail": null,
-			  "visible": null,
-			  "createdAt": null,
-			  "updatedAt": null,
-			  "deletedAt": null
+			  "visible": null
 			},
 			"facility": {
-			  "facilityId": 768067,
-			  "createdAt": "1401-09-13 18:10:34",
-			  "updatedAt": "1401-09-13 18:10:52",
-			  "deletedAt": null,
 			  "parking": null,
 			  "kitchenUnit": null,
 			  "flooring": null,
@@ -15192,11 +13309,7 @@
 			  "package": null,
 			  "centralHeating": null
 			},
-			"existingFacilities": null,
-			"video": null,
-			"updatedAt": "1401-09-13 18:43:27",
-			"agreedPrice": true,
-			"zoomilaTrackingCode": "780251"
+			"issell": true
 		  }
 	]
 }
