@@ -13,12 +13,6 @@
 			"CityName" : "مراغه"
 		},
 		{
-			"ProvinceId" : 1,
-			"ProvinceName" : "آذربایجان شرقی",
-			"CityId" : 17,
-			"CityName" : "میانه"
-		},
-		{
 			"ProvinceId" : 2,
 			"ProvinceName" : "آذربایجان غربی",
 			"CityId" : 23,
@@ -29,12 +23,6 @@
 			"ProvinceName" : "آذربایجان غربی",
 			"CityId" : 38,
 			"CityName" : "مهاباد"
-		},
-		{
-			"ProvinceId" : 2,
-			"ProvinceName" : "آذربایجان غربی",
-			"CityId" : 26,
-			"CityName" : "پیرانشهر"
 		},
 		{
 			"ProvinceId" : 3,
@@ -61,22 +49,10 @@
 			"CityName" : "کاشان"
 		},
 		{
-			"ProvinceId" : 4,
-			"ProvinceName" : "اصفهان",
-			"CityId" : 76,
-			"CityName" : "نطنز"
-		},
-		{
 			"ProvinceId" : 5,
 			"ProvinceName" : "البرز",
 			"CityId" : 78,
 			"CityName" : "کرج"
-		},
-		{
-			"ProvinceId" : 5,
-			"ProvinceName" : "البرز",
-			"CityId" : 83,
-			"CityName" : "هشتگرد"
 		},
 		{
 			"ProvinceId" : 6,
@@ -103,34 +79,10 @@
 			"CityName" : "پرند"
 		},
 		{
-			"ProvinceId" : 8,
-			"ProvinceName" : "تهران",
-			"CityId" : 115,
-			"CityName" : "ری"
-		},
-		{
-			"ProvinceId" : 8,
-			"ProvinceName" : "تهران",
-			"CityId" : 116,
-			"CityName" : "شمیرانات"
-		},
-		{
-			"ProvinceId" : 8,
-			"ProvinceName" : "تهران",
-			"CityId" : 490,
-			"CityName" : "لواسان"
-		},
-		{
 			"ProvinceId" : 9,
 			"ProvinceName" : "چهارمحال بختیاری",
 			"CityId" : 124,
 			"CityName" : "شهرکرد"
-		},
-		{
-			"ProvinceId" : 9,
-			"ProvinceName" : "چهارمحال بختیاری",
-			"CityId" : 128,
-			"CityName" : "کوهرنگ(چلگرد)"
 		},
 		{
 			"ProvinceId" : 10,
@@ -179,12 +131,6 @@
 			"ProvinceName" : "خوزستان",
 			"CityId" : 183,
 			"CityName" : "آبادان"
-		},
-		{
-			"ProvinceId" : 13,
-			"ProvinceName" : "خوزستان",
-			"CityId" : 192,
-			"CityName" : "خرمشهر"
 		},
 		{
 			"ProvinceId" : 14,
@@ -283,12 +229,6 @@
 			"CityName" : "بندرانزلی"
 		},
 		{
-			"ProvinceId" : 25,
-			"ProvinceName" : "گیلان",
-			"CityId" : 362,
-			"CityName" : "آستارا"
-		},
-		{
 			"ProvinceId" : 26,
 			"ProvinceName" : "لرستان",
 			"CityId" : 378,
@@ -305,12 +245,6 @@
 			"ProvinceName" : "مازندران",
 			"CityId" : 389,
 			"CityName" : "ساری"
-		},
-		{
-			"ProvinceId" : 27,
-			"ProvinceName" : "مازندران",
-			"CityId" : 491,
-			"CityName" : "چمستان"
 		},
 		{
 			"ProvinceId" : 27,
