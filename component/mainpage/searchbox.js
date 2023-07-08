@@ -6,10 +6,11 @@ import {FaBed,FaBath} from 'react-icons/fa'
 import prpertytype from '../../constant/property_type.json'
 import { useState,useEffect, useRef, use } from "react";
 
-export default function SearchBox(){
+export default function SearchBox({cities}){
     const Neighbour=["تجریش","جردن","پاسداران","درکه","میدان انقلاب","نارمک","زعفرانیه","قلهک"]
     const [showProperty,setShowProperty]=useState(false);
     const [scrollIsDown,setScrollIsDown]=useState(false);
+    const [showCity,setShowCity]=useState(false);
     const [showNeighbourhood,setShowNeighbourhood]=useState(false);
     const [showAdvanceSearch,setShowAdvanceSearch]=useState(false);
     const [showBath,setShowBath]=useState(false);
@@ -23,13 +24,7 @@ export default function SearchBox(){
     const [loan,setLoan]=useState(false);
     const [storage,setStorage]=useState(false);
     const [pool,setPool]=useState(false);
-    const outsideRef=useRef();
-
-    useEffect(() => {
-        window.addEventListener("scroll", listenToScroll);
-        return () =>
-           window.removeEventListener("scroll", listenToScroll);
-    }, []);
+    const [searchedCities,setSearchedCities]=useState();
 
     const listenToScroll = () => {
         let heightToHideFrom = 250;
@@ -40,44 +35,15 @@ export default function SearchBox(){
             setScrollIsDown(false);
         }
     };
-    useEffect(() => {
-        function handleClickOutside(event) {
-          if (outsideRef.current && !outsideRef.current.contains(event.target)) {
-            setShowProperty(false);
-            setShowNeighbourhood(false);
-          }
-        }
-        document.addEventListener("mousedown", handleClickOutside);
-        return () => {
-          document.removeEventListener("mousedown", handleClickOutside);
-        };
-      }, [outsideRef]);
-
-    const showPropertySelectorBoxHandler=()=>{
-        setShowNeighbourhood(false);
-        setShowAdvanceSearch(false);
-        setShowProperty(!showProperty);
-    }
-    const showNeighbourhoodSelectorBoxHandler=()=>{
-        setShowProperty(false);
-        setShowAdvanceSearch(false);
-        setShowNeighbourhood(!showNeighbourhood);
-    }
-    const showBathHandler=()=>{
-        setShowBed(false);
-        setShowBath(!showBath);
-    }
-    const showBedHandler=()=>{
-        setShowBath(false);
-        setShowBed(!showBed);
+    const modifyShowSelectBoxesHandler=(index)=>{
+        setShowCity(index === 1 ? true : false);
+        setShowProperty(index === 2 ? true : false);
+        setShowNeighbourhood(index === 3 ? true : false);
+        setShowBath(index === 4 ? true : false);
+        setShowBed(index === 5 ? true : false);
     }
     const showAdvanceSearchBoxHandler=()=>{
-        if(showAdvanceSearch === true){
-            setShowBath(false);
-            setShowBed(false);
-        }
-        setShowProperty(false);
-        setShowNeighbourhood(false);
+        modifyShowSelectBoxesHandler(0)
         setShowAdvanceSearch(!showAdvanceSearch);
     }
     const changeYard=()=>{setYard(!yard)}
@@ -89,24 +55,44 @@ export default function SearchBox(){
     const changeHeating=()=>{setHeating(!heating)}
     const changeCooling=()=>{setCooling(!cooling)}
     const changeLoan=()=>{setLoan(!loan)}
-
-    return(<section className="bg-home_search bg-cover bg-bottom h-165 w-full">
+    useEffect(() => {
+        setSearchedCities(cities);
+        window.addEventListener("scroll", listenToScroll);
+        return () =>
+           window.removeEventListener("scroll", listenToScroll);
+    }, []);
+    
+    return(<section className="bg-home_search bg-cover bg-bottom h-165 w-full relative">
+        {
+            (showCity || showProperty || showNeighbourhood || showBath || showBed) &&
+            <div onClick={()=>modifyShowSelectBoxesHandler(0)} className="fixed inset-0 z-20"/>
+        }
         <div className="w-full h-full bg-searchbox_bg bg-opacity-40 flex flex-col justify-center items-center">
             <div className="flex flex-col justify-center items-center w-full px-4 sm:w-3/4 sm:px-0 md:container">
                 <h1 className="text-white text-3xl md:text-4xl font-bold text-center mb-20">سایت جستجوی املاک کشور</h1>
                 <div className="bg-white rounded-lg w-full py-2 px-3 flex flex-col md:flex-row">
-                    <div className="border md:border-r-0 md:border-y-0 md:border-l border-searchbox_border rounded w-full flex flex-row justify-between items-center py-1 px-2 mb-1">
-                        <input placeholder="شهر" className="w-full ml-2 focus:outline-none text-gray-700 h-14"/>
+                    <div className="relative border md:border-r-0 md:border-y-0 md:border-l border-searchbox_border rounded w-full flex flex-row justify-between items-center py-1 px-2 mb-1">
+                        {
+                            showCity &&
+                            <div className={`bg-white w-full h-60 absolute right-0 rounded z-30 p-1 ${scrollIsDown===true?"top-16":"-top-64"}`}>
+                                <ul className="w-full mt-1 h-52 overflow-y-scroll">
+                                    {
+                                        cities.map((x,index)=><li className="w-full h-6 mb-2">{x.CityName}</li>)
+                                    }
+                                </ul>
+                            </div>
+                        }
+                        <input onClick={()=>modifyShowSelectBoxesHandler(1)} placeholder="شهر" className="w-full ml-2 focus:outline-none text-gray-700 h-14"/>
                         <IoSearchOutline color="#8b9aad" fontSize={24}/>
                     </div>
-                    <div onClick={showPropertySelectorBoxHandler} className="relative cursor-pointer border md:border-r-0 md:border-y-0 md:border-l border-searchbox_border rounded w-full flex flex-row justify-between items-center py-1 px-2 mb-1">
+                    <div onClick={()=>modifyShowSelectBoxesHandler(2)} className="relative cursor-pointer border md:border-r-0 md:border-y-0 md:border-l border-searchbox_border rounded w-full flex flex-row justify-between items-center py-1 px-2 mb-1">
                         {
                             showProperty &&
-                            <div ref={outsideRef} className={`bg-white w-full h-60 absolute right-0 rounded z-20 p-1 ${scrollIsDown===true?"top-16":"-top-64"}`}>
+                            <div className={`bg-white w-full h-60 absolute right-0 rounded z-30 p-1 ${scrollIsDown===true?"top-16":"-top-64"}`}>
                               <input className="border border-searchbox_border w-full h-6"/>
                               <ul className="w-full mt-1 h-52 overflow-y-scroll">
                                 {
-                                    prpertytype.map((x,index)=><li className="w-full h-6 mb-2">{x.name}</li>)
+                                    prpertytype.map((x,index)=><li className="w-full text-black h-6 mb-2">{x.CityName}</li>)
                                 }
                               </ul>
                             </div>
@@ -117,14 +103,14 @@ export default function SearchBox(){
                         </span>
                         <TfiBriefcase color="#8b9aad" fontSize={24}/>
                     </div>
-                    <div onClick={showNeighbourhoodSelectorBoxHandler} className="relative cursor-pointer border md:border-r-0 md:border-y-0 md:border-l border-searchbox_border rounded w-full flex flex-row justify-between items-center py-1 px-2 mb-1">
+                    <div onClick={()=>modifyShowSelectBoxesHandler(3)} className="relative cursor-pointer border md:border-r-0 md:border-y-0 md:border-l border-searchbox_border rounded w-full flex flex-row justify-between items-center py-1 px-2 mb-1">
                        {
                             showNeighbourhood &&
-                            <div ref={outsideRef} className={`bg-white w-full h-60 absolute right-0 rounded z-20 p-1 ${scrollIsDown===true?"top-16":"-top-64"}`}>
+                            <div className={`bg-white w-full h-60 absolute right-0 rounded z-30 p-1 ${scrollIsDown===true?"top-16":"-top-64"}`}>
                               <input className="border border-searchbox_border w-full h-6"/>
                               <ul className="w-full mt-1 h-52 overflow-y-scroll">
                                 {
-                                    Neighbour.map((x,index)=><li className="w-full h-6 mb-2">{x}</li>)
+                                    cities.map((x,index)=><li className="w-full h-6 mb-2">{x.CityName}</li>)
                                 }
                               </ul>
                             </div>
@@ -135,18 +121,22 @@ export default function SearchBox(){
                         </span>
                         <TfiLocationPin color="#8b9aad" fontSize={24}/>
                     </div>
-                    <div onClick={showAdvanceSearchBoxHandler} className="cursor-pointer w-full mr-4 md:mr-0 md:w-56 h-14 flex items-center justify-start md:justify-center">
+                    <div onClick={showAdvanceSearchBoxHandler} className="cursor-pointer w-full mr-4 md:mr-0 md:w-56 h-14 flex items-center justify-start md:justify-center z-30">
                         <Image src="/svg/search_menu.svg" alt="advance search" width={30} height={30}/>
                     </div>
                     <button className="bg-redTheme text-white rounded-md w-full md:w-128 py-4">جستجو</button>
                 </div>
                 <div className="absolute top-142 md:top-111 z-20 w-full px-4 sm:px-0 sm:w-3/4 md:container">
-                   <div className={`bg-white shadow-radika rounded-lg overflow-hidden flex flex-col items-center transition-all duration-500 ease-in-out ${showAdvanceSearch ===true?"h-104 md:h-72 p-6":"h-0"}`}>
+                   <div className={`bg-white relative shadow-radika rounded-lg overflow-hidden flex flex-col items-center transition-all duration-500 ease-in-out ${showAdvanceSearch ===true?"h-104 md:h-72 p-6":"h-0"}`}>
+                    {
+                        (showBath || showBed || showCity || showProperty || showNeighbourhood) && 
+                        <div onClick={()=>modifyShowSelectBoxesHandler(0)} className="absolute inset-0 z-20"/>
+                    }
                         <div className="w-full flex flex-col md:flex-row md:justify-between items-center h-auto">
-                            <div onClick={showBathHandler} className="relative border border-searchbox_border rounded w-full md:w-5/12 flex flex-row justify-around px-2 items-center cursor-pointer">
+                            <div onClick={()=>modifyShowSelectBoxesHandler(4)} className="relative border border-searchbox_border rounded w-full md:w-5/12 flex flex-row justify-around px-2 items-center cursor-pointer">
                                 {
                                     showBath &&
-                                    <div ref={outsideRef} className={`border border-searchbox_border bg-white w-full h-24 absolute right-0 rounded z-20 p-1 top-16`}>
+                                    <div className={`border border-searchbox_border bg-white w-full h-24 absolute right-0 rounded z-30 p-1 top-16`}>
                                         <ul>
                                             <li>1</li>
                                             <li>2</li>
@@ -161,10 +151,10 @@ export default function SearchBox(){
                                 </span>
                                 <FaBath color="#8b9aad" fontSize={24}/>
                             </div>
-                            <div onClick={showBedHandler} className="relative border border-searchbox_border rounded w-full md:w-5/12 flex flex-row justify-around px-2 mt-2 md:mt-0 items-center cursor-pointer">
+                            <div onClick={()=>modifyShowSelectBoxesHandler(5)} className="relative border border-searchbox_border rounded w-full md:w-5/12 flex flex-row justify-around px-2 mt-2 md:mt-0 items-center cursor-pointer">
                                 {
                                     showBed &&
-                                    <div ref={outsideRef} className={`border border-searchbox_border bg-white w-full h-24 absolute right-0 rounded z-20 p-1 top-16`}>
+                                    <div className={`border border-searchbox_border bg-white w-full h-24 absolute right-0 rounded z-30 p-1 top-16`}>
                                         <ul>
                                             <li>1</li>
                                             <li>2</li>

@@ -5,8 +5,17 @@ import CitiesProperty from "../component/mainpage/citiesproperty";
 import Agents from "../component/mainpage/agents";
 import SiteComments from "../component/mainpage/sitecomments";
 import Articles from "../component/mainpage/articles";
+import GetCitiesApi from "../api/cityApi";
+import axios from "axios";
+import { GET_CITIES } from "../siteconfig/constant";
 
-export default function Home() {
+export async function getStaticProps(){
+  const citiesList = await axios.get(GET_CITIES);
+  console.log(JSON.parse(JSON.stringify(citiesList.data)))
+  return {props:{cities : JSON.parse(JSON.stringify(citiesList.data))}}
+}
+export default function Home({cities}) {
+  console.log(cities)
   return (
     <>
       <Head>
@@ -15,7 +24,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main className="relative text-textColorBase">
-        <SearchBox />
+        <SearchBox cities={cities}/>
         <NewProperty />
         <CitiesProperty />
         <Agents />
