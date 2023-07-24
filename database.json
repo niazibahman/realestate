@@ -31,12 +31,6 @@
 			"CityName" : "اردبیل"
 		},
 		{
-			"ProvinceId" : 3,
-			"ProvinceName" : "اردبیل",
-			"CityId" : 49,
-			"CityName" : "مشگین شهر"
-		},
-		{
 			"ProvinceId" : 4,
 			"ProvinceName" : "اصفهان",
 			"CityId" : 53,
@@ -103,12 +97,6 @@
 			"CityName" : "سبزوار"
 		},
 		{
-			"ProvinceId" : 11,
-			"ProvinceName" : "خراسان رضوی",
-			"CityId" : 171,
-			"CityName" : "نیشابور"
-		},
-		{
 			"ProvinceId" : 12,
 			"ProvinceName" : "خراسان شمالی",
 			"CityId" : 173,
@@ -119,18 +107,6 @@
 			"ProvinceName" : "خوزستان",
 			"CityId" : 182,
 			"CityName" : "اهواز"
-		},
-		{
-			"ProvinceId" : 13,
-			"ProvinceName" : "خوزستان",
-			"CityId" : 186,
-			"CityName" : "اندیمشک"
-		},
-		{
-			"ProvinceId" : 13,
-			"ProvinceName" : "خوزستان",
-			"CityId" : 183,
-			"CityName" : "آبادان"
 		},
 		{
 			"ProvinceId" : 14,
@@ -155,12 +131,6 @@
 			"ProvinceName" : "فارس",
 			"CityId" : 245,
 			"CityName" : "شیراز"
-		},
-		{
-			"ProvinceId" : 17,
-			"ProvinceName" : "فارس",
-			"CityId" : 246,
-			"CityName" : "آباده"
 		},
 		{
 			"ProvinceId" : 18,
@@ -235,12 +205,6 @@
 			"CityName" : "خرم آباد"
 		},
 		{
-			"ProvinceId" : 26,
-			"ProvinceName" : "لرستان",
-			"CityId" : 382,
-			"CityName" : "بروجرد"
-		},
-		{
 			"ProvinceId" : 27,
 			"ProvinceName" : "مازندران",
 			"CityId" : 389,
@@ -257,12 +221,6 @@
 			"ProvinceName" : "مرکزی",
 			"CityId" : 412,
 			"CityName" : "اراک"
-		},
-		{
-			"ProvinceId" : 28,
-			"ProvinceName" : "مرکزی",
-			"CityId" : 418,
-			"CityName" : "ساوه"
 		},
 		{
 			"ProvinceId" : 29,
