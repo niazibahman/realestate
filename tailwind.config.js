@@ -54,7 +54,8 @@ module.exports = {
       },
       boxShadow: {
         radika: "0 0px 20px 0px rgba(62, 28, 131, 0.1)",
-        paginationShadow:"0 2px 10px 0 rgba(216, 221, 230)"
+        paginationShadow:"0 2px 10px 0 rgba(216, 221, 230)",
+        header:"0 5px 30px rgba(0,22,84,0.1)"
       },
       keyframes: {
         expand_width: {
@@ -64,11 +65,16 @@ module.exports = {
         shrink_width: {
           '0%': {width: '320'},
           '100%': {width: '0%'}
+        },
+        stick_header:{
+          '0%' : {height : '0px'},
+          '100%' : {height : '80px'}
         }
       },
       animation: {
         'open-width': 'expand_width 300ms forwards',
-        'close-width': 'shrink_width 60ms forwards'
+        'close-width': 'shrink_width 60ms forwards',
+        'sticked-header': 'stick_header 500ms ease'
       }
     },
   },
