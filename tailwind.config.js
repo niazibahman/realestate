@@ -31,7 +31,8 @@ module.exports = {
       paginationForward:"#35434E",
       listingHeader:"#f4f5f7",
       listingFilter:"#333c56",
-      advancedSearchBorder:"#e3e8ef"
+      advancedSearchBorder:"#e3e8ef",
+      header_text:"#647392"
     },
     extend: {
       fontFamily: {
@@ -69,12 +70,22 @@ module.exports = {
         stick_header:{
           '0%' : {height : '0px'},
           '100%' : {height : '80px'}
+        },
+        fade:{
+          '0%':{opacity:1.0},
+          '100%':{opacity:0}
+        },
+        apear:{
+          '0%':{opacity : 0},
+          '100%':{opacity : 1.0}
         }
       },
       animation: {
         'open-width': 'expand_width 300ms forwards',
         'close-width': 'shrink_width 60ms forwards',
-        'sticked-header': 'stick_header 500ms ease'
+        'sticked-header': 'stick_header 500ms ease',
+        'apear': 'apear 300ms ease',
+        'fade': 'fade 300ms ease'
       }
     },
   },

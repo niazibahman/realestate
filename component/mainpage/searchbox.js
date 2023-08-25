@@ -121,7 +121,7 @@ export default function SearchBox({cities}){
                         </span>
                         <TfiLocationPin color="#8b9aad" fontSize={24}/>
                     </div>
-                    <div onClick={showAdvanceSearchBoxHandler} className="cursor-pointer w-full mr-4 md:mr-0 md:w-56 h-14 flex items-center justify-start md:justify-center z-30">
+                    <div onClick={showAdvanceSearchBoxHandler} className="cursor-pointer w-full mr-4 md:mr-0 md:w-56 h-14 flex items-center justify-start md:justify-center z-20">
                         <Image src="/svg/search_menu.svg" alt="advance search" width={30} height={30}/>
                     </div>
                     <button className="bg-redTheme text-white rounded-md w-full md:w-128 py-4">جستجو</button>
