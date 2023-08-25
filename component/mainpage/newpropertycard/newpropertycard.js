@@ -14,7 +14,7 @@ export default function NewPropertyCard(props){
         <div className="relative w-full h-60 rounded-t-lg">
             <Slide cssClass='height:240px' {...properties} autoplay={false}>
                             {
-                                props.image.map((x,index)=><img src={x} alt="slider" className={`w-full h-60 rounded-t-lg object-center`}/>)
+                                props.image.map((x,index)=><img src={x} alt="slider" className={`w-full h-60 rounded-t-lg object-cover`}/>)
                             }       
             </Slide>
             <div className="w-full h-full absolute top-0 right-0 left-0 bottom-0 rounded-t-lg bg-searchbox_bg bg-opacity-30"></div>
