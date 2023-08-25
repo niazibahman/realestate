@@ -4,10 +4,9 @@ import {TfiBriefcase , TfiLocationPin} from 'react-icons/tfi'
 import {RiArrowDropDownFill} from 'react-icons/ri'
 import {FaBed,FaBath} from 'react-icons/fa'
 import prpertytype from '../../constant/property_type.json'
-import { useState,useEffect, useRef, use } from "react";
+import { useState,useEffect } from "react";
 
-export default function SearchBox({cities}){
-    const Neighbour=["تجریش","جردن","پاسداران","درکه","میدان انقلاب","نارمک","زعفرانیه","قلهک"]
+export default function SearchBox({cities,neighbourhoods}){
     const [showProperty,setShowProperty]=useState(false);
     const [scrollIsDown,setScrollIsDown]=useState(false);
     const [showCity,setShowCity]=useState(false);
@@ -92,7 +91,7 @@ export default function SearchBox({cities}){
                               <input className="border border-searchbox_border w-full h-6"/>
                               <ul className="w-full mt-1 h-52 overflow-y-scroll">
                                 {
-                                    prpertytype.map((x,index)=><li className="w-full text-black h-6 mb-2">{x.CityName}</li>)
+                                    prpertytype.map((x,index)=><li className="w-full text-black h-6 mb-2">{x.name}</li>)
                                 }
                               </ul>
                             </div>
@@ -110,7 +109,7 @@ export default function SearchBox({cities}){
                               <input className="border border-searchbox_border w-full h-6"/>
                               <ul className="w-full mt-1 h-52 overflow-y-scroll">
                                 {
-                                    cities.map((x,index)=><li className="w-full h-6 mb-2">{x.CityName}</li>)
+                                    neighbourhoods.map((x,index)=><li className="w-full h-6 mb-2">{x.neighbourName + "،" + x.cityName}</li>)
                                 }
                               </ul>
                             </div>
