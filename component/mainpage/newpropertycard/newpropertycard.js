@@ -14,10 +14,12 @@ export default function NewPropertyCard(props){
         <div className="relative w-full h-60 rounded-t-lg">
             <Slide cssClass='height:240px' {...properties} autoplay={false}>
                             {
-                                props.image.map((x,index)=><img src={x} alt="slider" className={`w-full h-60 rounded-t-lg object-cover`}/>)
+                                props.image.map((x,index)=><div className='relative w-full h-60'>
+                                    <img src={x} alt="slider" className={`w-full h-full rounded-t-lg object-cover`}/>
+                                    <div className="w-full h-full absolute top-0 right-0 left-0 bottom-0 rounded-t-lg bg-searchbox_bg bg-opacity-30"/>
+                                </div>)
                             }       
             </Slide>
-            <div className="w-full h-full absolute top-0 right-0 left-0 bottom-0 rounded-t-lg bg-searchbox_bg bg-opacity-30"></div>
             <span className="absolute right-5 bottom-5 text-white bg-white bg-opacity-10 rounded-3xl border-4 border-white border-opacity-20 px-3 py-0.5">فروش</span>
         </div>
         <div className='w-full px-5 py-3 flex flex-col items-start justify-start space-y-4'>
