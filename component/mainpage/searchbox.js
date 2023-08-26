@@ -76,22 +76,22 @@ export default function SearchBox({cities,neighbourhoods}){
                             <div className={`bg-white w-full h-60 absolute right-0 rounded z-30 p-1 ${scrollIsDown===true?"top-16":"-top-64"}`}>
                                 <ul className="w-full mt-1 h-52 overflow-y-scroll">
                                     {
-                                        cities.map((x,index)=><li className="w-full h-6 mb-2">{x.CityName}</li>)
+                                        cities.map((x,index)=><li key={index} className="w-full h-6 mb-2">{x.CityName}</li>)
                                     }
                                 </ul>
                             </div>
                         }
-                        <input onClick={()=>modifyShowSelectBoxesHandler(1)} placeholder="شهر" className="w-full ml-2 focus:outline-none text-gray-700 h-14"/>
+                        <input onClick={()=>modifyShowSelectBoxesHandler(1)} placeholder="شهر" aria-label="city" className="w-full ml-2 focus:outline-none text-gray-700 h-14"/>
                         <IoSearchOutline color="#8b9aad" fontSize={24}/>
                     </div>
                     <div onClick={()=>modifyShowSelectBoxesHandler(2)} className="relative cursor-pointer border md:border-r-0 md:border-y-0 md:border-l border-searchbox_border rounded w-full flex flex-row justify-between items-center py-1 px-2 mb-1">
                         {
                             showProperty &&
                             <div className={`bg-white w-full h-60 absolute right-0 rounded z-30 p-1 ${scrollIsDown===true?"top-16":"-top-64"}`}>
-                              <input className="border border-searchbox_border w-full h-6"/>
+                              <input aria-label="search property" className="border border-searchbox_border w-full h-6"/>
                               <ul className="w-full mt-1 h-52 overflow-y-scroll">
                                 {
-                                    prpertytype.map((x,index)=><li className="w-full text-black h-6 mb-2">{x.name}</li>)
+                                    prpertytype.map((x,index)=><li key={index} className="w-full text-black h-6 mb-2">{x.name}</li>)
                                 }
                               </ul>
                             </div>
@@ -106,10 +106,10 @@ export default function SearchBox({cities,neighbourhoods}){
                        {
                             showNeighbourhood &&
                             <div className={`bg-white w-full h-60 absolute right-0 rounded z-30 p-1 ${scrollIsDown===true?"top-16":"-top-64"}`}>
-                              <input className="border border-searchbox_border w-full h-6"/>
+                              <input aria-label="search neighbourhood" className="border border-searchbox_border w-full h-6"/>
                               <ul className="w-full mt-1 h-52 overflow-y-scroll">
                                 {
-                                    neighbourhoods.map((x,index)=><li className="w-full h-6 mb-2">{x.neighbourName + "،" + x.cityName}</li>)
+                                    neighbourhoods.map((x,index)=><li key={index} className="w-full h-6 mb-2">{x.neighbourName + "،" + x.cityName}</li>)
                                 }
                               </ul>
                             </div>
@@ -172,39 +172,39 @@ export default function SearchBox({cities,neighbourhoods}){
                         <b className="w-full my-4 text-2xl text-start">امکانات</b>
                         <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-4">
                             <div className="col-span-1 flex flex-row justify-start items-center">
-                                <input name="heating_ck" type="checkbox" onChange={changeHeating} checked={heating} className="accent-redTheme ml-2"/>
+                                <input name="heating_ck" aria-label="heating" type="checkbox" onChange={changeHeating} checked={heating} className="accent-redTheme ml-2"/>
                                 <label form="heating_ck">گرمایش</label>
                             </div>
                             <div className="col-span-1 flex flex-row justify-start items-center">
-                                <input name="cooling_ck" type="checkbox" onChange={changeCooling} checked={cooling} className="accent-redTheme ml-2"/>
+                                <input name="cooling_ck" aria-label="cooler" type="checkbox" onChange={changeCooling} checked={cooling} className="accent-redTheme ml-2"/>
                                 <label form="cooling_ck">کولر</label>
                             </div>
                             <div className="col-span-1 flex flex-row justify-start items-center">
-                                <input name="lift_ck" type="checkbox" onChange={changeLift} checked={lift} className="accent-redTheme ml-2"/>
+                                <input name="lift_ck" aria-label="lift" type="checkbox" onChange={changeLift} checked={lift} className="accent-redTheme ml-2"/>
                                 <label form="lift_ck">آسانسور</label>
                             </div>
                             <div className="col-span-1 flex flex-row justify-start items-center">
-                                <input name="loan_ck" type="checkbox" onChange={changeLoan} checked={loan} className="accent-redTheme ml-2"/>
+                                <input name="loan_ck" aria-label="loan" type="checkbox" onChange={changeLoan} checked={loan} className="accent-redTheme ml-2"/>
                                 <label form="loan_ck">وام</label>
                             </div>
                             <div className="col-span-1 flex flex-row justify-start items-center">
-                                <input name="parking_ck" type="checkbox" onChange={changeParking} checked={parking} className="accent-redTheme ml-2"/>
+                                <input name="parking_ck" aria-label="parking" type="checkbox" onChange={changeParking} checked={parking} className="accent-redTheme ml-2"/>
                                 <label form="parking_ck">پارکینگ</label>
                             </div>
                             <div className="col-span-1 flex flex-row justify-start items-center">
-                                <input name="pool_ck" type="checkbox" onChange={changePool} checked={pool} className="accent-redTheme ml-2"/>
+                                <input name="pool_ck" aria-label="pool" type="checkbox" onChange={changePool} checked={pool} className="accent-redTheme ml-2"/>
                                 <label form="pool_ck">استخر</label>
                             </div>
                             <div className="col-span-1 flex flex-row justify-start items-center">
-                                <input name="storage_ck" type="checkbox" onChange={changeStorage} checked={storage} className="accent-redTheme ml-2"/>
+                                <input name="storage_ck" aria-label="storage" type="checkbox" onChange={changeStorage} checked={storage} className="accent-redTheme ml-2"/>
                                 <label form="storage_ck">انباری</label>
                             </div>
                             <div className="col-span-1 flex flex-row justify-start items-center">
-                                <input name="seperate_ck" type="checkbox" onChange={changeSeperate} checked={seperate} className="accent-redTheme ml-2"/>
+                                <input name="seperate_ck" aria-label="seperate" type="checkbox" onChange={changeSeperate} checked={seperate} className="accent-redTheme ml-2"/>
                                 <label form="seperate_ck">راه جدا</label>
                             </div>
                             <div className="col-span-1 flex flex-row justify-start items-center">
-                                <input name="yard_ck" type="checkbox" onChange={changeYard} checked={yard} className="accent-redTheme ml-2"/>
+                                <input name="yard_ck" aria-label="yard" type="checkbox" onChange={changeYard} checked={yard} className="accent-redTheme ml-2"/>
                                 <label form="yard_ck">حیاط</label>
                             </div>
                         </div>

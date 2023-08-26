@@ -4,6 +4,7 @@ import { VscLocation } from "react-icons/vsc";
 import { AiOutlineStar } from "react-icons/ai";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Agents() {
   return (
@@ -22,13 +23,13 @@ export default function Agents() {
             <VscBookmark />
           </div>
           <div className="absolute right-5	top-6	text-textColorH">
-            <a href="#">
+            <Link href="tel:09187116041" aria-label="telephone">
               <BsTelephone className="text-xl	text-greenTheme" />
-            </a>
+            </Link>
           </div>
           <div className="p-6">
             <div className="w-24	h-24 rounded-full table relative my-3	mx-auto shadow-inner">
-              <a href="#">
+              <Link href="/">
                 <div className="overall-rate">4.4</div>
                 <Image
                   src="/user-1.jpg"
@@ -37,12 +38,12 @@ export default function Agents() {
                   height={90}
                   className="rounded-full"
                 />
-              </a>
+              </Link>
             </div>
             <div className="text-center ">
-              <h5 className="mb-0.5	text-xl	font-bold	">
-                <a href="#">آرش صمدی</a>
-              </h5>
+              <h3 className="mb-0.5	text-xl	font-bold	">
+                <Link href="#">آرش صمدی</Link>
+              </h3>
               <span className="text-sm text-textColorBase">
                 <VscLocation className="inline-block" /> تهران، نیاوران
               </span>
@@ -69,10 +70,10 @@ export default function Agents() {
             </ul>
           </div>
           <div className="	px-4	">
-            <a href="#" className="btn-outline-theme w-full">
+            <Link href="/" className="btn-outline-theme w-full">
               <AiOutlineArrowRight className="ml-1" />
               مشاهده پروفایل
-            </a>
+            </Link>
           </div>
         </div>
         <div className="relative bg-white rounded-sm	mt-7 border-0	shadow-grid">
@@ -80,13 +81,13 @@ export default function Agents() {
             <VscBookmark />
           </div>
           <div className="absolute right-5	top-6	text-textColorH">
-            <a href="#">
+            <Link href="tel:0918711604" aria-label="telephone">
               <BsTelephone className="text-xl	text-greenTheme" />
-            </a>
+            </Link>
           </div>
           <div className="p-6">
             <div className="w-24	h-24 rounded-full table relative my-3	mx-auto shadow-inner">
-              <a href="#">
+              <Link href="/">
                 <div className="overall-rate">4.4</div>
                 <Image
                   src="/user-2.jpg"
@@ -95,12 +96,12 @@ export default function Agents() {
                   height={90}
                   className="rounded-full"
                 />
-              </a>
+              </Link>
             </div>
             <div className="text-center ">
-              <h5 className="mb-0.5	text-xl	font-bold	">
-                <a href="#">نازنین احمدی</a>
-              </h5>
+              <h3 className="mb-0.5	text-xl	font-bold	">
+                <Link href="/">نازنین احمدی</Link>
+              </h3>
               <span className="text-sm text-textColorBase">
                 <VscLocation className="inline-block" /> تهران، نیاوران
               </span>
@@ -127,10 +128,10 @@ export default function Agents() {
             </ul>
           </div>
           <div className="	px-4	">
-            <a href="#" className="btn-outline-theme w-full">
+            <Link href="/" className="btn-outline-theme w-full">
               <AiOutlineArrowRight className="ml-1" />
               مشاهده پروفایل
-            </a>
+            </Link>
           </div>
         </div>
         <div className="relative bg-white rounded-sm	mt-7 border-0	shadow-grid">
@@ -138,13 +139,13 @@ export default function Agents() {
             <VscBookmark />
           </div>
           <div className="absolute right-5	top-6	text-textColorH">
-            <a href="#">
+            <Link href="tel:0918711604" aria-label="telephone">
               <BsTelephone className="text-xl	text-greenTheme" />
-            </a>
+            </Link>
           </div>
           <div className="p-6">
             <div className="w-24	h-24 rounded-full table relative my-3	mx-auto shadow-inner">
-              <a href="#">
+              <Link href="/">
                 <div className="overall-rate">4.4</div>
                 <Image
                   src="/user-3.jpg"
@@ -153,12 +154,12 @@ export default function Agents() {
                   height={90}
                   className="rounded-full"
                 />
-              </a>
+              </Link>
             </div>
             <div className="text-center ">
-              <h5 className="mb-0.5	text-xl	font-bold	">
-                <a href="#">علی بیاتی</a>
-              </h5>
+              <h3 className="mb-0.5	text-xl	font-bold	">
+                <Link href="/">علی بیاتی</Link>
+              </h3>
               <span className="text-sm text-textColorBase">
                 <VscLocation className="inline-block" /> تهران، نیاوران
               </span>
@@ -185,10 +186,10 @@ export default function Agents() {
             </ul>
           </div>
           <div className="	px-4	">
-            <a href="#" className="btn-outline-theme w-full">
+            <Link href="/" className="btn-outline-theme w-full">
               <AiOutlineArrowRight className="ml-1" />
               مشاهده پروفایل
-            </a>
+            </Link>
           </div>
         </div>
       </div>

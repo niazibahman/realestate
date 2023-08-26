@@ -21,7 +21,7 @@ export default function SideMenu({show,closeMenu}){
     <div className={`fixed inset-y-0 right-0 overflow-hidden bg-white z-40 lg:hidden w-1/2 transition-all duration-300 ${show === true ? "translate-x-0" : "translate-x-full"}`}>
         <div className="w-full h-full overflow-y-auto py-3">
             <div className="w-full flex flex-row items-center justify-end px-3 mb-3">
-                <button onClick={closeMenu}><GrClose color="#72809D" size={26}/></button>
+                <button aria-label="closeMenu" onClick={closeMenu}><GrClose color="#72809D" size={26}/></button>
             </div>
             <hr/>
             <ul className="w-full text-header_text">

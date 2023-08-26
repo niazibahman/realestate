@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { useState,useCallback,useEffect,useRef } from "react";
+import { useState,useEffect } from "react";
 export default function SiteComments(){
     const [currentContent,setCurrentcontent]=useState(0);
     const comments=[{img:"/user-1.jpg",name:"مهران مدیری",job:"سئوکار",comment:"از این بهتر چی داریم"},{img:"/user-2.jpg",name:"رویا نونهالی",job:"مشاور املاک",comment:"سایت خوبی می باشد"}];
@@ -30,7 +30,7 @@ export default function SiteComments(){
                         <div className="w-full flex flex-row items-center">
                             <Image src={comments[0].img} alt="" width={85} height={85} className="rounded-full border-8 border-white border-opacity-30"/>
                             <div className="flex flex-col mr-4">
-                                <h4 className="font-semibold text-xl mb-2">{comments[0].name}</h4>
+                                <h3 className="font-semibold text-xl mb-2">{comments[0].name}</h3>
                                 <span>{comments[0].job}</span>
                             </div>
                         </div>
@@ -40,16 +40,16 @@ export default function SiteComments(){
                         <div className="w-full flex flex-row items-center">
                             <Image src={comments[1].img} alt="" width={85} height={85} className="rounded-full border-8 border-white border-opacity-30"/>
                             <div className="flex flex-col mr-4">
-                                <h4 className="font-semibold text-xl mb-2">{comments[1].name}</h4>
+                                <h3 className="font-semibold text-xl mb-2">{comments[1].name}</h3>
                                 <span>{comments[1].job}</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <Image src="/commentperson.png" alt="املاک شهر تهران" width={600} height={600}/>
+            <Image src="/commentperson.png" alt="املاک شهر تهران" width={0} height={0} sizes="100vw" className="w-full h-full object-center"/>
         </div>
-        <img src="/pattern.png" alt="pattern of comment" className="absolute inset-0 w-full h-full"/>
+        <Image src="/pattern.png" alt="pattern of comment" width={0} height={0} sizes="100vw" className="absolute inset-0 w-full h-full object-cover"/>
     </section>
     );
 }

@@ -1,5 +1,7 @@
 import { RiCalendarLine } from "react-icons/ri";
 import { IoIosArrowRoundForward } from "react-icons/io";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Articles() {
   return (
@@ -13,9 +15,9 @@ export default function Articles() {
       <div className="sm:container mx-auto grid sm:grid-cols-3 gap-4 px-8 max-w-6xl content-center mb-10">
         <div className="relative bg-white rounded-sm	mt-7 border-0	shadow-grid w-full">
           <div className="p-2.5	rounded overflow-hidden	">
-            <a href="#">
-              <img src="/p-11.jpg" alt="" className="rounded img-fluid" />
-            </a>
+            <Link href="/" aria-label="article">
+              <Image src="/p-11.webp" alt="decoration" width={0} height={0} sizes="100vw" className="rounded w-full" />
+            </Link>
           </div>
           <div className="blog-info py-2.5 px-5">
             <span className="flex	items-center text-sm text-textColorBase	">
@@ -24,9 +26,9 @@ export default function Articles() {
             </span>
           </div>
           <div className="blog-body pt-1	px-5">
-            <h4 className="bl-title text-lg mb-3">
+            <h3 className="bl-title text-lg mb-3">
               <a href="#">تاثیر دکوراسیون داخلی در طراحی مدرن </a>
-            </h4>
+            </h3>
             <p className="text-sm text-textColorBase">
               لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
               استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
@@ -42,20 +44,20 @@ export default function Articles() {
         </div>
         <div className="relative bg-white rounded-sm	mt-7 border-0	shadow-grid w-full">
           <div className="p-2.5	rounded overflow-hidden	">
-            <a href="#">
-              <img src="/p-10.jpg" alt="" className="rounded img-fluid" />
-            </a>
+            <Link href="/" aria-label="article">
+              <Image src="/p-10.webp" alt="decoration" width={0} height={0} sizes="100vw" className="rounded w-full" />
+            </Link>
           </div>
           <div className="blog-info py-2.5 px-5">
             <span className="flex	items-center text-sm text-textColorBase	">
-              <RiCalendarLine class="ml-1.5 	text-lg" />
+              <RiCalendarLine className="ml-1.5 	text-lg" />
               30 بهمن 1401
             </span>
           </div>
           <div className="blog-body pt-1	px-5">
-            <h4 className="bl-title text-lg mb-3">
+            <h3 className="bl-title text-lg mb-3">
               <a href="#">راهنمای قدم به قدم مراحل تأسیس آژانس املاک</a>
-            </h4>
+            </h3>
             <p className="text-sm text-textColorBase">
               لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
               استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
@@ -71,20 +73,20 @@ export default function Articles() {
         </div>
         <div className="relative bg-white rounded-sm	mt-7 border-0	shadow-grid w-full">
           <div className="p-2.5	rounded overflow-hidden	">
-            <a href="#">
-              <img src="/p-8.jpg" alt="" className="rounded img-fluid" />
-            </a>
+            <Link href="/" aria-label="article">
+              <Image src="/p-8.webp" alt="real State" width={0} height={0} sizes="100vw" className="rounded w-full" />
+            </Link>
           </div>
           <div className="blog-info py-2.5 px-5">
             <span className="flex	items-center text-sm text-textColorBase	">
-              <RiCalendarLine class="ml-1.5 	text-lg" />
+              <RiCalendarLine className="ml-1.5 	text-lg" />
               30 بهمن 1401
             </span>
           </div>
           <div className="blog-body pt-1	px-5">
-            <h4 className="bl-title text-lg mb-3">
+            <h3 className="bl-title text-lg mb-3">
               <a href="#">۵ محله مناسب برای خرید آپارتمان در تهران ! </a>
-            </h4>
+            </h3>
             <p className="text-sm text-textColorBase">
               لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
               استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
