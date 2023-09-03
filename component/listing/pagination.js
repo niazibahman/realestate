@@ -1,11 +1,57 @@
+import { useRouter } from 'next/router';
 import {IoArrowBack,IoArrowForward} from 'react-icons/io5';
 
-export default function Pagination({ currentPage, numPages }){
+export default function Pagination({ currentPage, numPages , basePath }){
+    const router = useRouter();
 
-    const changePageNumberHandler=(num)=>{
-        console.log(num)
+    const changePageNumberHandler=(nextPage)=>{
+        const sitePath = router.query.slug;
+        let nextPageURL=basePath;
+        sitePath.map(x=>{
+            nextPageURL += "/" + x;
+        });
+        let key=Object.keys(router.query);
+        key=key.slice(0,key.length-1);
+        let values=Object.values(router.query);
+        values=values.slice(0,values.length-1);
+        if(nextPage !== currentPage && nextPage <= numPages && nextPage >= 1){
+          if((key.length > 0) && (nextPage !== 1) ){
+              nextPageURL=nextPageURL+"?";
+              if(key.some(item=>item=="page")){
+                  key.map((item,index)=>{
+                      if(item === "page"){
+                          if(nextPage !== 1){
+                              nextPageURL=nextPageURL+item+"="+nextPage.toString()+(index==(key.length-1)?"":"&");
+                          }
+                      }else{
+                          nextPageURL=nextPageURL+item+"="+values[index]+(index==(key.length-1)?"":"&");
+                      }
+                  });
+              }else{
+                  nextPageURL=nextPageURL+"page="+nextPage.toString()+"&"
+                  key.map((item,index)=>{
+                          nextPageURL=nextPageURL+item+"="+values[index]+(index==(key.length-1)?"":"&");
+                  });
+              }
+          }else if(key.length ===0 && nextPage > 1){
+              nextPageURL = nextPageURL+ "?" + "page=" + nextPage.toString();
+          }else if(key.length > 0 && nextPage === 1){
+              if(!(key.length === 1 && (key.some(item=>item=="page")))){
+                  nextPageURL=nextPageURL+"?";
+              }
+              const findPageIndex=key.indexOf("page");
+              key.splice(findPageIndex,1);
+              values.splice(findPageIndex,1);
+              if (key.length>0){
+                  key.map((item,index)=>{
+                          nextPageURL = nextPageURL + item + "=" + values[index] + (index==(key.length-1)?"":"&");
+                  });
+              }
+          }
+          router.push(nextPageURL);
+        }
     }
-    
+
     if(numPages <= 6)
     {
         return(<div className="w-full flex flex-row justify-center items-center my-5">

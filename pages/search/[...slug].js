@@ -38,7 +38,7 @@ export default function Listing(){
                 <AdvanceSearch showOnMobile={showFilter} closeAdvanceFilter={closeFilterHadnler}/>
                 <PropertiesList/>
             </div>
-            <Pagination currentPage={25} numPages={65}/>
+            <Pagination currentPage={25} numPages={65} basePath={'/search'}/>
         </main>
     </>);
 }
