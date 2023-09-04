@@ -16,7 +16,7 @@ export default function NewPropertyCard({property}){
             <Slide cssClass='height:240px' {...properties} autoplay={false}>
                             {
                                 property.photos.map((x,index)=><div key={index} className='relative w-full h-60'>
-                                    <Image src={x} alt="slider" width={0} height={0} sizes='100vw' className={`w-full h-full rounded-t-lg object-cover`}/>
+                                    <Image src={x} alt={property.slug} width={0} height={0} sizes='100vw' className={`w-full h-full rounded-t-lg object-cover`}/>
                                     <div className="w-full h-full absolute top-0 right-0 left-0 bottom-0 rounded-t-lg bg-searchbox_bg bg-opacity-30"/>
                                 </div>)
                             }       
