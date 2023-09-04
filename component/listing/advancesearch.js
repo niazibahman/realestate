@@ -136,7 +136,7 @@ export default function AdvanceSearch({showOnMobile,closeAdvanceFilter}){
                 <span className='bg-black text-white ml-2 pt-0.5 rounded-full w-8 h-8 flex justify-center items-center text-3xl'>{showAdvancedSearch === true ? "-":"+"}</span>
                 <span>جستجوی پیشرفته</span>
             </button>
-            <div className={`w-full overflow-hidden transition-all duration-300 ease-in-out ${showAdvancedSearch === true ? "h-48" : "h-0"}`}>
+            <div className={`w-full overflow-hidden transition-all duration-300 ease-in-out ${showAdvancedSearch === true ? "h-72" : "h-0"}`}>
                 <div className='w-full flex flex-row items-center mb-2'>
                     <input id='lift' type='checkbox' className='accent-redTheme ml-2'/>
                     <label form='lift' className='cursor-pointer'>آسانسور</label>
@@ -157,9 +157,21 @@ export default function AdvanceSearch({showOnMobile,closeAdvanceFilter}){
                     <input id='pool' type='checkbox' className='accent-redTheme ml-2'/>
                     <label form='pool' className='cursor-pointer'>استخر</label>
                 </div>
-                <div className='w-full flex flex-row items-center'>
+                <div className='w-full flex flex-row items-center mb-2'>
                     <input id='loan' type='checkbox' className='accent-redTheme ml-2'/>
                     <label form='loan' className='cursor-pointer'>وام</label>
+                </div>
+                <div className='w-full flex flex-row items-center mb-2'>
+                    <input id='cooler' type='checkbox' className='accent-redTheme ml-2'/>
+                    <label form='cooler' className='cursor-pointer'>کولر</label>
+                </div>
+                <div className='w-full flex flex-row items-center mb-2'>
+                    <input id='heating' type='checkbox' className='accent-redTheme ml-2'/>
+                    <label form='heating' className='cursor-pointer'>گرمایش</label>
+                </div>
+                <div className='w-full flex flex-row items-center'>
+                    <input id='parking' type='checkbox' className='accent-redTheme ml-2'/>
+                    <label form='parking' className='cursor-pointer'>پارکینگ</label>
                 </div>
             </div>
             <button className='h-12 w-full bg-greenTheme rounded text-white'>جستجو</button>

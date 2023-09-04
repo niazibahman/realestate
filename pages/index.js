@@ -6,18 +6,24 @@ import Agents from "../component/mainpage/agents";
 import SiteComments from "../component/mainpage/sitecomments";
 import Articles from "../component/mainpage/articles";
 import axios from "axios";
-import { GET_CITIES, GET_NEIGHBOURHOODS } from "../siteconfig/constant";
+import { GET_CITIES, GET_NEIGHBOURHOODS, GET_NEW_ADS, GET_NEW_LET_ADS, GET_NEW_SELL_ADS } from "../siteconfig/constant";
 
 export async function getStaticProps(){
-  const [cities,neighbours]= await axios.all([    
+  const [cities,neighbours,newSellAds,newLetAds]= await axios.all([    
     axios.get(GET_CITIES),
-    axios.get(GET_NEIGHBOURHOODS)]);
+    axios.get(GET_NEIGHBOURHOODS),
+    axios.get(GET_NEW_SELL_ADS),
+    axios.get(GET_NEW_LET_ADS)
+  ]);
+  let newAds = JSON.parse(JSON.stringify(newSellAds.data ));
+  newAds= newAds.concat(JSON.parse(JSON.stringify(newLetAds.data)))
   return {props:{
     cities : JSON.parse(JSON.stringify(cities.data)),
-    neighbourhoods : JSON.parse(JSON.stringify(neighbours.data))
+    neighbourhoods : JSON.parse(JSON.stringify(neighbours.data)),
+    newAds: newAds
   }}
 }
-export default function Home({cities,neighbourhoods}) {
+export default function Home({cities,neighbourhoods,newAds}) {
   return (
     <>
       <Head>
@@ -27,7 +33,7 @@ export default function Home({cities,neighbourhoods}) {
       </Head>
       <main className="relative text-textColorBase">
         <SearchBox cities={cities} neighbourhoods={neighbourhoods}/>
-        <NewProperty />
+        <NewProperty properties={newAds}/>
         <CitiesProperty />
         <Agents />
         <SiteComments />
