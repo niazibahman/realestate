@@ -5,8 +5,11 @@ import {RiArrowDropDownFill} from 'react-icons/ri'
 import {FaBed,FaBath} from 'react-icons/fa'
 import prpertytype from '../../constant/property_type.json'
 import { useState,useEffect } from "react";
+import URLCreator from "../../methods/URLCreator";
+import { useRouter } from "next/router";
 
 export default function SearchBox({cities,neighbourhoods}){
+    const router = useRouter();
     const [showProperty,setShowProperty]=useState(false);
     const [scrollIsDown,setScrollIsDown]=useState(false);
     const [showCity,setShowCity]=useState(false);
@@ -24,6 +27,12 @@ export default function SearchBox({cities,neighbourhoods}){
     const [storage,setStorage]=useState(false);
     const [pool,setPool]=useState(false);
     const [searchedCities,setSearchedCities]=useState();
+    const [rooms,setRooms]=useState(0);
+    const [bath,setBath]=useState(false);
+    const [city,setCity]=useState('');
+    const [propertyType,setPropertyType]=useState('');
+    const [selectNeighborhood,setSelectNeighborhood]=useState('');
+    const [searchedNeighborhood,setSearchedNeighborhood]=useState([])
 
     const listenToScroll = () => {
         let heightToHideFrom = 250;
@@ -45,6 +54,33 @@ export default function SearchBox({cities,neighbourhoods}){
         modifyShowSelectBoxesHandler(0)
         setShowAdvanceSearch(!showAdvanceSearch);
     }
+    const changeCityHandler=(city)=>{
+        setCity(city);
+        if(!cities.some(x=>x.CityName === city)){
+            const tempSearchedCity= cities.filter(x=>x.CityName.includes(city));
+            setSearchedCities(tempSearchedCity);
+        }else{
+            modifyShowSelectBoxesHandler(0);
+        }
+    }
+    const selectPropertyTypeHandler=(property)=>{
+        setPropertyType(property);
+        modifyShowSelectBoxesHandler(0);
+    }
+    const selectNeighbourhoodHandler=(neighbour)=>{
+        setSelectNeighborhood(neighbour);
+        modifyShowSelectBoxesHandler(0);
+    }
+    const searchNeighbourhoodsHandler=(searchedNeighbour)=>{
+        if(searchedNeighbour === ''){
+            setSearchedNeighborhood(neighbourhoods);
+        }else{
+            if(city === ""){
+                const tempNeighbours= neighbourhoods.filter(x=>x.neighbourName.includes(searchedNeighbour));
+                setSearchedNeighborhood(tempNeighbours);
+            }else{}
+        }
+    }
     const changeYard=()=>{setYard(!yard)}
     const changePool=()=>{setPool(!pool)}
     const changeParking=()=>{setParking(!parking)}
@@ -54,8 +90,20 @@ export default function SearchBox({cities,neighbourhoods}){
     const changeHeating=()=>{setHeating(!heating)}
     const changeCooling=()=>{setCooling(!cooling)}
     const changeLoan=()=>{setLoan(!loan)}
+    const changeRoomsNumberHandler=(nums)=>{
+        setRooms(nums);
+        modifyShowSelectBoxesHandler(0);
+    }
+    const changeBathHandler=(status)=>{
+        setBath(status);
+        modifyShowSelectBoxesHandler(0);
+    }
+    const serachButtonHandler=()=>{
+        router.push(URLCreator("آپارتمان","همدان",["میدان مدرس"]))
+    }
     useEffect(() => {
         setSearchedCities(cities);
+        setSearchedNeighborhood(neighbourhoods)
         window.addEventListener("scroll", listenToScroll);
         return () =>
            window.removeEventListener("scroll", listenToScroll);
@@ -76,28 +124,28 @@ export default function SearchBox({cities,neighbourhoods}){
                             <div className={`bg-white w-full h-60 absolute right-0 rounded z-30 p-1 ${scrollIsDown===true?"top-16":"-top-64"}`}>
                                 <ul className="w-full mt-1 h-52 overflow-y-scroll">
                                     {
-                                        cities.map((x,index)=><li key={index} className="w-full h-6 mb-2">{x.CityName}</li>)
+                                        searchedCities.map((x,index)=><li onClick={()=>changeCityHandler(x.CityName)} key={index} className="w-full h-6 mb-2 cursor-pointer hover:bg-blue-600 hover:text-white">{x.CityName}</li>)
                                     }
                                 </ul>
                             </div>
                         }
-                        <input onClick={()=>modifyShowSelectBoxesHandler(1)} placeholder="شهر" aria-label="city" className="w-full ml-2 focus:outline-none text-gray-700 h-14"/>
+                        <input onClick={()=>modifyShowSelectBoxesHandler(1)} onChange={(e)=>changeCityHandler(e.target.value)} value={city} placeholder="شهر" aria-label="city" className="w-full ml-2 focus:outline-none text-gray-700 h-14"/>
                         <IoSearchOutline color="#8b9aad" fontSize={24}/>
                     </div>
                     <div onClick={()=>modifyShowSelectBoxesHandler(2)} className="relative cursor-pointer border md:border-r-0 md:border-y-0 md:border-l border-searchbox_border rounded w-full flex flex-row justify-between items-center py-1 px-2 mb-1">
                         {
                             showProperty &&
-                            <div className={`bg-white w-full h-60 absolute right-0 rounded z-30 p-1 ${scrollIsDown===true?"top-16":"-top-64"}`}>
-                              <input aria-label="search property" className="border border-searchbox_border w-full h-6"/>
+                            <div onClick={(event)=>event.stopPropagation()} className={`bg-white w-full h-60 absolute right-0 rounded z-30 p-1 ${scrollIsDown===true?"top-16":"-top-64"}`}>
+                              {/*<input aria-label="search property" className="border border-searchbox_border outline-none px-2 w-full h-8"/> */}
                               <ul className="w-full mt-1 h-52 overflow-y-scroll">
                                 {
-                                    prpertytype.map((x,index)=><li key={index} className="w-full text-black h-6 mb-2">{x.name}</li>)
+                                    prpertytype.map((x,index)=><li onClick={()=>selectPropertyTypeHandler(x.name)} key={index} className="w-full h-6 mb-2 hover:bg-blue-600 hover:text-white">{x.name}</li>)
                                 }
                               </ul>
                             </div>
                         }
                         <span className="w-full h-14 flex flex-row items-center justify-between ml-2">
-                            <span className="text-searchbox_text">نوع ملک</span>
+                            <span className="text-searchbox_text">{propertyType === '' ? "نوع ملک" : propertyType}</span>
                             <RiArrowDropDownFill color="#8b9aad" fontSize={24}/>
                         </span>
                         <TfiBriefcase color="#8b9aad" fontSize={24}/>
@@ -105,17 +153,17 @@ export default function SearchBox({cities,neighbourhoods}){
                     <div onClick={()=>modifyShowSelectBoxesHandler(3)} className="relative cursor-pointer border md:border-r-0 md:border-y-0 md:border-l border-searchbox_border rounded w-full flex flex-row justify-between items-center py-1 px-2 mb-1">
                        {
                             showNeighbourhood &&
-                            <div className={`bg-white w-full h-60 absolute right-0 rounded z-30 p-1 ${scrollIsDown===true?"top-16":"-top-64"}`}>
-                              <input aria-label="search neighbourhood" className="border border-searchbox_border w-full h-6"/>
+                            <div onClick={(event)=>event.stopPropagation()} className={`bg-white w-full h-60 absolute right-0 rounded z-30 p-1 ${scrollIsDown===true?"top-16":"-top-64"}`}>
+                              <input onChange={(e)=>searchNeighbourhoodsHandler(e.target.value)} aria-label="search neighbourhood" className="border border-searchbox_border outline-none px-2 w-full h-8"/>
                               <ul className="w-full mt-1 h-52 overflow-y-scroll">
                                 {
-                                    neighbourhoods.map((x,index)=><li key={index} className="w-full h-6 mb-2">{x.neighbourName + "،" + x.cityName}</li>)
+                                    searchedNeighborhood.map((x,index)=><li onClick={()=>selectNeighbourhoodHandler(x.neighbourName + "،" + x.cityName)} key={index} className="w-full h-6 mb-2 hover:bg-blue-600 hover:text-white">{x.neighbourName + "،" + x.cityName}</li>)
                                 }
                               </ul>
                             </div>
                         }
                         <span className="w-full h-14 flex flex-row items-center justify-between ml-2">
-                            <span className="text-searchbox_text">محله</span>
+                            <span className="text-searchbox_text">{selectNeighborhood === '' ? "محله" : selectNeighborhood}</span>
                             <RiArrowDropDownFill color="#8b9aad" fontSize={24}/>
                         </span>
                         <TfiLocationPin color="#8b9aad" fontSize={24}/>
@@ -123,7 +171,7 @@ export default function SearchBox({cities,neighbourhoods}){
                     <div onClick={showAdvanceSearchBoxHandler} className="cursor-pointer w-full mr-4 md:mr-0 md:w-56 h-14 flex items-center justify-start md:justify-center z-20">
                         <Image src="/svg/search_menu.svg" alt="advance search" width={30} height={30}/>
                     </div>
-                    <button className="bg-redTheme text-white rounded-md w-full md:w-128 py-4">جستجو</button>
+                    <button onClick={serachButtonHandler} className="bg-redTheme text-white rounded-md w-full md:w-128 py-4">جستجو</button>
                 </div>
                 <div className="absolute top-142 md:top-111 z-20 w-full px-4 sm:px-0 sm:w-3/4 md:container">
                    <div className={`bg-white relative shadow-radika rounded-lg overflow-hidden flex flex-col items-center transition-all duration-500 ease-in-out ${showAdvanceSearch ===true?"h-104 md:h-72 p-6":"h-0"}`}>
@@ -135,12 +183,10 @@ export default function SearchBox({cities,neighbourhoods}){
                             <div onClick={()=>modifyShowSelectBoxesHandler(4)} className="relative border border-searchbox_border rounded w-full md:w-5/12 flex flex-row justify-around px-2 items-center cursor-pointer">
                                 {
                                     showBath &&
-                                    <div className={`border border-searchbox_border bg-white w-full h-24 absolute right-0 rounded z-30 p-1 top-16`}>
+                                    <div onClick={(event)=>event.stopPropagation()} className={`border border-searchbox_border bg-white w-full h-14 absolute right-0 rounded z-30 p-1 top-16`}>
                                         <ul>
-                                            <li>1</li>
-                                            <li>2</li>
-                                            <li>3</li>
-                                            <li>4</li>
+                                            <li onClick={()=>changeBathHandler(true)} className="hover:bg-blue-600 hover:text-white">دارد</li>
+                                            <li onClick={()=>changeBathHandler(false)} className="hover:bg-blue-600 hover:text-white">ندارد</li>
                                         </ul>
                                     </div>
                                 }
@@ -153,12 +199,12 @@ export default function SearchBox({cities,neighbourhoods}){
                             <div onClick={()=>modifyShowSelectBoxesHandler(5)} className="relative border border-searchbox_border rounded w-full md:w-5/12 flex flex-row justify-around px-2 mt-2 md:mt-0 items-center cursor-pointer">
                                 {
                                     showBed &&
-                                    <div className={`border border-searchbox_border bg-white w-full h-24 absolute right-0 rounded z-30 p-1 top-16`}>
+                                    <div onClick={(event)=>event.stopPropagation()} className={`border border-searchbox_border bg-white w-full h-28 absolute right-0 rounded z-30 p-1 top-16`}>
                                         <ul>
-                                            <li>1</li>
-                                            <li>2</li>
-                                            <li>3</li>
-                                            <li>4</li>
+                                            <li onClick={()=>changeRoomsNumberHandler(1)} className="hover:bg-blue-600 hover:text-white mb-0.5">یک خوابه</li>
+                                            <li onClick={()=>changeRoomsNumberHandler(2)} className="hover:bg-blue-600 hover:text-white mb-0.5">دوخوابه</li>
+                                            <li onClick={()=>changeRoomsNumberHandler(3)} className="hover:bg-blue-600 hover:text-white mb-0.5">سه خوابه</li>
+                                            <li onClick={()=>changeRoomsNumberHandler(4)} className="hover:bg-blue-600 hover:text-white">چهار خوابه</li>
                                         </ul>
                                     </div>
                                 }

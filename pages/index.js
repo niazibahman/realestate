@@ -9,6 +9,7 @@ import axios from "axios";
 import { GET_AHWAZ_ADS, GET_CITIES, GET_HAMEDAN_ADS, GET_NEIGHBOURHOODS, GET_NEW_ADS, GET_NEW_LET_ADS, GET_NEW_SELL_ADS, GET_SHIRAZ_ADS, GET_TABRIZ_ADS, GET_TEHRAN_ADS } from "../siteconfig/constant";
 
 export async function getStaticProps(){
+  
   const [cities,neighbours,newSellAds,newLetAds,tehranAds,tabrizAds,ahwazAds,shirazAds,hamedanAds]= await axios.all([    
     axios.get(GET_CITIES),
     axios.get(GET_NEIGHBOURHOODS),
@@ -20,8 +21,10 @@ export async function getStaticProps(){
     axios.get(GET_SHIRAZ_ADS),
     axios.get(GET_HAMEDAN_ADS)
   ]);
+
   let newAds = JSON.parse(JSON.stringify(newSellAds.data ));
   newAds= newAds.concat(JSON.parse(JSON.stringify(newLetAds.data)));
+
   const countAds =[
     JSON.parse(JSON.stringify(tehranAds.data)).length,
     JSON.parse(JSON.stringify(tabrizAds.data)).length,
@@ -29,6 +32,7 @@ export async function getStaticProps(){
     JSON.parse(JSON.stringify(shirazAds.data)).length,
     JSON.parse(JSON.stringify(hamedanAds.data)).length
   ];
+
   return {props:{
     cities : JSON.parse(JSON.stringify(cities.data)),
     neighbourhoods : JSON.parse(JSON.stringify(neighbours.data)),

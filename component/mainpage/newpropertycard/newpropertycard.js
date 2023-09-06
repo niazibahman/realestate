@@ -12,10 +12,10 @@ export default function NewPropertyCard({property}){
     }
     return(
     <div className="w-full h-full rounded-lg bg-white shadow-radika flex flex-col items-center">
-        <div className="relative w-full h-60 rounded-t-lg">
+        <div className="relative w-full h-64 rounded-t-lg">
             <Slide cssClass='height:240px' {...properties} autoplay={false}>
                             {
-                                property.photos.map((x,index)=><div key={index} className='relative w-full h-60'>
+                                property.photos.map((x,index)=><div key={index} className='relative w-full h-60 md:h-64'>
                                     <Image src={x} alt={property.slug} width={0} height={0} sizes='100vw' className={`w-full h-full rounded-t-lg object-cover`}/>
                                     <div className="w-full h-full absolute top-0 right-0 left-0 bottom-0 rounded-t-lg bg-searchbox_bg bg-opacity-30"/>
                                 </div>)
