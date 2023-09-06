@@ -4,6 +4,7 @@ module.exports = {
   content: ["./pages/**/*.{html,js}", "./component/**/*.{html,js}"],
   theme: {
     colors: {
+      ...colors,
       transparent:colors.transparent,
       white: colors.white,
       black: colors.black,
