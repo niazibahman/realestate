@@ -31,7 +31,7 @@ export default function SearchBox({cities,neighbourhoods}){
     const [bath,setBath]=useState(false);
     const [city,setCity]=useState('');
     const [propertyType,setPropertyType]=useState('');
-    const [selectNeighborhood,setSelectNeighborhood]=useState('');
+    const [selectNeighborhood,setSelectNeighborhood]=useState();
     const [searchedNeighborhood,setSearchedNeighborhood]=useState([])
 
     const listenToScroll = () => {
@@ -157,13 +157,13 @@ export default function SearchBox({cities,neighbourhoods}){
                               <input onChange={(e)=>searchNeighbourhoodsHandler(e.target.value)} aria-label="search neighbourhood" className="border border-searchbox_border outline-none px-2 w-full h-8"/>
                               <ul className="w-full mt-1 h-52 overflow-y-scroll">
                                 {
-                                    searchedNeighborhood.map((x,index)=><li onClick={()=>selectNeighbourhoodHandler(x.neighbourName + "،" + x.cityName)} key={index} className="w-full h-6 mb-2 hover:bg-blue-600 hover:text-white">{x.neighbourName + "،" + x.cityName}</li>)
+                                    searchedNeighborhood.map((x,index)=><li onClick={()=>selectNeighbourhoodHandler(x)} key={index} className="w-full h-6 mb-2 hover:bg-blue-600 hover:text-white">{x.neighbourName + "،" + x.cityName}</li>)
                                 }
                               </ul>
                             </div>
                         }
                         <span className="w-full h-14 flex flex-row items-center justify-between ml-2">
-                            <span className="text-searchbox_text">{selectNeighborhood === '' ? "محله" : selectNeighborhood}</span>
+                            <span className="text-searchbox_text">{selectNeighborhood === undefined ? "محله" : selectNeighborhood.neighbourName + "،" + selectNeighborhood.cityName}</span>
                             <RiArrowDropDownFill color="#8b9aad" fontSize={24}/>
                         </span>
                         <TfiLocationPin color="#8b9aad" fontSize={24}/>
@@ -191,7 +191,7 @@ export default function SearchBox({cities,neighbourhoods}){
                                     </div>
                                 }
                                 <span className="w-full h-14 flex flex-row items-center justify-between ml-2">
-                                    <span className="text-searchbox_text">حمام</span>
+                                    <span className="text-searchbox_text">{bath === false ? "حمام" : "حمام دارد"}</span>
                                     <RiArrowDropDownFill color="#8b9aad" fontSize={24}/>
                                 </span>
                                 <FaBath color="#8b9aad" fontSize={24}/>
@@ -209,7 +209,7 @@ export default function SearchBox({cities,neighbourhoods}){
                                     </div>
                                 }
                                 <span className="w-full h-14 flex flex-row items-center justify-between ml-2">
-                                    <span className="text-searchbox_text">اتاق خواب</span>
+                                    <span className="text-searchbox_text">{rooms === 0 ? "اتاق خواب" : "اتاق خواب " + rooms}</span>
                                     <RiArrowDropDownFill color="#8b9aad" fontSize={24}/>
                                 </span>
                                 <FaBed color="#8b9aad" fontSize={24}/>
