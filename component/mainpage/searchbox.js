@@ -30,7 +30,8 @@ export default function SearchBox({cities,neighbourhoods}){
     const [rooms,setRooms]=useState(0);
     const [bath,setBath]=useState(false);
     const [city,setCity]=useState('');
-    const [propertyType,setPropertyType]=useState('');
+    const [cityError,setCityError]=useState(false);
+    const [propertyType,setPropertyType]=useState('املاک');
     const [selectNeighborhood,setSelectNeighborhood]=useState();
     const [searchedNeighborhood,setSearchedNeighborhood]=useState([])
 
@@ -55,6 +56,9 @@ export default function SearchBox({cities,neighbourhoods}){
         setShowAdvanceSearch(!showAdvanceSearch);
     }
     const changeCityHandler=(city)=>{
+        if(city !== ""){
+            setCityError(false);
+        }
         setCity(city);
         if(!cities.some(x=>x.CityName === city)){
             const tempSearchedCity= cities.filter(x=>x.CityName.includes(city));
@@ -73,12 +77,20 @@ export default function SearchBox({cities,neighbourhoods}){
     }
     const searchNeighbourhoodsHandler=(searchedNeighbour)=>{
         if(searchedNeighbour === ''){
-            setSearchedNeighborhood(neighbourhoods);
+            if(city === ""){
+                setSearchedNeighborhood(neighbourhoods);
+            }else{
+                const tempNeighbours= neighbourhoods.filter(x=>x.cityName === city);
+                setSearchedNeighborhood(tempNeighbours);
+            }
         }else{
             if(city === ""){
                 const tempNeighbours= neighbourhoods.filter(x=>x.neighbourName.includes(searchedNeighbour));
                 setSearchedNeighborhood(tempNeighbours);
-            }else{}
+            }else{
+                const tempNeighbours= neighbourhoods.filter(x=>(x.neighbourName.includes(searchedNeighbour) && x.cityName === city));
+                setSearchedNeighborhood(tempNeighbours);
+            }
         }
     }
     const changeYard=()=>{setYard(!yard)}
@@ -99,8 +111,34 @@ export default function SearchBox({cities,neighbourhoods}){
         modifyShowSelectBoxesHandler(0);
     }
     const serachButtonHandler=()=>{
-        router.push(URLCreator("آپارتمان","همدان",["میدان مدرس"]))
+        const facility = [];
+        if(bath){facility.push('bath')}
+        if(heating){facility.push('heating')}
+        if(cooling){facility.push('cooling')}
+        if(lift){facility.push('lift')}
+        if(loan){facility.push('loan')}
+        if(parking){facility.push('parking')}
+        if(pool){facility.push('pool')}
+        if(storage){facility.push('storage')}
+        if(seperate){facility.push('seperate')}
+        if(yard){facility.push('yard')}
+        if(city === '' || !cities.some(x=>x.CityName === city)){
+            setCityError(true);
+        }else{
+            router.push(URLCreator(propertyType,city,selectNeighborhood === undefined ? [] :[selectNeighborhood.neighbourName],rooms,facility));
+        }
     }
+    useEffect(()=>{
+        if(cities.some(x=>x.CityName === city)){
+            const tempNeighbours= neighbourhoods.filter(x=>x.cityName === city);
+            setSearchedNeighborhood(tempNeighbours);
+            if(selectNeighborhood !== undefined){
+                if(selectNeighborhood.cityName !== city){
+                    setSelectNeighborhood();
+                }
+            }
+        }
+    },[city])
     useEffect(() => {
         setSearchedCities(cities);
         setSearchedNeighborhood(neighbourhoods)
@@ -129,8 +167,8 @@ export default function SearchBox({cities,neighbourhoods}){
                                 </ul>
                             </div>
                         }
-                        <input onClick={()=>modifyShowSelectBoxesHandler(1)} onChange={(e)=>changeCityHandler(e.target.value)} value={city} placeholder="شهر" aria-label="city" className="w-full ml-2 focus:outline-none text-gray-700 h-14"/>
-                        <IoSearchOutline color="#8b9aad" fontSize={24}/>
+                        <input onClick={()=>modifyShowSelectBoxesHandler(1)} onChange={(e)=>changeCityHandler(e.target.value)} value={city} placeholder="شهر" aria-label="city" className={`w-full ml-2 focus:outline-none h-14 ${cityError === true ? "placeholder-red-400 text-red-400":"text-gray-700"}`}/>
+                        <IoSearchOutline color={cityError === true ? "#fc8181": "#8b9aad"} fontSize={24}/>
                     </div>
                     <div onClick={()=>modifyShowSelectBoxesHandler(2)} className="relative cursor-pointer border md:border-r-0 md:border-y-0 md:border-l border-searchbox_border rounded w-full flex flex-row justify-between items-center py-1 px-2 mb-1">
                         {
@@ -139,13 +177,13 @@ export default function SearchBox({cities,neighbourhoods}){
                               {/*<input aria-label="search property" className="border border-searchbox_border outline-none px-2 w-full h-8"/> */}
                               <ul className="w-full mt-1 h-52 overflow-y-scroll">
                                 {
-                                    prpertytype.map((x,index)=><li onClick={()=>selectPropertyTypeHandler(x.name)} key={index} className="w-full h-6 mb-2 hover:bg-blue-600 hover:text-white">{x.name}</li>)
+                                    prpertytype.map((x,index)=><li onClick={()=>selectPropertyTypeHandler(x.name)} key={index} className="w-full h-6 mb-2 hover:bg-blue-600 hover:text-white">{x.name === "املاک" ? "همه املاک" : x.name }</li>)
                                 }
                               </ul>
                             </div>
                         }
                         <span className="w-full h-14 flex flex-row items-center justify-between ml-2">
-                            <span className="text-searchbox_text">{propertyType === '' ? "نوع ملک" : propertyType}</span>
+                            <span className="text-searchbox_text">{propertyType === '' ? "نوع ملک" : propertyType === "املاک" ? "همه املاک" : propertyType }</span>
                             <RiArrowDropDownFill color="#8b9aad" fontSize={24}/>
                         </span>
                         <TfiBriefcase color="#8b9aad" fontSize={24}/>
