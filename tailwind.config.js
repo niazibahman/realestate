@@ -33,7 +33,11 @@ module.exports = {
       listingHeader:"#f4f5f7",
       listingFilter:"#333c56",
       advancedSearchBorder:"#e3e8ef",
-      header_text:"#647392"
+      header_text:"#647392",
+      listingCardbg:"#1e2a4c",
+      star:"#ff9800",
+      adTypeTag:"#21293a",
+      priceTag:"#2a4fba"
     },
     extend: {
       fontFamily: {
@@ -57,7 +61,9 @@ module.exports = {
       boxShadow: {
         radika: "0 0px 20px 0px rgba(62, 28, 131, 0.1)",
         paginationShadow:"0 2px 10px 0 rgba(216, 221, 230)",
-        header:"0 5px 30px rgba(0,22,84,0.1)"
+        header:"0 5px 30px rgba(0,22,84,0.1)",
+        listingTag:"0 0 0 3px rgba(255,255,255,0.4)",
+        listingHeart:"0 0 0 3px rgba(255,255,255,0.2);"
       },
       keyframes: {
         expand_width: {
