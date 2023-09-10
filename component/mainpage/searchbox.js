@@ -156,7 +156,7 @@ export default function SearchBox({cities,neighbourhoods}){
             <div className="flex flex-col justify-center items-center w-full px-4 sm:w-3/4 sm:px-0 md:container">
                 <h1 className="text-white text-3xl md:text-4xl font-bold text-center mb-20">سایت جستجوی املاک کشور</h1>
                 <div className="bg-white rounded-lg w-full py-2 px-3 flex flex-col md:flex-row">
-                    <div className="relative border md:border-r-0 md:border-y-0 md:border-l border-searchbox_border rounded w-full flex flex-row justify-between items-center py-1 px-2 mb-1">
+                    <div className="relative border md:border-r-0 md:border-y-0 md:border-l border-searchbox_border rounded md:rounded-none w-full flex flex-row justify-between items-center py-1 px-2 mb-1">
                         {
                             showCity &&
                             <div className={`bg-white w-full h-60 absolute right-0 rounded z-30 p-1 ${scrollIsDown===true?"top-16":"-top-64"}`}>
@@ -170,7 +170,7 @@ export default function SearchBox({cities,neighbourhoods}){
                         <input onClick={()=>modifyShowSelectBoxesHandler(1)} onChange={(e)=>changeCityHandler(e.target.value)} value={city} placeholder="شهر" aria-label="city" className={`w-full ml-2 focus:outline-none h-14 ${cityError === true ? "placeholder-red-400 text-red-400":"text-gray-700"}`}/>
                         <IoSearchOutline color={cityError === true ? "#fc8181": "#8b9aad"} fontSize={24}/>
                     </div>
-                    <div onClick={()=>modifyShowSelectBoxesHandler(2)} className="relative cursor-pointer border md:border-r-0 md:border-y-0 md:border-l border-searchbox_border rounded w-full flex flex-row justify-between items-center py-1 px-2 mb-1">
+                    <div onClick={()=>modifyShowSelectBoxesHandler(2)} className="relative cursor-pointer border md:border-r-0 md:border-y-0 md:border-l border-searchbox_border rounded md:rounded-none w-full flex flex-row justify-between items-center py-1 px-2 mb-1">
                         {
                             showProperty &&
                             <div onClick={(event)=>event.stopPropagation()} className={`bg-white w-full h-60 absolute right-0 rounded z-30 p-1 ${scrollIsDown===true?"top-16":"-top-64"}`}>
@@ -188,7 +188,7 @@ export default function SearchBox({cities,neighbourhoods}){
                         </span>
                         <TfiBriefcase color="#8b9aad" fontSize={24}/>
                     </div>
-                    <div onClick={()=>modifyShowSelectBoxesHandler(3)} className="relative cursor-pointer border md:border-r-0 md:border-y-0 md:border-l border-searchbox_border rounded w-full flex flex-row justify-between items-center py-1 px-2 mb-1">
+                    <div onClick={()=>modifyShowSelectBoxesHandler(3)} className="relative cursor-pointer border md:border-r-0 md:border-y-0 md:border-l border-searchbox_border rounded md:rounded-none w-full flex flex-row justify-between items-center py-1 px-2 mb-1">
                        {
                             showNeighbourhood &&
                             <div onClick={(event)=>event.stopPropagation()} className={`bg-white w-full h-60 absolute right-0 rounded z-30 p-1 ${scrollIsDown===true?"top-16":"-top-64"}`}>

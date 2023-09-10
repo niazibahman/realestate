@@ -37,7 +37,9 @@ module.exports = {
       listingCardbg:"#1e2a4c",
       star:"#ff9800",
       adTypeTag:"#21293a",
-      priceTag:"#2a4fba"
+      priceTag:"#2a4fba",
+      arrangeBorder:"#eceff3",
+      arrangeText:"#6e727d"
     },
     extend: {
       fontFamily: {
@@ -63,7 +65,8 @@ module.exports = {
         paginationShadow:"0 2px 10px 0 rgba(216, 221, 230)",
         header:"0 5px 30px rgba(0,22,84,0.1)",
         listingTag:"0 0 0 3px rgba(255,255,255,0.4)",
-        listingHeart:"0 0 0 3px rgba(255,255,255,0.2);"
+        listingHeart:"0 0 0 3px rgba(255,255,255,0.2);",
+        sortButton:"0 0 6px 1px rgba(62,28,131,0.1);"
       },
       keyframes: {
         expand_width: {
@@ -92,7 +95,8 @@ module.exports = {
         'close-width': 'shrink_width 60ms forwards',
         'sticked-header': 'stick_header 500ms ease',
         'apear': 'apear 300ms ease',
-        'fade': 'fade 300ms ease'
+        'fade': 'fade 300ms ease',
+        'rotat-x': 'rotate-x 700ms ease'
       }
     },
   },

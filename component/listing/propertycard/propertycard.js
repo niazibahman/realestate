@@ -2,11 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function PropertyCard({property}){
-    return(<div className="shadow-radika w-full h-auto rounded-lg grid grid-cols-1 lg:grid-cols-5 gap-0">
-        <div className="col-span-1 lg:col-span-2 lg:col-start-4 h-auto">
-            <div className="relative w-full h-60 md:h-64">
-                <Link href={"/"}><Image src={"/p-1.webp"} alt={"a"} width={0} height={0} sizes='100vw' className="w-full h-full object-cover"/></Link>
-                <div className="absolute w-full h-2/3 bottom-0 inset-x-0 bg-gradient-to-b from-transparent to-listingCardbg bg-opacity-5"/>
+    return(<div className="shadow-radika w-full rounded-lg grid grid-cols-1 lg:grid-cols-5 gap-0">
+        <div className="col-span-1 lg:col-span-2 lg:col-start-4 rounded-r-lg">
+            <div className="relative w-full h-64 rounded-r-lg">
+                <Link href={"/"} className="w-full"><Image src={"/p-1.webp"} alt={"a"} width={0} height={0} sizes='100%' className="w-full h-full object-cover rounded-t-lg lg:rounded-t-none lg:rounded-tl-lg lg:rounded-bl-lg"/></Link>
+                <Link href={"/"}><div className="absolute w-full h-2/3 bottom-0 inset-x-0 bg-gradient-to-b from-transparent to-listingCardbg bg-opacity-5 lg:rounded-bl-lg"/></Link>
                 <div className="absolute bottom-5 left-5 text-2xl text-white">
                     <span className={`ml-2`}>✩</span>
                     <span className={`ml-2`}>✩</span>
@@ -28,7 +28,7 @@ export default function PropertyCard({property}){
             </div>
             <div className="w-full px-4 py-5 flex flex-row items-center justify-between text-textColorBase">
                 <span>اتاق خواب: 2</span>
-                <span>حمام: 1</span>
+                <span>حمام: دارد</span>
                 <span>متراژ: 50</span>
             </div>
             <div className="w-full px-4 py-5 flex flex-row items-center justify-between border-t">
