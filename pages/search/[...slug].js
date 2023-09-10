@@ -5,8 +5,41 @@ import PropertiesList from '../../component/listing/propertieslist';
 import AdvanceSearch from '../../component/listing/advancesearch';
 import {FiFilter} from 'react-icons/fi';
 import { useEffect, useState } from "react";
+import {GET_ADS_LIST} from "../../siteconfig/constant"
+import axios from "axios";
 
 export async function getServerSideProps(context) {
+    let result;
+    let facility = [];
+    let rooms = -1;
+    let page = 1;
+    const path = context?.params.slug;
+
+    let reqURL = "";
+    if(path.length === 2){
+        if(path[0] === "املاک"){
+            reqURL = GET_ADS_LIST + path[1].replaceAll("-", " ");
+        }else{
+            reqURL = GET_ADS_LIST + path[1].replaceAll("-", " ") + "&buildingTypeName=" + path[0].replaceAll("-", " ");
+        }
+        result = await axios.get(reqURL);
+    }else if(path.length === 3){
+        if(path[0] === "املاک"){
+            reqURL = GET_ADS_LIST + path[2].replaceAll("-", " ") + "&neibourhoodName=" + path[1].replaceAll("-", " ");
+        }else{
+            reqURL = GET_ADS_LIST + path[2].replaceAll("-", " ") + "&buildingTypeName=" + path[0].replaceAll("-", " ") + "&neibourhoodName=" + path[1].replaceAll("-", " ");
+        }
+        result = await axios.get(reqURL);
+    }
+    if(context.query.rooms !== null){
+        rooms = Number(context.query.rooms);
+        console.log(rooms)
+    }
+    if(context.query.facility !== null){
+        facility = context.query.facility.split("-");
+    }
+    
+    //console.log(result.data.filter(x=>x.lift === true))
     return {
       props: {}
     }
@@ -17,12 +50,6 @@ export default function Listing(){
 
     const openFilterHandler=()=>{setShowFilter(true)}
     const closeFilterHadnler=()=>{setShowFilter(false)}
-
-    useEffect(()=>{
-        if(showFilter === true){
-
-        }
-    },[showFilter]);
 
     return(<>
         <Head>

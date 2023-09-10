@@ -9,3 +9,4 @@ export const GET_TABRIZ_ADS=BASE_URL+"/ads?cityId=1";
 export const GET_AHWAZ_ADS=BASE_URL+"/ads?cityId=182";
 export const GET_SHIRAZ_ADS=BASE_URL+"/ads?cityId=245";
 export const GET_HAMEDAN_ADS=BASE_URL+"/ads?cityId=440";
+export const GET_ADS_LIST=BASE_URL+"/ads?cityName=";
