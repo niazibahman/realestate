@@ -50,20 +50,20 @@ export default function AdvanceSearch({showOnMobile,closeAdvanceFilter}){
             <hr className='w-full lg:hidden mb-4'/>
             <h5 className='mb-4'>ملک مورد نظر را بیابید</h5>
             <div className='w-full border border-searchbox_border rounded flex flex-row justify-between items-center px-2 py-1 mb-4'>
-                <input placeholder="استان" className="w-full ml-2 focus:outline-none text-gray-700 h-12"/>
-                <IoSearchOutline color="#8b9aad" fontSize={24}/>
-            </div>
-            <div className='w-full border border-searchbox_border rounded flex flex-row justify-between items-center px-2 py-1 mb-4'>
                 <input placeholder="شهر" className="w-full ml-2 focus:outline-none text-gray-700 h-12"/>
                 <IoSearchOutline color="#8b9aad" fontSize={24}/>
             </div>
+            <div className='w-full border border-searchbox_border rounded flex flex-row justify-between items-center px-2 py-1 mb-4'>
+                <input placeholder="محله" className="w-full ml-2 focus:outline-none text-gray-700 h-12"/>
+                <IoSearchOutline color="#8b9aad" fontSize={24}/>
+            </div>
             <div className='grid grid-cols-2 gap-4 mb-4'>
-                <div className='col-span-1 border border-searchbox_border rounded flex flex-row justify-between items-center px-1 py-1'>
-                    <input type='number' placeholder='حداقل قیمت' className='w-full ml-1 focus:outline-none text-gray-700 h-12'/>
+                <div className='col-span-1 bg-gray-200 border border-searchbox_border rounded flex flex-row justify-between items-center px-1 py-1'>
+                    <input disabled type='number' placeholder='حداقل قیمت' className='w-full ml-1 focus:outline-none text-gray-700 h-12'/>
                     <BiDollar color="#8b9aad" fontSize={24}/>
                 </div>
-                <div className='col-span-1 border border-searchbox_border rounded flex flex-row justify-between items-center px-1 py-1'>
-                    <input type='number' placeholder='حداکثر قیمت' className='w-full ml-1 focus:outline-none text-gray-700 h-12'/>
+                <div className='col-span-1 bg-gray-200 border border-searchbox_border rounded flex flex-row justify-between items-center px-1 py-1'>
+                    <input disabled type='number' placeholder='حداکثر قیمت' className='w-full ml-1 focus:outline-none text-gray-700 h-12'/>
                     <BiDollar color="#8b9aad" fontSize={24}/>
                 </div>
             </div>
@@ -77,10 +77,10 @@ export default function AdvanceSearch({showOnMobile,closeAdvanceFilter}){
                     showBed &&
                     <div className={`border border-searchbox_border bg-white w-full h-24 absolute right-0 rounded z-20 p-1 top-16`}>
                         <ul>
-                            <li>1</li>
-                            <li>2</li>
-                            <li>3</li>
-                            <li>4</li>
+                            <li className='hover:bg-blue-600 hover:text-white'>1</li>
+                            <li className='hover:bg-blue-600 hover:text-white'>2</li>
+                            <li className='hover:bg-blue-600 hover:text-white'>3</li>
+                            <li className='hover:bg-blue-600 hover:text-white'>4</li>
                         </ul>
                     </div>
                 }
@@ -93,12 +93,10 @@ export default function AdvanceSearch({showOnMobile,closeAdvanceFilter}){
                 <FaBath color="#8b9aad" fontSize={24}/>
                 {
                     showBath &&
-                    <div className={`border border-searchbox_border bg-white w-full h-24 absolute right-0 rounded z-30 p-1 top-16`}>
-                        <ul>
-                            <li>1</li>
-                            <li>2</li>
-                            <li>3</li>
-                            <li>4</li>
+                    <div className={`border border-searchbox_border bg-white w-full h-16 absolute right-0 rounded z-30 p-1 top-16`}>
+                        <ul className='space-y-2'>
+                            <li className='hover:bg-blue-600 hover:text-white'>دارد</li>
+                            <li className='hover:bg-blue-600 hover:text-white'>ندارد</li>
                         </ul>
                     </div>
                 }
