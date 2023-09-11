@@ -13,7 +13,7 @@ export default function Detail(){
     <Head>
         <title>جزئیات آگهی</title>
     </Head>
-    <main></main>
+    <main>bahman</main>
     </>
     );
 }
