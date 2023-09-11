@@ -101,7 +101,7 @@ export default function Listing({adsList,totalAds,totalPages,currentPage}){
 
     return(<>
         <Head>
-            <title>Listing Page</title>
+            <title>جستجوی ملک</title>
         </Head>
         <main>
             <ListingHeaders/>
