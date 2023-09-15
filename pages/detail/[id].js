@@ -1,14 +1,31 @@
+import axios from "axios";
 import Head from "next/head";
+import {GET_AD_DETAIL} from '../../siteconfig/constant'
 
 export async function getServerSideProps(context) {
+    const adsType = context.params.id.toString().slice(0, 3);
+    const adsCode = context.params.id.toString().slice(4, context.params.id.toString().length);
+    let detailDatat;
+    let title='';
+    let description='';
+    let isSell = true;
+    if (adsType == "let") {
+        detailDatat =await axios.get(GET_AD_DETAIL+"letId="+adsCode);
+        isSell = true;
+    }
+    if (adsType == "sel") {
+        detailDatat = await axios.get(GET_AD_DETAIL+"sellId="+adsCode);
+        isSell=false;
+    }
     return {
         props: {
+            dataDetail : detailDatat.data,
+            isSell : isSell
         }
     }
 }
 
-export default function Detail(){
-
+export default function Detail({dataDetail,isSell}){
     return(
     <>
     <Head>

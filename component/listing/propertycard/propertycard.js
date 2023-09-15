@@ -9,7 +9,7 @@ export default function PropertyCard({property}){
             <div className="relative w-full h-64 rounded-r-lg">
                 <Link href={property.issell === true ? ("/detail/sel-" + property.sellId) : ("/detail/let-" + property.letId)} className="w-full h-full relative">
                     <Image src={property.photos[0]} alt={property.slug} width={0} height={0} sizes='100%' className="w-full h-full object-cover rounded-t-lg lg:rounded-t-none lg:rounded-tl-lg lg:rounded-bl-lg"/>
-                    <div className="absolute w-full h-full bottom-0 inset-x-0 bg-gradient-to-b from-transparent from-30% hover:from-15% to-listingCardbg bg-opacity-5 lg:rounded-bl-lg"/>
+                    <div className="absolute w-full h-full bottom-0 inset-x-0 bg-gradient-to-b from-transparent from-30% hover:from-15% active:from-15% to-listingCardbg bg-opacity-5 lg:rounded-bl-lg"/>
                 </Link>
                 <div className="absolute bottom-5 left-5 text-2xl text-white">
                     <span className={`ml-2 ${Math.ceil(property.ranking/300) >=4 ?"text-star":""}`}>✩</span>
