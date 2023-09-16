@@ -3,6 +3,8 @@ import Head from "next/head";
 import {GET_AD_DETAIL} from '../../siteconfig/constant'
 import DetailSlider from "../../component/details/detailSlider";
 import Description from "../../component/details/description";
+import dynamic from "next/dynamic";
+import LatLngExtract from "../../methods/latlngExtract";
 
 export async function getServerSideProps(context) {
     const adsType = context.params.id.toString().slice(0, 3);
@@ -28,6 +30,9 @@ export async function getServerSideProps(context) {
 }
 
 export default function Detail({dataDetail,isSell}){
+    const MapWithNoSSR = dynamic(() => import('../../component/details/map'), {
+        ssr: false,
+    })
     return(
     <>
     <Head>
@@ -41,7 +46,7 @@ export default function Detail({dataDetail,isSell}){
             <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-4"><Description description={dataDetail.description}/></div>
             <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-4">5</div>
             <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-4">6</div>
-            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-4">7</div>
+            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-4"><MapWithNoSSR latlng={LatLngExtract(dataDetail.coordinate)}/></div>
             <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-4">8</div>
             <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-4">9</div>
             <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-4">10</div>
