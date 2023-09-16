@@ -2,6 +2,7 @@ import axios from "axios";
 import Head from "next/head";
 import {GET_AD_DETAIL} from '../../siteconfig/constant'
 import DetailSlider from "../../component/details/detailSlider";
+import Description from "../../component/details/description";
 
 export async function getServerSideProps(context) {
     const adsType = context.params.id.toString().slice(0, 3);
@@ -37,7 +38,7 @@ export default function Detail({dataDetail,isSell}){
             <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-4">1</div>
             <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-4"><DetailSlider photos={dataDetail.photos} slug={dataDetail.slug}/></div>
             <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-4">3</div>
-            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-4">4</div>
+            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-4"><Description description={dataDetail.description}/></div>
             <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-4">5</div>
             <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-4">6</div>
             <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-4">7</div>

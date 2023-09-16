@@ -39,7 +39,8 @@ module.exports = {
       adTypeTag:"#21293a",
       priceTag:"#2a4fba",
       arrangeBorder:"#eceff3",
-      arrangeText:"#6e727d"
+      arrangeText:"#6e727d",
+      detailBorder:"#ebeef5"
     },
     extend: {
       padding: {
