@@ -42,6 +42,10 @@ module.exports = {
       arrangeText:"#6e727d"
     },
     extend: {
+      padding: {
+        '2/3': '66%',
+        '3/4': '75%'
+      },
       fontFamily: {
         vazir: ["vazir"],
       },
@@ -53,7 +57,9 @@ module.exports = {
       },
       height: {
         104: "26rem",
+        108: "27rem",
         125: "31.25rem",
+        136: "34rem",
         165: "41.25rem",
       },
       inset: {
