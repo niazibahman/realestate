@@ -5,7 +5,7 @@ import "leaflet/dist/leaflet.css";
 export default function Map({latlng}){
     return(
         <div className="w-full bg-white rounded border border-detailBorder px-10 pb-10 pt-4">
-            <h4 className="font-semibold">موقعیت روی نقشه</h4>
+            <h2 className="font-semibold">موقعیت روی نقشه</h2>
             <hr className="my-2"/>
             <div className="w-full h-64 sm:h-72 md:h-80">
                 <MapContainer id="map1" center={latlng} zoom={16} className="w-full h-full z-0">

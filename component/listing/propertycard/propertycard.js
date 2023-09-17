@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Seperator from "../../../methods/seperator";
-import {VscLocation} from "react-icons/vsc"
+import {VscLocation} from "react-icons/vsc";
 
 export default function PropertyCard({property}){
     return(<div className="shadow-radika w-full rounded-lg grid grid-cols-1 lg:grid-cols-5 gap-0 my-10">

@@ -5,6 +5,8 @@ import DetailSlider from "../../component/details/detailSlider";
 import Description from "../../component/details/description";
 import dynamic from "next/dynamic";
 import LatLngExtract from "../../methods/latlngExtract";
+import PriceAddress from "../../component/details/priceAddress";
+import Ameneties from "../../component/details/ameneties";
 
 export async function getServerSideProps(context) {
     const adsType = context.params.id.toString().slice(0, 3);
@@ -38,19 +40,18 @@ export default function Detail({dataDetail,isSell}){
     <Head>
         <title>جزئیات آگهی</title>
     </Head>
-    <main>
+    <main className="bg-detail_bg">
         <section className="w-screen lg:container mx-auto grid grid-cols-12 gap-0 py-20 space-y-4">
-            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-4">1</div>
-            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-4"><DetailSlider photos={dataDetail.photos} slug={dataDetail.slug}/></div>
-            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-4">3</div>
-            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-4"><Description description={dataDetail.description}/></div>
-            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-4">5</div>
-            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-4">6</div>
-            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-4"><MapWithNoSSR latlng={LatLngExtract(dataDetail.coordinate)}/></div>
-            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-4">8</div>
-            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-4">9</div>
-            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-4">10</div>
-            <div className="col-span-full lg:col-span-4 lg:row-span-6 lg:row-start-1 mx-4 flex flex-col">
+            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-6"><PriceAddress property={dataDetail}/></div>
+            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-6"><DetailSlider photos={dataDetail.photos} slug={dataDetail.slug}/></div>
+            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-6">3</div>
+            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-6"><Description description={dataDetail.description}/></div>
+            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-6"><Ameneties facility={dataDetail.facility}/></div>
+            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-6"><MapWithNoSSR latlng={LatLngExtract(dataDetail.coordinate)}/></div>
+            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-6">8</div>
+            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-6">9</div>
+            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-6">10</div>
+            <div className="col-span-full lg:col-span-4 lg:row-span-6 lg:row-start-1 mx-6 flex flex-col">
                 <div className="w-full">11</div>
                 <div className="w-full">12</div>
                 <div className="w-full">13</div>

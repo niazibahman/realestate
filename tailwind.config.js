@@ -40,7 +40,9 @@ module.exports = {
       priceTag:"#2a4fba",
       arrangeBorder:"#eceff3",
       arrangeText:"#6e727d",
-      detailBorder:"#ebeef5"
+      detailBorder:"#ebeef5",
+      detail_bg:"#f7f9fc",
+      detail_tag:"#3ebd43"
     },
     extend: {
       padding: {
