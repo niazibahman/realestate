@@ -7,6 +7,7 @@ import dynamic from "next/dynamic";
 import LatLngExtract from "../../methods/latlngExtract";
 import PriceAddress from "../../component/details/priceAddress";
 import Ameneties from "../../component/details/ameneties";
+import PropertyInfo from "../../component/details/propertyInfo";
 
 export async function getServerSideProps(context) {
     const adsType = context.params.id.toString().slice(0, 3);
@@ -44,7 +45,7 @@ export default function Detail({dataDetail,isSell}){
         <section className="w-screen lg:container mx-auto grid grid-cols-12 gap-0 py-20 space-y-4">
             <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-6"><PriceAddress property={dataDetail}/></div>
             <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-6"><DetailSlider photos={dataDetail.photos} slug={dataDetail.slug}/></div>
-            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-6">3</div>
+            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-6"><PropertyInfo property={dataDetail}/></div>
             <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-6"><Description description={dataDetail.description}/></div>
             <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-6"><Ameneties facility={dataDetail.facility}/></div>
             <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-6"><MapWithNoSSR latlng={LatLngExtract(dataDetail.coordinate)}/></div>

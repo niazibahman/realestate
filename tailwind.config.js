@@ -22,7 +22,6 @@ module.exports = {
       searchbox_text:"#8b9aad",
       searchbox_border:"#dce3e8",
       textColorH:"#2D3954",
-      textColorBase:"#72809D",
       tickColor:'#0ac186',
       grayBackground:"#f7f9fc",
       commentBackground:"#122947",
@@ -42,7 +41,8 @@ module.exports = {
       arrangeText:"#6e727d",
       detailBorder:"#ebeef5",
       detail_bg:"#f7f9fc",
-      detail_tag:"#3ebd43"
+      detail_tag:"#3ebd43",
+      property_info:"#2a3c77"
     },
     extend: {
       padding: {
