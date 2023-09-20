@@ -42,7 +42,10 @@ module.exports = {
       detailBorder:"#ebeef5",
       detail_bg:"#f7f9fc",
       detail_tag:"#3ebd43",
-      property_info:"#2a3c77"
+      property_info:"#2a3c77",
+      nearbyText:"#172e6f",
+      inputBorder:"#e0ecf5",
+      inputText:"#495057"
     },
     extend: {
       padding: {

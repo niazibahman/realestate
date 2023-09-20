@@ -4,7 +4,7 @@ export default function Ameneties({facility}){
     return(
         <div className="w-full bg-white rounded border border-detailBorder px-10 pb-10 pt-4">
             <h2 className="font-semibold text-textColorH">امکانات</h2>
-            <hr className="my-2"/>
+            <hr className="my-4"/>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-0 gap-y-4 text-textColorBase">
                 {facility.parking !==null ? <Facility title={"پارکینگ "+facility.parking}/>:null}
                 {facility.kitchenUnit !==null ? <Facility title={"کابینت "+facility.kitchenUnit}/>:null}

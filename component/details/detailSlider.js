@@ -16,11 +16,11 @@ export default function DetailSlider({photos,slug}){
             <div className='absolute top-0 w-full h-full'>
             <Swiper style={{
               '--swiper-navigation-color': '#fff',
-              '--swiper-pagination-color': '#fff',direction:'rtl'
-              }}  loop={true} spaceBetween={0} effect={'fade'} navigation={false} thumbs={{ swiper:  thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null }} modules={[EffectFade , Thumbs]} className="mySwiper h-5/6">
+              '--swiper-pagination-color': '#fff',direction:'rtl'}}  loop={true} spaceBetween={0} effect={'fade'} navigation={false} thumbs={{ swiper:  thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null }} modules={[EffectFade , Thumbs]} className="mySwiper h-5/6"
+            >
                 {
                     photos.map((x,index)=><SwiperSlide key={index}>
-                        <Image src={x} alt={slug} width={0} height={0} sizes='100vw' className={`w-full h-full object-cover`} />
+                        <Image src={x} alt={slug} width={0} height={0} sizes='100vw' className="w-full h-full object-cover"/>
                     </SwiperSlide>)
                 }
             </Swiper>
@@ -28,8 +28,8 @@ export default function DetailSlider({photos,slug}){
                 navigation={{
                     prevEl:'.previose1',
                     nextEl:'.next1',
-                    enabled:true
-                }}>
+                    enabled:true}}
+            >
                 <div className='previose1 absolute right-0 inset-y-0 z-50 flex flex-col justify-center'>
                     <button className="w-6 sm:w-8 md:w-10 h-6 sm:h-8 md:h-10 rounded-l-sm bg-white bg-opacity-50 flex flex-col justify-center items-center"><FiArrowRight color='#fff'/></button>
                 </div>
