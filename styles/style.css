@@ -157,3 +157,9 @@ input[type='checkbox'] {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0);
     background-color: #c0bfbf;
 }
+.social-icons{
+  color: rgb(111,121,140);
+} 
+.social-icons:hover{
+  color: rgb(0,186,116);
+}

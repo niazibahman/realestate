@@ -46,19 +46,19 @@ export default function Detail({dataDetail,isSell}){
         <title>جزئیات آگهی</title>
     </Head>
     <main className="bg-detail_bg outline-none">
-        <section className="w-screen lg:container mx-auto grid grid-cols-12 gap-0 py-20 space-y-4">
-            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-6"><PriceAddress property={dataDetail}/></div>
-            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-6"><DetailSlider photos={dataDetail.photos} slug={dataDetail.slug}/></div>
-            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-6"><PropertyInfo property={dataDetail}/></div>
-            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-6"><Description description={dataDetail.description}/></div>
-            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-6"><Ameneties facility={dataDetail.facility}/></div>
-            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-6"><MapWithNoSSR latlng={LatLngExtract(dataDetail.coordinate)}/></div>
-            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-6"><Review/></div>
-            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-6"><NearbyPlace/></div>
-            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-6"><WriteReview/></div>
+        <section className="w-screen lg:container mx-auto grid grid-cols-12 gap-0 py-20">
+            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-6 mb-4"><PriceAddress property={dataDetail}/></div>
+            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-6 mb-4"><DetailSlider photos={dataDetail.photos} slug={dataDetail.slug}/></div>
+            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-6 mb-4"><PropertyInfo property={dataDetail}/></div>
+            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-6 mb-4"><Description description={dataDetail.description}/></div>
+            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-6 mb-4"><Ameneties facility={dataDetail.facility}/></div>
+            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-6 mb-4"><MapWithNoSSR latlng={LatLngExtract(dataDetail.coordinate)}/></div>
+            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-6 mb-4"><Review/></div>
+            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-6 mb-4"><NearbyPlace/></div>
+            <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-6 mb-4"><WriteReview/></div>
             <div className="col-span-full lg:col-span-4 lg:row-span-6 lg:row-start-1 mx-6 flex flex-col">
-                <div className="w-full"><AdvisorMessage/></div>
-                <div className="w-full">12</div>
+                <div className="w-full mb-4"><AdvisorMessage/></div>
+                <div className="w-full mb-4">12</div>
                 <div className="w-full">13</div>
             </div>
         </section>

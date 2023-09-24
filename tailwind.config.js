@@ -45,7 +45,8 @@ module.exports = {
       property_info:"#2a3c77",
       nearbyText:"#172e6f",
       inputBorder:"#e0ecf5",
-      inputText:"#495057"
+      inputText:"#495057",
+      detailSymbols:"#eff1f5"
     },
     extend: {
       padding: {
