@@ -1,9 +1,9 @@
 import Image from "next/image";
 import { IoSearchOutline } from "react-icons/io5";
-import {TfiBriefcase , TfiLocationPin} from 'react-icons/tfi'
-import {RiArrowDropDownFill} from 'react-icons/ri'
-import {FaBed,FaBath} from 'react-icons/fa'
-import prpertytype from '../../constant/property_type.json'
+import {TfiBriefcase , TfiLocationPin} from 'react-icons/tfi';
+import {RiArrowDropDownFill} from 'react-icons/ri';
+import {FaBed,FaBath} from 'react-icons/fa';
+import prpertytype from '../../constant/property_type.json';
 import { useState,useEffect } from "react";
 import URLCreator from "../../methods/URLCreator";
 import { useRouter } from "next/router";

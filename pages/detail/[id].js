@@ -12,6 +12,7 @@ import Review from "../../component/details/review";
 import NearbyPlace from "../../component/details/nearbyPlace";
 import WriteReview from "../../component/details/writeReview";
 import AdvisorMessage from "../../component/details/advisorMessage";
+import FindNewProperty from "../../component/details/findNewProperty";
 
 export async function getServerSideProps(context) {
     const adsType = context.params.id.toString().slice(0, 3);
@@ -58,7 +59,7 @@ export default function Detail({dataDetail,isSell}){
             <div className="col-span-full lg:col-span-8 lg:col-start-5 mx-6 mb-4"><WriteReview/></div>
             <div className="col-span-full lg:col-span-4 lg:row-span-6 lg:row-start-1 mx-6 flex flex-col">
                 <div className="w-full mb-4"><AdvisorMessage/></div>
-                <div className="w-full mb-4">12</div>
+                <div className="w-full mb-4"><FindNewProperty/></div>
                 <div className="w-full">13</div>
             </div>
         </section>
