@@ -11,5 +11,7 @@ export const GET_SHIRAZ_ADS=BASE_URL+"/ads?cityId=245";
 export const GET_HAMEDAN_ADS=BASE_URL+"/ads?cityId=440";
 export const GET_ADS_LIST=BASE_URL+"/ads?cityName=";
 export const GET_AD_DETAIL=BASE_URL+"/ads?";
+export const GET_DETAIL_FEATURE_SELL_ADS=BASE_URL+"/ads?sellId=711640&sellId=705988";
+export const GET_DETAIL_FEATURE_RENT_ADS=BASE_URL+"/ads?letId=68010&letId=110057";
 
 export const DOCUMENT_TYPE=["قولنامه","قطعی","رهنی","وکالتی","اوقافی","مشاع","سرقفلی","در دست اقدام","سایر"];

@@ -1,6 +1,6 @@
 import axios from "axios";
 import Head from "next/head";
-import {GET_AD_DETAIL} from '../../siteconfig/constant'
+import {GET_AD_DETAIL, GET_DETAIL_FEATURE_RENT_ADS, GET_DETAIL_FEATURE_SELL_ADS} from '../../siteconfig/constant'
 import DetailSlider from "../../component/details/detailSlider";
 import Description from "../../component/details/description";
 import dynamic from "next/dynamic";
@@ -13,12 +13,12 @@ import NearbyPlace from "../../component/details/nearbyPlace";
 import WriteReview from "../../component/details/writeReview";
 import AdvisorMessage from "../../component/details/advisorMessage";
 import FindNewProperty from "../../component/details/findNewProperty";
+import FeaturedProperty from "../../component/details/featuredProperty";
 
 export async function getServerSideProps(context) {
     const adsType = context.params.id.toString().slice(0, 3);
     const adsCode = context.params.id.toString().slice(4, context.params.id.toString().length);
     let detailDatat;
-    let title='';
     let description='';
     let isSell = true;
     if (adsType == "let") {
@@ -29,22 +29,28 @@ export async function getServerSideProps(context) {
         detailDatat = await axios.get(GET_AD_DETAIL+"sellId="+adsCode);
         isSell=false;
     }
+    const [newSellAds,newRentAds]= await axios.all([    
+        axios.get(GET_DETAIL_FEATURE_SELL_ADS),
+        axios.get(GET_DETAIL_FEATURE_RENT_ADS),
+    ]);
     return {
         props: {
             dataDetail : detailDatat.data[0],
-            isSell : isSell
+            isSell : isSell,
+            sellAds:JSON.parse(JSON.stringify(newSellAds.data)),
+            rentAds:JSON.parse(JSON.stringify(newRentAds.data))
         }
     }
 }
 
-export default function Detail({dataDetail,isSell}){
+export default function Detail({dataDetail,isSell,sellAds,rentAds}){
     const MapWithNoSSR = dynamic(() => import('../../component/details/map'), {
         ssr: false,
     })
     return(
     <>
     <Head>
-        <title>جزئیات آگهی</title>
+        <title>{dataDetail.slug}</title>
     </Head>
     <main className="bg-detail_bg outline-none">
         <section className="w-screen lg:container mx-auto grid grid-cols-12 gap-0 py-20">
@@ -60,7 +66,7 @@ export default function Detail({dataDetail,isSell}){
             <div className="col-span-full lg:col-span-4 lg:row-span-6 lg:row-start-1 mx-6 flex flex-col">
                 <div className="w-full mb-4"><AdvisorMessage/></div>
                 <div className="w-full mb-4"><FindNewProperty/></div>
-                <div className="w-full">13</div>
+                <div className="w-full"><FeaturedProperty rentProperty={rentAds} sellProperty={sellAds}/></div>
             </div>
         </section>
     </main>

@@ -47,7 +47,9 @@ module.exports = {
       inputBorder:"#e0ecf5",
       inputText:"#495057",
       detailSymbols:"#eff1f5",
-      advisorPhone:"#879ac3"
+      advisorPhone:"#879ac3",
+      detailFeatureAdSell:"#03a98b",
+      detailFeatureAdRent:"#f95d02"
     },
     extend: {
       padding: {
