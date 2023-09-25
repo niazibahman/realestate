@@ -49,7 +49,8 @@ module.exports = {
       detailSymbols:"#eff1f5",
       advisorPhone:"#879ac3",
       detailFeatureAdSell:"#03a98b",
-      detailFeatureAdRent:"#f95d02"
+      detailFeatureAdRent:"#f95d02",
+      contactUSInput:"#f2f3f5"
     },
     extend: {
       padding: {

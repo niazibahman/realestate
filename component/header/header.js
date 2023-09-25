@@ -67,7 +67,7 @@ const Header = ({ toggle }) => {
               <Link href="/" className={`flex flex-row items-center cursor-pointer active:text-greenTheme hover:text-greenTheme ${activeItem[4] === true ? "text-greenTheme" : ""}`}>درباره ما</Link>
             </li>
             <li className="ml-8">
-              <Link href="/" className={`flex flex-row items-center cursor-pointer active:text-greenTheme hover:text-greenTheme ${activeItem[5] === true ? "text-greenTheme" : ""}`}>تماس با ما</Link>
+              <Link href="/contact-us" className={`flex flex-row items-center cursor-pointer active:text-greenTheme hover:text-greenTheme ${activeItem[5] === true ? "text-greenTheme" : ""}`}>تماس با ما</Link>
             </li>
           </ul>
         </div>
