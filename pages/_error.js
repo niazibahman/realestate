@@ -1,8 +1,10 @@
+import Error404 from "../component/404/404"
+
 function Error({ statusCode }) {
     return (
       <p>
         {statusCode
-          ? `An error ${statusCode} occurred on server`
+          ? statusCode === 404 ? <Error404/> : `An error ${statusCode} occurred on server`
           : 'An error occurred on client'}
       </p>
     )
