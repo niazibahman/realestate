@@ -32,6 +32,7 @@ export default function ContactBridge(){
                 <div className='flex flex-col mr-3'>
                     <h3 className='text-textColorH font-semibold mb-1'>تلفن</h3>
                     <Link href="tel:09187116041">09187116041</Link>
+                    <Link href="tel:09302326719">09302326719</Link>
                 </div>
             </div>
         </div>
