@@ -4,6 +4,7 @@ import { Slide } from 'react-slideshow-image';
 import {TiTick} from 'react-icons/ti';
 import {FaBed,FaBath} from 'react-icons/fa';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function NewPropertyCard({property}){
     const properties = {
@@ -25,7 +26,7 @@ export default function NewPropertyCard({property}){
         </div>
         <div className='w-full px-5 py-3 flex flex-col items-start justify-start space-y-4'>
             <h3 className='font-bold flex flex-row items-center'>
-                <a className='text-textColorH md:text-lg lg:text-xl'>{property.slug}</a>
+                <Link href={property.issell === true ? ("/detail/sel-" + property.sellId) : ("/detail/let-" + property.letId)} className='text-textColorH md:text-lg lg:text-xl hover:text-redTheme'>{property.slug}</Link>
                 <span className='p-0.5 mr-1 bg-tickColor rounded-full'><TiTick color="#fff" fontSize={15}/></span>
             </h3>
             {
