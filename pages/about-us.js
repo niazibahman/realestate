@@ -1,5 +1,6 @@
 import Head from "next/head";
 import AboutHead from "../component/about-us/head";
+import OurStory from "../component/about-us/our-story";
 
 export default function About(){
     return(
@@ -22,6 +23,7 @@ export default function About(){
             </Head>
             <main>
                 <AboutHead/>
+                <OurStory/>
             </main>
         </div>
     );
