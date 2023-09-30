@@ -62,11 +62,13 @@ module.exports = {
       },
       backgroundImage: {
         home_search: "url('../public/search_bg.webp')",
+        about_bg: "url('../public/p-17.webp')",
       },
       width: {
         128: "32rem",
       },
       height: {
+        50: "12.5rem",
         104: "26rem",
         108: "27rem",
         125: "31.25rem",
