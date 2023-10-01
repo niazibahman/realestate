@@ -1,6 +1,7 @@
 import Head from "next/head";
 import AboutHead from "../component/about-us/head";
 import OurStory from "../component/about-us/our-story";
+import OurMission from "../component/about-us/our-mission";
 
 export default function About(){
     return(
@@ -24,6 +25,7 @@ export default function About(){
             <main>
                 <AboutHead/>
                 <OurStory/>
+                <OurMission/>
             </main>
         </div>
     );

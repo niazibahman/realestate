@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -22,7 +23,7 @@ export default function Footer() {
             <h2 className="font-light mb-5 text-white text-lg">راهنما</h2>
             <ul className="list-none space-y-2">
               <li>
-                <a>درباره ما</a>
+                <Link href={'/about-us'}>درباره ما</Link>
               </li>
               <li>سوالات متداول</li>
               <li>قوانین و مقررات</li>
