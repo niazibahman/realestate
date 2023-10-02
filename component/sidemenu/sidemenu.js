@@ -26,27 +26,27 @@ export default function SideMenu({show,closeMenu}){
             <hr/>
             <ul className="w-full text-header_text">
                 <li>
-                    <Link href={'/'} className="w-full"><p className={`w-full px-3 my-3 active:text-greenTheme hover:text-greenTheme ${activeItem[0] === true ? "text-greenTheme" : ""}`}>صفحه اصلی</p></Link>
+                    <Link onClick={closeMenu} href={'/'} className="w-full"><p className={`w-full px-3 my-3 active:text-greenTheme hover:text-greenTheme ${activeItem[0] === true ? "text-greenTheme" : ""}`}>صفحه اصلی</p></Link>
                 </li>
                 <hr/>
                 <li>
-                    <Link href={'/'} className="w-full"><p className={`w-full px-3 my-3 active:text-greenTheme hover:text-greenTheme ${activeItem[1] === true ? "text-greenTheme" : ""}`}>مشاورین املاک</p></Link>
+                    <Link onClick={closeMenu} href={'/'} className="w-full"><p className={`w-full px-3 my-3 active:text-greenTheme hover:text-greenTheme ${activeItem[1] === true ? "text-greenTheme" : ""}`}>مشاورین املاک</p></Link>
                 </li>
                 <hr/>
                 <li>
-                    <Link href={'/'} className="w-full"><p className={`w-full px-3 my-3 active:text-greenTheme hover:text-greenTheme ${activeItem[2] === true ? "text-greenTheme" : ""}`}>خدمات</p></Link>
+                    <Link onClick={closeMenu} href={'/'} className="w-full"><p className={`w-full px-3 my-3 active:text-greenTheme hover:text-greenTheme ${activeItem[2] === true ? "text-greenTheme" : ""}`}>خدمات</p></Link>
                 </li>
                 <hr/>
                 <li>
-                    <Link href={'/'} className="w-full"><p className={`w-full px-3 my-3 active:text-greenTheme hover:text-greenTheme ${activeItem[3] === true ? "text-greenTheme" : ""}`}>وبلاگ</p></Link>
+                    <Link onClick={closeMenu} href={'/'} className="w-full"><p className={`w-full px-3 my-3 active:text-greenTheme hover:text-greenTheme ${activeItem[3] === true ? "text-greenTheme" : ""}`}>وبلاگ</p></Link>
                 </li>
                 <hr/>
                 <li>
-                    <Link href={'/'} className="w-full"><p className={`w-full px-3 my-3 active:text-greenTheme hover:text-greenTheme ${activeItem[4] === true ? "text-greenTheme" : ""}`}>درباره ما</p></Link>
+                    <Link onClick={closeMenu} href={'/about-us'} className="w-full"><p className={`w-full px-3 my-3 active:text-greenTheme hover:text-greenTheme ${activeItem[4] === true ? "text-greenTheme" : ""}`}>درباره ما</p></Link>
                 </li>
                 <hr/>
                 <li>
-                    <Link href={'/'} className="w-full"><p className={`w-full px-3 my-3 active:text-greenTheme hover:text-greenTheme ${activeItem[5] === true ? "text-greenTheme" : ""}`}>تماس با ما</p></Link>
+                    <Link onClick={closeMenu} href={'/contact-us'} className="w-full"><p className={`w-full px-3 my-3 active:text-greenTheme hover:text-greenTheme ${activeItem[5] === true ? "text-greenTheme" : ""}`}>تماس با ما</p></Link>
                 </li>
                 <hr/>
             </ul>
