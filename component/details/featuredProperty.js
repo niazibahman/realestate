@@ -1,3 +1,7 @@
+import 'swiper/css';
+import 'swiper/css/free-mode';
+import 'swiper/css/navigation';
+
 import FeatureAdCard from "./featureAdCard";
 
 export default function FeaturedProperty({sellProperty,rentProperty}){
