@@ -12,7 +12,7 @@ export default function Review(){
                 <div className="w-full flex flex-col mr-4">
                     <h3 className="font-semibold text-textColorH text-lg">علی اکبر مدیری</h3>
                     <span className="font-medium text-xs text-greenTheme mt-2">2 اردیبهشت 1401</span>
-                    <p className="mr-4 text-textColorBase mt-5">ملک خوبیه و همسایه های خوبی هم داره </p>
+                    <p className="mr-4 text-textColorBase mt-5">موقعیت عالی، دارای امکانات، و همسایه های بسیار خوب</p>
                 </div>
             </div>
             <hr className="my-4"/>
@@ -21,9 +21,9 @@ export default function Review(){
                     <Image src="/user-2.jpg" alt="user 1" width={110} height={110} className="rounded-full"/>
                 </div>
                 <div className="w-full flex flex-col mr-4">
-                    <h3 className="font-semibold text-textColorH text-lg">علی اکبر مدیری</h3>
-                    <span className="font-medium text-xs text-greenTheme mt-2">2 اردیبهشت 1401</span>
-                    <p className="mr-4 text-textColorBase mt-5">ملک خوبیه و همسایه های خوبی هم داره </p>
+                    <h3 className="font-semibold text-textColorH text-lg">شیرین فتاحی</h3>
+                    <span className="font-medium text-xs text-greenTheme mt-2">11 تیر 1401</span>
+                    <p className="mr-4 text-textColorBase mt-5">ملک خوبیه و دونبش و نزدیک به مرکز خرید. ئارکینگ و انباری هم داره</p>
                 </div>
             </div>
             <hr className="my-4"/>
@@ -32,8 +32,8 @@ export default function Review(){
                     <Image src="/user-3.jpg" alt="user 1" width={110} height={110} className="rounded-full"/>
                 </div>
                 <div className="w-full flex flex-col mr-4">
-                    <h3 className="font-semibold text-textColorH text-lg">علی اکبر مدیری</h3>
-                    <span className="font-medium text-xs text-greenTheme mt-2">2 اردیبهشت 1401</span>
+                    <h3 className="font-semibold text-textColorH text-lg">احسان منوچهری</h3>
+                    <span className="font-medium text-xs text-greenTheme mt-2">30 اردیبهشت 1401</span>
                     <p className="mr-4 text-textColorBase mt-5">ملک خوبیه و همسایه های خوبی هم داره </p>
                 </div>
             </div>
