@@ -19,14 +19,14 @@ export default function OurMission(){
                         </div>
                     </div>
                     <div className="w-full mt-5 px-8 py-5 rounded-md shadow-radika flex flex-row items-center">
-                        <TfiTwitter color='#00ba74' size={55}/>
+                        <Image src="/svg/twitter-green.svg" alt="twitter" width={50} height={50}/>
                         <div className="w-full flex flex-col pt-3 pr-4 text-textColorBase">
                             <h3 className="text-textColorH text-xl font-semibold text-right mb-1">ما را در شبکه های اجتماعی دنبال کنید</h3>
                             <p className="mb-2">آخرین اخبار ما را از شبکه های اجتماعی دنبال کنید.</p>
                         </div>
                     </div>
                     <div className="w-full mt-5 px-8 py-5 rounded-md shadow-radika flex flex-row items-center">
-                        <HiOutlineDuplicate color='#00ba74' size={55}/>
+                        <Image src="/svg/copy.svg" alt="twitter" width={50} height={50}/>
                         <div className="w-full flex flex-col pt-3 pr-4 text-textColorBase">
                             <h3 className="text-textColorH text-xl font-semibold text-right mb-1">تلاش ما جلب رضایت شماست</h3>
                             <p className="mb-2">جلب رضایت شما هدف ما میباشد.</p>
