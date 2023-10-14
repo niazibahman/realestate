@@ -1,22 +1,12 @@
-version: "3"
-
+version: '3.9'
 services:
   rikada:
-    build: .
-    image: rikada
+    build:
+      context: .
+    container_name: rikada
     ports:
       - "3000:3000"
+    restart: unless-stopped
     volumes:
-      - ./next:/app
-
-  json-server:
-    image: json-server
-    ports:
-      - "5000:5000"
-    volumes:
-      - ./db:/data
-    command: json-server --watch database.json
-
-networks:
-  default:
-    name: host
+      - "/etc/timezone:/etc/timezone:ro"
+      - "/etc/localtime:/etc/localtime:ro"
