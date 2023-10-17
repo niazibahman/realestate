@@ -2,7 +2,7 @@ import Image from "next/image";
 import { useState,useEffect } from "react";
 export default function SiteComments(){
     const [currentContent,setCurrentcontent]=useState(0);
-    const comments=[{img:"/user-1.jpg",name:"محمود اسدی",job:"سئوکار",comment:"لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد."},{img:"/user-2.jpg",name:"خانم ربانی",job:"مشاور املاک",comment:"لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد."}];
+    const comments=[{img:"/user-1.jpg",name:"محمود اسدی",job:"سئوکار",comment:"فایل های خوب و بروزی داره و سرعت سایت خیلی عالیه"},{img:"/user-2.jpg",name:"خانم ربانی",job:"مشاور املاک",comment:"سایت خیلی خوبیه و کمک بزرگی برای پیدا کردن خونه مورد نظرمون کرده"}];
     const changecurrentHandler=(index)=>{
         setCurrentcontent(index)
     }
