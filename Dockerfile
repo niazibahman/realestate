@@ -2,7 +2,7 @@ FROM node:alpine
 RUN mkdir -p /app
 WORKDIR /app
 COPY package*.json /app
-RUN yarn install
+RUN npm install
 COPY . /app
 RUN yarn build
 EXPOSE 3000
